@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "arm64",
+        "cpu": "Apple M4",
+        "version": "Darwin Kernel Version 24.4.0: Fri Apr 11 18:32:05 PDT 2025; root:xnu-11417.101.15~117/RELEASE_ARM64_T8132"
+    },
+    "sceneListMap": {
+        "976a34a9-b0fa-42bd-bd74-b8c6810077bb": "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/AssetsPackage/startup.scene"
+    },
+    "deviceMd5": "fa8c75ce7cc3a9c33397ba3990c65ad8"
+}

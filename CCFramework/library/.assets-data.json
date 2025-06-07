@@ -1,0 +1,64 @@
+{
+  "5efb95d6-b600-4af4-8b07-2bf2df914953": {
+    "url": "db://assets/Boot",
+    "value": {},
+    "versionCode": 1
+  },
+  "9e816af0-3abd-49e6-ba00-11ba689502ae": {
+    "url": "db://assets/Framework",
+    "value": {},
+    "versionCode": 1
+  },
+  "842e6cc7-d7d0-444f-912b-bf6c07bd77e3": {
+    "url": "db://assets/Ga'me",
+    "value": {},
+    "versionCode": 1
+  },
+  "f3f7b537-3a95-4050-bb31-1edd3dda4db2": {
+    "url": "db://assets/Boot/AssetsPackage",
+    "value": {},
+    "versionCode": 1
+  },
+  "2d5d824b-7f51-4d58-ab2c-20296c64968b": {
+    "url": "db://assets/Boot/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "eb4c916a-e05f-426b-a9f9-6140e41bc354": {
+    "url": "db://assets/Framework/AssetsPackage",
+    "value": {},
+    "versionCode": 1
+  },
+  "bcc6dd30-685b-4728-837e-0ffd1f5c22e1": {
+    "url": "db://assets/Framework/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a9179f35-f93e-496f-b71c-0ef9eb19fc2f": {
+    "url": "db://assets/Ga'me/AssetsPackage",
+    "value": {},
+    "versionCode": 1
+  },
+  "209e976a-960d-48d5-b172-9285c00f6930": {
+    "url": "db://assets/Ga'me/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "976a34a9-b0fa-42bd-bd74-b8c6810077bb": {
+    "url": "db://assets/Boot/AssetsPackage/startup.scene",
+    "value": {
+      "depends": [
+        "976a34a9-b0fa-42bd-bd74-b8c6810077bb",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "33cb6b7c-b499-4196-8a3a-b014cb442694": {
+    "url": "db://assets/Boot/Scripts/Boot.ts",
+    "value": {},
+    "versionCode": 1
+  }
+}

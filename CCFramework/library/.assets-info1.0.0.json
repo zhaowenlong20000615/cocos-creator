@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot.meta": {
+      "time": 1749264065881.712
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot": {
+      "time": 1749264190308.804,
+      "uuid": "5efb95d6-b600-4af4-8b07-2bf2df914953"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Framework.meta": {
+      "time": 1749264084743.9053
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Framework": {
+      "time": 1749264253314.7092,
+      "uuid": "9e816af0-3abd-49e6-ba00-11ba689502ae"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Ga'me.meta": {
+      "time": 1749264100549.7117
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Ga'me": {
+      "time": 1749264281177.0032,
+      "uuid": "842e6cc7-d7d0-444f-912b-bf6c07bd77e3"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/AssetsPackage.meta": {
+      "time": 1749264132722.6
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/AssetsPackage": {
+      "time": 1749264369729.6104,
+      "uuid": "f3f7b537-3a95-4050-bb31-1edd3dda4db2"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/Scripts.meta": {
+      "time": 1749264178548.207
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/Scripts": {
+      "time": 1749264500346.1338,
+      "uuid": "2d5d824b-7f51-4d58-ab2c-20296c64968b"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Framework/AssetsPackage.meta": {
+      "time": 1749264209937.3433
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Framework/AssetsPackage": {
+      "time": 1749264209934.649,
+      "uuid": "eb4c916a-e05f-426b-a9f9-6140e41bc354"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Framework/Scripts.meta": {
+      "time": 1749264253316.0173
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Framework/Scripts": {
+      "time": 1749264253313.1865,
+      "uuid": "bcc6dd30-685b-4728-837e-0ffd1f5c22e1"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Ga'me/AssetsPackage.meta": {
+      "time": 1749264272713.492
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Ga'me/AssetsPackage": {
+      "time": 1749264272711.1333,
+      "uuid": "a9179f35-f93e-496f-b71c-0ef9eb19fc2f"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Ga'me/Scripts.meta": {
+      "time": 1749264281178.1611
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Ga'me/Scripts": {
+      "time": 1749264281175.638,
+      "uuid": "209e976a-960d-48d5-b172-9285c00f6930"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/AssetsPackage/startup.scene.meta": {
+      "time": 1749264369731.4094
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/AssetsPackage/startup.scene": {
+      "time": 1749264369730.4941,
+      "uuid": "976a34a9-b0fa-42bd-bd74-b8c6810077bb"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/Scripts/Boot.ts.meta": {
+      "time": 1749264500347.4246
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/Scripts/Boot.ts": {
+      "time": 1749264500345.1963,
+      "uuid": "33cb6b7c-b499-4196-8a3a-b014cb442694"
+    }
+  },
+  "missing": {
+    "5efb95d6-b600-4af4-8b07-2bf2df914953": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boo't",
+      "time": 1749264065877.7146,
+      "removeTime": 1749264074729
+    },
+    "9e816af0-3abd-49e6-ba00-11ba689502ae": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Frame",
+      "time": 1749264084741.2502,
+      "removeTime": 1749264092198
+    },
+    "f3f7b537-3a95-4050-bb31-1edd3dda4db2": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/AssetPackage",
+      "time": 1749264132719.645,
+      "removeTime": 1749264165183
+    },
+    "2d5d824b-7f51-4d58-ab2c-20296c64968b": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Boot/Scri'p't",
+      "time": 1749264178544.5388,
+      "removeTime": 1749264190309
+    },
+    "eb4c916a-e05f-426b-a9f9-6140e41bc354": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Framework/AssetsPa'c'k",
+      "time": 1749264209934.649,
+      "removeTime": 1749264229052
+    }
+  }
+}
