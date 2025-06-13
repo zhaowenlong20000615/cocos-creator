@@ -1102,3 +1102,13 @@
 2025-6-7 10:50:49-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
 2025-6-7 10:50:49-log: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 15%
 2025-6-7 10:50:49-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:212.77MB, end 212.90MB, increase: 128.15KB
+2025-6-7 18:27:46-debug: refresh db internal success
+2025-6-7 18:27:46-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Bootbackground: #aaff85; color: #000;color: #000;
+2025-6-7 18:27:46-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Frameworkbackground: #aaff85; color: #000;color: #000;
+2025-6-7 18:27:46-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/CCFramework/assets/Ga'mebackground: #aaff85; color: #000;color: #000;
+2025-6-7 18:27:46-debug: refresh db assets success
+2025-6-7 18:27:46-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-6-7 18:27:46-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-6-7 18:27:46-debug: asset-db:refresh-all-database (72ms)
+2025-6-7 18:27:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-6-7 18:27:46-debug: asset-db:worker-effect-data-processing (1ms)

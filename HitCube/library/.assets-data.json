@@ -1,0 +1,59 @@
+{
+  "9dd1a2ca-581f-41ee-adb2-4f0be7e878b5": {
+    "url": "db://assets/Scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "22ee8c33-32e4-421b-885f-17db244708fd": {
+    "url": "db://assets/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4f5553c2-3eef-42e2-a6b9-36a3db9db1d9": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "4fc8ac97-d2e3-4788-802b-876aeeb4ac93": {
+    "url": "db://assets/Materials",
+    "value": {},
+    "versionCode": 1
+  },
+  "0893b47e-40c6-48a9-93d5-c94786470ffa": {
+    "url": "db://assets/Scenes/HitCube.scene",
+    "value": {
+      "depends": [
+        "0893b47e-40c6-48a9-93d5-c94786470ffa",
+        "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
+        "c41b3f59-71ee-424f-95d7-d7ff2d76f906",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cc833c0f-5555-4699-b839-7840b838e99a": {
+    "url": "db://assets/Materials/Wall.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c41b3f59-71ee-424f-95d7-d7ff2d76f906": {
+    "url": "db://assets/Prefabs/Wall.prefab",
+    "value": {
+      "depends": [
+        "cc833c0f-5555-4699-b839-7840b838e99a",
+        "1263d74c-8167-4928-91a6-4e2672411f47@a804a"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  }
+}

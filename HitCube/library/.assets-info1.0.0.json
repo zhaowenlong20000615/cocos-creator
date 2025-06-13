@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scenes.meta": {
+      "time": 1749781593961.7253
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scenes": {
+      "time": 1749781702920.5764,
+      "uuid": "9dd1a2ca-581f-41ee-adb2-4f0be7e878b5"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts.meta": {
+      "time": 1749781609178.5278
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts": {
+      "time": 1749781609175.0144,
+      "uuid": "22ee8c33-32e4-421b-885f-17db244708fd"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs.meta": {
+      "time": 1749781638103.372
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs": {
+      "time": 1749783522070.515,
+      "uuid": "4f5553c2-3eef-42e2-a6b9-36a3db9db1d9"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials.meta": {
+      "time": 1749781653570.1946
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials": {
+      "time": 1749783335482.6277,
+      "uuid": "4fc8ac97-d2e3-4788-802b-876aeeb4ac93"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scenes/HitCube.scene.meta": {
+      "time": 1749781702922.6985
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scenes/HitCube.scene": {
+      "time": 1749785161983.3022,
+      "uuid": "0893b47e-40c6-48a9-93d5-c94786470ffa"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials/Wall.mtl.meta": {
+      "time": 1749783335492.9739
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials/Wall.mtl": {
+      "time": 1749783352304.5007,
+      "uuid": "cc833c0f-5555-4699-b839-7840b838e99a"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs/Wall.prefab.meta": {
+      "time": 1749783522072.5486
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs/Wall.prefab": {
+      "time": 1749783522071.6462,
+      "uuid": "c41b3f59-71ee-424f-95d7-d7ff2d76f906"
+    }
+  },
+  "missing": {
+    "9dd1a2ca-581f-41ee-adb2-4f0be7e878b5": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scen'e's",
+      "time": 1749781593958.4539,
+      "removeTime": 1749781598273
+    },
+    "22ee8c33-32e4-421b-885f-17db244708fd": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scrip'ts",
+      "time": 1749781609175.0144,
+      "removeTime": 1749781619129
+    },
+    "4f5553c2-3eef-42e2-a6b9-36a3db9db1d9": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Pre'fa'b",
+      "time": 1749781638100.6843,
+      "removeTime": 1749781643245
+    },
+    "4fc8ac97-d2e3-4788-802b-876aeeb4ac93": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materia'l",
+      "time": 1749781653567.122,
+      "removeTime": 1749781673648
+    }
+  }
+}
