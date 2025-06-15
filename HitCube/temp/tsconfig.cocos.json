@@ -5,17 +5,17 @@
     "module": "ES2015",
     "strict": true,
     "types": [
-      "./temp/declarations/cc",
       "./temp/declarations/cc.custom-macro",
+      "./temp/declarations/cc",
       "./temp/declarations/jsb",
       "./temp/declarations/cc.env"
     ],
     "paths": {
       "db://internal/*": [
-        "/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
+        "D:\\cocos-edit\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
-        "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/*"
+        "C:\\Users\\ZHAOW\\Desktop\\test\\cocos-creator\\HitCube\\assets\\*"
       ]
     },
     "experimentalDecorators": true,

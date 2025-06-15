@@ -1,27 +1,22 @@
-6-13-2025 10:25:30 - log: Load engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine
-6-13-2025 10:25:30 - log: Register native engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-6-13-2025 10:25:30 - log: Request namespace: device-list
-6-13-2025 10:25:39 - log: [Scene] meshopt wasm decoder initialized
-6-13-2025 10:25:39 - log: [Scene] [box2d]:box2d wasm lib loaded.
-6-13-2025 10:25:39 - log: [Scene] [bullet]:bullet wasm lib loaded.
-6-13-2025 10:25:39 - log: [Scene] [PHYSICS]: using builtin.
-6-13-2025 10:25:39 - log: [Scene] Cocos Creator v3.8.6
-6-13-2025 10:25:39 - log: [Scene] Using custom pipeline: Builtin
-6-13-2025 10:25:39 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
-6-13-2025 10:25:39 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-6-13-2025 10:30:11 - log: [Scene] [box2d]:box2d wasm lib loaded.
-6-13-2025 10:30:11 - log: [Scene] meshopt wasm decoder initialized
-6-13-2025 10:30:11 - log: [Scene] [bullet]:bullet wasm lib loaded.
-6-13-2025 10:30:11 - log: [Scene] [PHYSICS]: using builtin.
-6-13-2025 10:30:11 - log: [Scene] Cocos Creator v3.8.6
-6-13-2025 10:30:11 - log: [Scene] Using custom pipeline: Builtin
-6-13-2025 10:30:11 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
-6-13-2025 10:30:11 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-6-13-2025 10:32:27 - log: [Scene] [bullet]:bullet wasm lib loaded.
-6-13-2025 10:32:27 - log: [Scene] meshopt wasm decoder initialized
-6-13-2025 10:32:27 - log: [Scene] [box2d]:box2d wasm lib loaded.
-6-13-2025 10:32:27 - log: [Scene] [PHYSICS]: using builtin.
-6-13-2025 10:32:27 - log: [Scene] Cocos Creator v3.8.6
-6-13-2025 10:32:27 - log: [Scene] Using custom pipeline: Builtin
-6-13-2025 10:32:27 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
-6-13-2025 10:32:27 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2025-6-15 19:07:31 - log: Load engine in D:\cocos-edit\Creator\3.8.6\resources\resources\3d\engine
+2025-6-15 19:07:31 - log: Register native engine in D:\cocos-edit\Creator\3.8.6\resources\resources\3d\engine\native
+2025-6-15 19:07:32 - log: Request namespace: device-list
+2025-6-15 19:07:52 - log: [Scene] meshopt wasm decoder initialized
+2025-6-15 19:07:52 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2025-6-15 19:07:52 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2025-6-15 19:07:52 - log: [Scene] [PHYSICS]: using builtin.
+2025-6-15 19:07:52 - log: [Scene] Cocos Creator v3.8.6
+2025-6-15 19:07:52 - log: [Scene] Using custom pipeline: Builtin
+2025-6-15 19:07:52 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+2025-6-15 19:07:52 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2025-6-15 19:07:55 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+    at console.warn (D:\cocos-edit\Creator\3.8.6\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\cocos-edit\Creator\3.8.6\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at findVsCode (D:\cocos-edit\Creator\3.8.6\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\handler\utils.ccc:1:3546)
+    at Object.openCode [as open] (D:\cocos-edit\Creator\3.8.6\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\handler\utils.ccc:1:3282)
+    at Ipc.<anonymous> (D:\cocos-edit\Creator\3.8.6\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-6-15 19:11:00 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2025-6-15 19:11:00 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html

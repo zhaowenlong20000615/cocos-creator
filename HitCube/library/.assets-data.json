@@ -31,6 +31,7 @@
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
       "dependScripts": [
+        "e3503531-c809-4803-893f-2fdc87bf96f0",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
       ]
     },
@@ -54,6 +55,11 @@
       ],
       "dependScripts": []
     },
+    "versionCode": 1
+  },
+  "e3503531-c809-4803-893f-2fdc87bf96f0": {
+    "url": "db://assets/Scripts/CameraController.ts",
+    "value": {},
     "versionCode": 1
   }
 }
