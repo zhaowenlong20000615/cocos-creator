@@ -9,7 +9,7 @@ export class AttackController extends Component {
     @property
     public fireRate:number = 0.3;
     @property
-    public bulletSpeed:number = 0;
+    public bulletSpeed:number = 40;
 
     private isTouching:boolean = false;
     private fireTimer=0;
@@ -17,6 +17,11 @@ export class AttackController extends Component {
     start() {
         input.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
         input.on(Input.EventType.TOUCH_END, this.onTouchEnd, this)
+    }
+
+    protected onDestroy(): void {
+        input.off(Input.EventType.TOUCH_START, this.onTouchStart, this);
+        input.off(Input.EventType.TOUCH_END, this.onTouchEnd, this)
     }
 
     update(deltaTime: number) {
@@ -32,7 +37,7 @@ export class AttackController extends Component {
         bullte.setParent(this.node)
         bullte.setWorldPosition(this.node.position)
         const rgd = bullte.getComponent(RigidBody)
-        rgd.setLinearVelocity(new Vec3(0, 0, this.bulletSpeed))
+        rgd.setLinearVelocity(new Vec3(0, 0, -this.bulletSpeed))
     }
 
     private onTouchStart(event: EventTouch) {

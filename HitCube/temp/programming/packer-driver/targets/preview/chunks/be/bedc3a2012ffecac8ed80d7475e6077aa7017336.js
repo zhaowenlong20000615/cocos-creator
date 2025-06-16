@@ -54,6 +54,11 @@ System.register(["cc"], function (_export, _context) {
           input.on(Input.EventType.TOUCH_END, this.onTouchEnd, this);
         }
 
+        onDestroy() {
+          input.off(Input.EventType.TOUCH_START, this.onTouchStart, this);
+          input.off(Input.EventType.TOUCH_END, this.onTouchEnd, this);
+        }
+
         update(deltaTime) {
           if (!this.isTouching) return;
           this.fireTimer += deltaTime;
@@ -67,7 +72,7 @@ System.register(["cc"], function (_export, _context) {
           bullte.setParent(this.node);
           bullte.setWorldPosition(this.node.position);
           var rgd = bullte.getComponent(RigidBody);
-          rgd.setLinearVelocity(new Vec3(0, 0, this.bulletSpeed));
+          rgd.setLinearVelocity(new Vec3(0, 0, -this.bulletSpeed));
         }
 
         onTouchStart(event) {
@@ -97,7 +102,7 @@ System.register(["cc"], function (_export, _context) {
         enumerable: true,
         writable: true,
         initializer: function initializer() {
-          return 0;
+          return 40;
         }
       })), _class2)) || _class));
 

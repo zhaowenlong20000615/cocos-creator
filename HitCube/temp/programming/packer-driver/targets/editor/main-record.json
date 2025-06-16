@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 639411.034333,
+      "mTimestamp": 991433.391,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -2410,7 +2410,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AttackController.ts": {
       "mTimestamp": {
-        "mtime": 1750043375969.3394,
+        "mtime": 1750043920484.8252,
         "uuid": "a7f236b7-e98f-4725-94fb-c059181e3fb2"
       },
       "chunkId": "bedc3a2012ffecac8ed80d7475e6077aa7017336",
