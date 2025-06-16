@@ -56,7 +56,9 @@
         "cc833c0f-5555-4699-b839-7840b838e99a",
         "1263d74c-8167-4928-91a6-4e2672411f47@a804a"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "d8e44bed-3813-4194-b18a-9140a84326fd"
+      ]
     },
     "versionCode": 1
   },
@@ -81,12 +83,19 @@
         "1c0080c6-d6f7-4dfb-8854-cb53971a75c2",
         "1263d74c-8167-4928-91a6-4e2672411f47@17020"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "d8e44bed-3813-4194-b18a-9140a84326fd"
+      ]
     },
     "versionCode": 1
   },
   "a7f236b7-e98f-4725-94fb-c059181e3fb2": {
     "url": "db://assets/Scripts/AttackController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d8e44bed-3813-4194-b18a-9140a84326fd": {
+    "url": "db://assets/Scripts/AutoDestory.ts",
     "value": {},
     "versionCode": 1
   }

@@ -32,7 +32,7 @@ export class AttackController extends Component {
         bullte.setParent(this.node)
         bullte.setWorldPosition(this.node.position)
         const rgd = bullte.getComponent(RigidBody)
-        rgd.setLinearVelocity(new Vec3(0, 0, -this.bulletSpeed))
+        rgd.setLinearVelocity(new Vec3(0, 0, this.bulletSpeed))
     }
 
     private onTouchStart(event: EventTouch) {

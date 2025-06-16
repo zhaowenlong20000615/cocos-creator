@@ -67,7 +67,7 @@ System.register(["cc"], function (_export, _context) {
           bullte.setParent(this.node);
           bullte.setWorldPosition(this.node.position);
           var rgd = bullte.getComponent(RigidBody);
-          rgd.setLinearVelocity(new Vec3(0, 0, -this.bulletSpeed));
+          rgd.setLinearVelocity(new Vec3(0, 0, this.bulletSpeed));
         }
 
         onTouchStart(event) {

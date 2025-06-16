@@ -676,3 +676,169 @@
   _allTouches: []
 }
 6-16-2025 11:02:50 - info: [PreviewInEditor] 预览环境初始化完毕
+6-16-2025 11:11:33 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
+    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
+6-16-2025 11:13:08 - info: [PreviewInEditor] 预览环境初始化完毕
+6-16-2025 11:13:10 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+6-16-2025 11:13:10 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+6-16-2025 11:13:10 - log: [PreviewInEditor] meshopt wasm decoder initialized
+6-16-2025 11:13:10 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+6-16-2025 11:13:10 - log: [PreviewInEditor] Cocos Creator v3.8.6
+6-16-2025 11:13:10 - log: [PreviewInEditor] Using custom pipeline: Builtin
+6-16-2025 11:13:10 - log: [PreviewInEditor] [PHYSICS]: switch from builtin to bullet.
+6-16-2025 11:13:10 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+6-16-2025 11:13:12 - log: [PreviewInEditor] onTouchStart EventTouch {
+  target: null,
+  currentTarget: null,
+  eventPhase: 0,
+  propagationStopped: false,
+  propagationImmediateStopped: false,
+  type: 'touch-start',
+  bubbles: false,
+  touch: Touch {
+    _point: Vec2 { x: 576, y: 389 },
+    _prevPoint: Vec2 { x: 576, y: 389 },
+    _lastModified: 4016.300000000745,
+    _id: 0,
+    _startPoint: Vec2 { x: 576, y: 389 },
+    _startPointCaptured: true
+  },
+  simulate: false,
+  windowId: 0,
+  preventSwallow: false,
+  _eventCode: 'touch-start',
+  _touches: [
+    Touch {
+      _point: [Vec2],
+      _prevPoint: [Vec2],
+      _lastModified: 4016.300000000745,
+      _id: 0,
+      _startPoint: [Vec2],
+      _startPointCaptured: true
+    }
+  ],
+  _allTouches: [
+    Touch {
+      _point: [Vec2],
+      _prevPoint: [Vec2],
+      _lastModified: 4016.300000000745,
+      _id: 0,
+      _startPoint: [Vec2],
+      _startPointCaptured: true
+    }
+  ]
+}
+6-16-2025 11:13:12 - log: [PreviewInEditor] onTouchEnd EventTouch {
+  target: null,
+  currentTarget: null,
+  eventPhase: 0,
+  propagationStopped: false,
+  propagationImmediateStopped: false,
+  type: 'touch-end',
+  bubbles: false,
+  touch: Touch {
+    _point: Vec2 { x: 576, y: 389 },
+    _prevPoint: Vec2 { x: 576, y: 389 },
+    _lastModified: 4154.9000000003725,
+    _id: 0,
+    _startPoint: Vec2 { x: 576, y: 389 },
+    _startPointCaptured: true
+  },
+  simulate: false,
+  windowId: 0,
+  preventSwallow: false,
+  _eventCode: 'touch-end',
+  _touches: [
+    Touch {
+      _point: [Vec2],
+      _prevPoint: [Vec2],
+      _lastModified: 4154.9000000003725,
+      _id: 0,
+      _startPoint: [Vec2],
+      _startPointCaptured: true
+    }
+  ],
+  _allTouches: []
+}
+6-16-2025 11:13:15 - log: [PreviewInEditor] onTouchStart EventTouch {
+  target: null,
+  currentTarget: null,
+  eventPhase: 0,
+  propagationStopped: false,
+  propagationImmediateStopped: false,
+  type: 'touch-start',
+  bubbles: false,
+  touch: Touch {
+    _point: Vec2 { x: 649, y: 230 },
+    _prevPoint: Vec2 { x: 649, y: 230 },
+    _lastModified: 6810.5,
+    _id: 0,
+    _startPoint: Vec2 { x: 649, y: 230 },
+    _startPointCaptured: true
+  },
+  simulate: false,
+  windowId: 0,
+  preventSwallow: false,
+  _eventCode: 'touch-start',
+  _touches: [
+    Touch {
+      _point: [Vec2],
+      _prevPoint: [Vec2],
+      _lastModified: 6810.5,
+      _id: 0,
+      _startPoint: [Vec2],
+      _startPointCaptured: true
+    }
+  ],
+  _allTouches: [
+    Touch {
+      _point: [Vec2],
+      _prevPoint: [Vec2],
+      _lastModified: 6810.5,
+      _id: 0,
+      _startPoint: [Vec2],
+      _startPointCaptured: true
+    }
+  ]
+}
+6-16-2025 11:13:15 - log: [PreviewInEditor] onTouchEnd EventTouch {
+  target: null,
+  currentTarget: null,
+  eventPhase: 0,
+  propagationStopped: false,
+  propagationImmediateStopped: false,
+  type: 'touch-end',
+  bubbles: false,
+  touch: Touch {
+    _point: Vec2 { x: 654, y: 246 },
+    _prevPoint: Vec2 { x: 654, y: 246 },
+    _lastModified: 7224.4000000003725,
+    _id: 0,
+    _startPoint: Vec2 { x: 649, y: 230 },
+    _startPointCaptured: true
+  },
+  simulate: false,
+  windowId: 0,
+  preventSwallow: false,
+  _eventCode: 'touch-end',
+  _touches: [
+    Touch {
+      _point: [Vec2],
+      _prevPoint: [Vec2],
+      _lastModified: 7224.4000000003725,
+      _id: 0,
+      _startPoint: [Vec2],
+      _startPointCaptured: true
+    }
+  ],
+  _allTouches: []
+}
+6-16-2025 11:14:55 - error: [Window] Cannot read properties of null (reading 'focus')TypeError: Cannot read properties of null (reading 'focus')
+    at e.focus (node:electron/js2c/renderer_init:2:27197)
+    at HTMLElement.focus (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/engine-view/views/web/engine-view.ccc:1:2043)
+    at HTMLDocument.e (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/engine-view/listener.ccc:1:3056)
+    at HTMLDocument.sentryWrapped (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/browser/cjs/helpers.js:93:17)

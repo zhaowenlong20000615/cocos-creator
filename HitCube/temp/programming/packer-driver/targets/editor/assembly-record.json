@@ -296,18 +296,6 @@
       },
       "timestamp": 1749984410686
     },
-    "7aeb022c32c34d84b102b205bff73c86fa4d8047": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1750042478122
-    },
     "93ba276ea7b26ffcdc433fab14afc1ed6f05647b": {
       "imports": {
         "__unresolved_0": {
@@ -639,6 +627,54 @@
       "imports": {},
       "timestamp": 1750042933043
     },
+    "bedc3a2012ffecac8ed80d7475e6077aa7017336": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1750043376618
+    },
+    "7aeb022c32c34d84b102b205bff73c86fa4d8047": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1750043376635
+    },
+    "38a756d24805ce08f77e85c9de0a9f560acaa945": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1750043444638
+    },
+    "bd655ccdde2cb6b3a4160630c08a4fb541ebc722": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1750043451559
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -693,14 +729,21 @@
         "__unresolved_7": {
           "resolved": {
             "type": "chunk",
+            "id": "9a8f38f8abb606a069c4d6c1834241bdfc68e1c1"
+          },
+          "messages": []
+        },
+        "__unresolved_8": {
+          "resolved": {
+            "type": "chunk",
             "id": "7aeb022c32c34d84b102b205bff73c86fa4d8047"
           },
           "messages": []
         }
       },
-      "timestamp": 1750043037746
+      "timestamp": 1750043569125
     },
-    "bedc3a2012ffecac8ed80d7475e6077aa7017336": {
+    "9a8f38f8abb606a069c4d6c1834241bdfc68e1c1": {
       "imports": {
         "cc": {
           "resolved": {
@@ -710,7 +753,7 @@
           "messages": []
         }
       },
-      "timestamp": 1750043037762
+      "timestamp": 1750043569131
     }
   },
   "entries": {
@@ -723,6 +766,7 @@
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "60dfea53e1c17502cf4f0661946a964ad3ff0296",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "c107986e77a987fe49f2e4b1c0dcc489194dbd3f",
     "file:///Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AttackController.ts": "bedc3a2012ffecac8ed80d7475e6077aa7017336",
+    "file:///Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AutoDestory.ts": "9a8f38f8abb606a069c4d6c1834241bdfc68e1c1",
     "file:///Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/CameraController.ts": "7aeb022c32c34d84b102b205bff73c86fa4d8047"
   }
 }
