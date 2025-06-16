@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "Wall",
+    "_name": "Bullet",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_native": "",
@@ -13,8 +13,8 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Wall",
-    "_objFlags": 512,
+    "_name": "Bullet",
+    "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": null,
     "_children": [],
@@ -35,9 +35,9 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0.507,
-      "y": 0,
-      "z": 0
+      "x": -0.056,
+      "y": 11.857,
+      "z": 3.214
     },
     "_lrot": {
       "__type__": "cc.Quat",
@@ -64,7 +64,7 @@
   },
   {
     "__type__": "cc.MeshRenderer",
-    "_name": "Cube<ModelComponent>",
+    "_name": "Sphere<ModelComponent>",
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
@@ -76,7 +76,7 @@
     },
     "_materials": [
       {
-        "__uuid__": "cc833c0f-5555-4699-b839-7840b838e99a",
+        "__uuid__": "1c0080c6-d6f7-4dfb-8854-cb53971a75c2",
         "__expectedType__": "cc.Material"
       }
     ],
@@ -85,7 +85,7 @@
       "__id__": 4
     },
     "_mesh": {
-      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
+      "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
       "__expectedType__": "cc.Mesh"
     },
     "_shadowCastingMode": 0,
@@ -101,7 +101,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "70MRStywJECpHQEmreMqaS"
+    "fileId": "35P0J6xulIT5qF2ERNittG"
   },
   {
     "__type__": "cc.ModelBakeSettings",
@@ -124,38 +124,6 @@
     "_bakeToReflectionProbe": true
   },
   {
-    "__type__": "cc.BoxCollider",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 6
-    },
-    "_material": null,
-    "_isTrigger": false,
-    "_center": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_size": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "eabT1CVe1MJ6lzTykcO2uz"
-  },
-  {
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
@@ -165,7 +133,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 8
+      "__id__": 6
     },
     "_group": 1,
     "_type": 1,
@@ -190,7 +158,34 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "76zy4w5CVKW5hkhPwP/Ko7"
+    "fileId": "b3+UOgxz5L85ejaF9d+ZzH"
+  },
+  {
+    "__type__": "cc.SphereCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 8
+    },
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_radius": 0.5,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "9cpi1Ysp9KUKEKvTLhvVcT"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -200,7 +195,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "0esUqRAg5LNZc5VeFepnfj",
+    "fileId": "86ssn7ei1BJYIpvQyOF+kI",
     "targetOverrides": null
   }
 ]

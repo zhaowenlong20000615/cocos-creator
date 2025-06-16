@@ -2,48 +2,48 @@
   "version": "1.0.0",
   "map": {
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scenes.meta": {
-      "time": 1749781593961.7253
+      "time": 1750039409035.5618
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scenes": {
-      "time": 1749781702920.5764,
+      "time": 1750039409035.8684,
       "uuid": "9dd1a2ca-581f-41ee-adb2-4f0be7e878b5"
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts.meta": {
-      "time": 1749781609178.5278
+      "time": 1750039409035.957
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs.meta": {
-      "time": 1749781638103.372
+      "time": 1750039409035.369
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs": {
-      "time": 1749783522070.515,
+      "time": 1750041142779.6626,
       "uuid": "4f5553c2-3eef-42e2-a6b9-36a3db9db1d9"
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials.meta": {
-      "time": 1749781653570.1946
+      "time": 1750039409035.1917
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials": {
-      "time": 1749783335482.6277,
+      "time": 1750041097694.2856,
       "uuid": "4fc8ac97-d2e3-4788-802b-876aeeb4ac93"
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scenes/HitCube.scene.meta": {
-      "time": 1749781702922.6985
+      "time": 1750039409035.9087
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scenes/HitCube.scene": {
-      "time": 1749785161983.3022,
+      "time": 1750043125135.3157,
       "uuid": "0893b47e-40c6-48a9-93d5-c94786470ffa"
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials/Wall.mtl.meta": {
-      "time": 1749783335492.9739
+      "time": 1750039409035.307
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials/Wall.mtl": {
-      "time": 1749783352304.5007,
+      "time": 1750039409035.2632,
       "uuid": "cc833c0f-5555-4699-b839-7840b838e99a"
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs/Wall.prefab.meta": {
-      "time": 1749783522072.5486
+      "time": 1750039409035.5012
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs/Wall.prefab": {
-      "time": 1749783522071.6462,
+      "time": 1750043117673.4358,
       "uuid": "c41b3f59-71ee-424f-95d7-d7ff2d76f906"
     },
     "C:\\Users\\ZHAOW\\Desktop\\test\\cocos-creator\\HitCube\\assets\\Materials": {
@@ -101,6 +101,38 @@
     "C:\\Users\\ZHAOW\\Desktop\\test\\cocos-creator\\HitCube\\assets\\Scripts\\CameraController.ts": {
       "time": 1749984410555.401,
       "uuid": "e3503531-c809-4803-893f-2fdc87bf96f0"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts": {
+      "time": 1750041650461.4026,
+      "uuid": "22ee8c33-32e4-421b-885f-17db244708fd"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/CameraController.ts": {
+      "time": 1750041972305.5432,
+      "uuid": "e3503531-c809-4803-893f-2fdc87bf96f0"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/CameraController.ts.meta": {
+      "time": 1750039409036.1313
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials/Bullet.mtl.meta": {
+      "time": 1750041097703.0776
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials/Bullet.mtl": {
+      "time": 1750041119386.9404,
+      "uuid": "1c0080c6-d6f7-4dfb-8854-cb53971a75c2"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs/Bullet.prefab.meta": {
+      "time": 1750041142783.5034
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs/Bullet.prefab": {
+      "time": 1750041517036.01,
+      "uuid": "79df01fc-1de0-4a3e-8b95-da87e511ba8d"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AttackController.ts.meta": {
+      "time": 1750041650462.9763
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AttackController.ts": {
+      "time": 1750043036871.0955,
+      "uuid": "a7f236b7-e98f-4725-94fb-c059181e3fb2"
     }
   },
   "missing": {
