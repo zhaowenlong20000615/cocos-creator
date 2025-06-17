@@ -8,8 +8,10 @@ export class Aa extends Component {
     }
 
     update(deltaTime: number) {
+        console.log(this.node.position);
+        
         const pos = this.node.position
-        if(pos.y > -10) return
+        if(pos.z > -50) return
         this.node.destroy()
     }
 }

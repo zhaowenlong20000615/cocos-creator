@@ -29,7 +29,7 @@
       "time": 1750039409035.9087
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scenes/HitCube.scene": {
-      "time": 1750043377049.3623,
+      "time": 1750126594190.129,
       "uuid": "0893b47e-40c6-48a9-93d5-c94786470ffa"
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Materials/Wall.mtl.meta": {
@@ -43,7 +43,7 @@
       "time": 1750039409035.5012
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Prefabs/Wall.prefab": {
-      "time": 1750043578883.4634,
+      "time": 1750125750665.1218,
       "uuid": "c41b3f59-71ee-424f-95d7-d7ff2d76f906"
     },
     "C:\\Users\\ZHAOW\\Desktop\\test\\cocos-creator\\HitCube\\assets\\Materials": {
@@ -131,14 +131,14 @@
       "time": 1750041650462.9763
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AttackController.ts": {
-      "time": 1750043920484.8252,
+      "time": 1750126240468.9292,
       "uuid": "a7f236b7-e98f-4725-94fb-c059181e3fb2"
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AutoDestory.ts.meta": {
       "time": 1750043444611.296
     },
     "/Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AutoDestory.ts": {
-      "time": 1750043561296.0667,
+      "time": 1750126487619.4565,
       "uuid": "d8e44bed-3813-4194-b18a-9140a84326fd"
     }
   },

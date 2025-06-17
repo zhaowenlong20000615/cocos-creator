@@ -6,6 +6,8 @@ export class AttackController extends Component {
 
     @property(Prefab)
     public bulletPrefab: Prefab = null
+    @property(Node)
+    public bulletParent:Node=null;
     @property
     public fireRate:number = 0.3;
     @property
@@ -34,8 +36,9 @@ export class AttackController extends Component {
 
     fire() {
         const bullte = instantiate(this.bulletPrefab)
-        bullte.setParent(this.node)
-        bullte.setWorldPosition(this.node.position)
+        bullte.setParent(this.bulletParent)
+        
+        bullte.setPosition(this.node.position)
         const rgd = bullte.getComponent(RigidBody)
         rgd.setLinearVelocity(new Vec3(0, 0, -this.bulletSpeed))
     }

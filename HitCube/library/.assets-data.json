@@ -24,18 +24,18 @@
     "value": {
       "depends": [
         "0893b47e-40c6-48a9-93d5-c94786470ffa",
+        "79df01fc-1de0-4a3e-8b95-da87e511ba8d",
         "620b6bf3-0369-4560-837f-2a2c00b73c26",
         "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
         "c41b3f59-71ee-424f-95d7-d7ff2d76f906",
         "cc833c0f-5555-4699-b839-7840b838e99a",
-        "79df01fc-1de0-4a3e-8b95-da87e511ba8d",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
       "dependScripts": [
         "e3503531-c809-4803-893f-2fdc87bf96f0",
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
-        "a7f236b7-e98f-4725-94fb-c059181e3fb2"
+        "a7f236b7-e98f-4725-94fb-c059181e3fb2",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
       ]
     },
     "versionCode": 1
@@ -56,9 +56,7 @@
         "cc833c0f-5555-4699-b839-7840b838e99a",
         "1263d74c-8167-4928-91a6-4e2672411f47@a804a"
       ],
-      "dependScripts": [
-        "d8e44bed-3813-4194-b18a-9140a84326fd"
-      ]
+      "dependScripts": []
     },
     "versionCode": 1
   },

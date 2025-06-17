@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Prefab, input, Input, instantiate, RigidBody, Vec3, _dec, _dec2, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, AttackController;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Prefab, input, Input, instantiate, RigidBody, Vec3, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, AttackController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -16,6 +16,7 @@ System.register(["cc"], function (_export, _context) {
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      Node = _cc.Node;
       Prefab = _cc.Prefab;
       input = _cc.input;
       Input = _cc.Input;
@@ -35,15 +36,17 @@ System.register(["cc"], function (_export, _context) {
         property
       } = _decorator);
 
-      _export("AttackController", AttackController = (_dec = ccclass('AttackController'), _dec2 = property(Prefab), _dec(_class = (_class2 = class AttackController extends Component {
+      _export("AttackController", AttackController = (_dec = ccclass('AttackController'), _dec2 = property(Prefab), _dec3 = property(Node), _dec(_class = (_class2 = class AttackController extends Component {
         constructor(...args) {
           super(...args);
 
           _initializerDefineProperty(this, "bulletPrefab", _descriptor, this);
 
-          _initializerDefineProperty(this, "fireRate", _descriptor2, this);
+          _initializerDefineProperty(this, "bulletParent", _descriptor2, this);
 
-          _initializerDefineProperty(this, "bulletSpeed", _descriptor3, this);
+          _initializerDefineProperty(this, "fireRate", _descriptor3, this);
+
+          _initializerDefineProperty(this, "bulletSpeed", _descriptor4, this);
 
           this.isTouching = false;
           this.fireTimer = 0;
@@ -69,8 +72,8 @@ System.register(["cc"], function (_export, _context) {
 
         fire() {
           const bullte = instantiate(this.bulletPrefab);
-          bullte.setParent(this.node);
-          bullte.setWorldPosition(this.node.position);
+          bullte.setParent(this.bulletParent);
+          bullte.setPosition(this.node.position);
           const rgd = bullte.getComponent(RigidBody);
           rgd.setLinearVelocity(new Vec3(0, 0, -this.bulletSpeed));
         }
@@ -90,14 +93,21 @@ System.register(["cc"], function (_export, _context) {
         initializer: function () {
           return null;
         }
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "fireRate", [property], {
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "bulletParent", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "fireRate", [property], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function () {
           return 0.3;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "bulletSpeed", [property], {
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "bulletSpeed", [property], {
         configurable: true,
         enumerable: true,
         writable: true,

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 3274.2515,
+      "mTimestamp": 3470.446375,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 991433.391,
+      "mTimestamp": 1217754.358375,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1736,7 +1736,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1750042929749,
+      "mTimestamp": 1750125274799,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2410,7 +2410,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AttackController.ts": {
       "mTimestamp": {
-        "mtime": 1750043920484.8252,
+        "mtime": 1750126240468.9292,
         "uuid": "a7f236b7-e98f-4725-94fb-c059181e3fb2"
       },
       "chunkId": "bedc3a2012ffecac8ed80d7475e6077aa7017336",
@@ -2566,7 +2566,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AutoDestory.ts": {
       "mTimestamp": {
-        "mtime": 1750043561296.0667,
+        "mtime": 1750126487619.4565,
         "uuid": "d8e44bed-3813-4194-b18a-9140a84326fd"
       },
       "chunkId": "9a8f38f8abb606a069c4d6c1834241bdfc68e1c1",

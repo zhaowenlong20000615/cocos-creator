@@ -27,8 +27,9 @@ System.register(["cc"], function (_export, _context) {
         start() {}
 
         update(deltaTime) {
+          console.log(this.node.position);
           const pos = this.node.position;
-          if (pos.y > -10) return;
+          if (pos.z > -50) return;
           this.node.destroy();
         }
 
