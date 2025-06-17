@@ -682,7 +682,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1217794.51775,
+      "mTimestamp": 1401098.100083,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -2272,7 +2272,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/HitCube/assets/Scripts/AutoDestory.ts": {
       "mTimestamp": {
-        "mtime": 1750126487619.4565,
+        "mtime": 1750126674058.4822,
         "uuid": "d8e44bed-3813-4194-b18a-9140a84326fd"
       },
       "chunkId": "9a8f38f8abb606a069c4d6c1834241bdfc68e1c1",
