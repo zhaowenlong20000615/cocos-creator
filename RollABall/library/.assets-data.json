@@ -1,0 +1,68 @@
+{
+  "f62663a1-54a8-43f9-a604-967c61b6864c": {
+    "url": "db://assets/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "9ee4d838-4230-481a-a365-131fcbf0d468": {
+    "url": "db://assets/Scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "3add14af-6f50-44b8-aae7-e72a7bd11b66": {
+    "url": "db://assets/Materials",
+    "value": {},
+    "versionCode": 1
+  },
+  "d41583d4-e53b-4237-91f6-14e8b3c3ab11": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "bd6f8ad7-5249-4c9f-bc71-79f946570991": {
+    "url": "db://assets/Scenes/RollABall.scene",
+    "value": {
+      "depends": [
+        "bd6f8ad7-5249-4c9f-bc71-79f946570991",
+        "da04b706-6935-4e87-b89e-156a3b97931b",
+        "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
+        "44066b77-b969-4c6a-ae49-f302620c776b",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "da04b706-6935-4e87-b89e-156a3b97931b": {
+    "url": "db://assets/Materials/Ground.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f4d868e2-27c1-4e9f-9577-bdd6c1772bf7": {
+    "url": "db://assets/Materials/Wall.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "44066b77-b969-4c6a-ae49-f302620c776b": {
+    "url": "db://assets/Prefabs/Wall.prefab",
+    "value": {
+      "depends": [
+        "f4d868e2-27c1-4e9f-9577-bdd6c1772bf7",
+        "1263d74c-8167-4928-91a6-4e2672411f47@a804a"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  }
+}

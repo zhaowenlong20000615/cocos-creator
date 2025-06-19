@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts.meta": {
+      "time": 1750299426683.8303
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts": {
+      "time": 1750299426680.0435,
+      "uuid": "f62663a1-54a8-43f9-a604-967c61b6864c"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scenes.meta": {
+      "time": 1750299438994.338
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scenes": {
+      "time": 1750299492535.3464,
+      "uuid": "9ee4d838-4230-481a-a365-131fcbf0d468"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Materials.meta": {
+      "time": 1750299461279.3154
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Materials": {
+      "time": 1750299798212.3855,
+      "uuid": "3add14af-6f50-44b8-aae7-e72a7bd11b66"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Prefabs.meta": {
+      "time": 1750299472348.0376
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Prefabs": {
+      "time": 1750299840875.2532,
+      "uuid": "d41583d4-e53b-4237-91f6-14e8b3c3ab11"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scenes/RollABall.scene.meta": {
+      "time": 1750299492536.4412
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scenes/RollABall.scene": {
+      "time": 1750300603817.1772,
+      "uuid": "bd6f8ad7-5249-4c9f-bc71-79f946570991"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Materials/Ground.mtl.meta": {
+      "time": 1750299613126.5974
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Materials/Ground.mtl": {
+      "time": 1750299629345.3745,
+      "uuid": "da04b706-6935-4e87-b89e-156a3b97931b"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Materials/Wall.mtl.meta": {
+      "time": 1750299798220.0813
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Materials/Wall.mtl": {
+      "time": 1750299805988.4163,
+      "uuid": "f4d868e2-27c1-4e9f-9577-bdd6c1772bf7"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Prefabs/Wall.prefab.meta": {
+      "time": 1750299840877.384
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Prefabs/Wall.prefab": {
+      "time": 1750300111859.593,
+      "uuid": "44066b77-b969-4c6a-ae49-f302620c776b"
+    }
+  },
+  "missing": {
+    "f62663a1-54a8-43f9-a604-967c61b6864c": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Script",
+      "time": 1750299426680.0435,
+      "removeTime": 1750299429421
+    },
+    "9ee4d838-4230-481a-a365-131fcbf0d468": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scen'e's",
+      "time": 1750299438991.3489,
+      "removeTime": 1750299447687
+    }
+  }
+}
