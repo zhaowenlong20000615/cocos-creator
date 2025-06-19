@@ -7,10 +7,11 @@
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": "./chunks/de/de51ae29bdc33d4721612db5b322a18ddcf7dd5c.js",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "./chunks/f8/f84f3b58ec61e2a9c03c5f86bacdfd0d6a2a3647.js",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "./chunks/60/60dfea53e1c17502cf4f0661946a964ad3ff0296.js",
-    "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/c1/c107986e77a987fe49f2e4b1c0dcc489194dbd3f.js"
+    "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/c1/c107986e77a987fe49f2e4b1c0dcc489194dbd3f.js",
+    "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts": "./chunks/4b/4b3173819b2d77b4ef6dac0314c5fba0edce6072.js"
   },
   "scopes": {
-    "./chunks/c1/c107986e77a987fe49f2e4b1c0dcc489194dbd3f.js": {
+    "./chunks/4b/4b3173819b2d77b4ef6dac0314c5fba0edce6072.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -47,6 +48,9 @@
       "__unresolved_8": "cce:/internal/x/cc-fu/dragon-bones",
       "__unresolved_9": "cce:/internal/x/cc-fu/gfx-webgl"
     },
+    "./chunks/c1/c107986e77a987fe49f2e4b1c0dcc489194dbd3f.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
     "./chunks/60/60dfea53e1c17502cf4f0661946a964ad3ff0296.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
       "__unresolved_1": "./chunks/f8/f84f3b58ec61e2a9c03c5f86bacdfd0d6a2a3647.js",
@@ -78,7 +82,8 @@
       "__unresolved_2": "./chunks/de/de51ae29bdc33d4721612db5b322a18ddcf7dd5c.js",
       "__unresolved_3": "./chunks/f8/f84f3b58ec61e2a9c03c5f86bacdfd0d6a2a3647.js",
       "__unresolved_4": "./chunks/60/60dfea53e1c17502cf4f0661946a964ad3ff0296.js",
-      "__unresolved_5": "./chunks/c1/c107986e77a987fe49f2e4b1c0dcc489194dbd3f.js"
+      "__unresolved_5": "./chunks/c1/c107986e77a987fe49f2e4b1c0dcc489194dbd3f.js",
+      "__unresolved_6": "./chunks/4b/4b3173819b2d77b4ef6dac0314c5fba0edce6072.js"
     }
   }
 }

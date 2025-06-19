@@ -27,6 +27,8 @@
         "da04b706-6935-4e87-b89e-156a3b97931b",
         "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
         "44066b77-b969-4c6a-ae49-f302620c776b",
+        "f4d868e2-27c1-4e9f-9577-bdd6c1772bf7",
+        "18fbcb84-f5ee-407f-889e-34b2d38e7480",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
@@ -63,6 +65,33 @@
       ],
       "dependScripts": []
     },
+    "versionCode": 1
+  },
+  "b4679f5a-71ac-42b1-9b23-7a5dc7090c7f": {
+    "url": "db://assets/Materials/Food.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "18fbcb84-f5ee-407f-889e-34b2d38e7480": {
+    "url": "db://assets/Prefabs/Food.prefab",
+    "value": {
+      "depends": [
+        "b4679f5a-71ac-42b1-9b23-7a5dc7090c7f",
+        "1263d74c-8167-4928-91a6-4e2672411f47@a804a"
+      ],
+      "dependScripts": [
+        "95bb9062-f3b8-4b24-8689-d81632c4d1bc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "95bb9062-f3b8-4b24-8689-d81632c4d1bc": {
+    "url": "db://assets/Scripts/Food.ts",
+    "value": {},
     "versionCode": 1
   }
 }

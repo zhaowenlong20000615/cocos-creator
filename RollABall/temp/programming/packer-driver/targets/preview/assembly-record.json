@@ -375,6 +375,18 @@
       "imports": {},
       "timestamp": 1750299389879
     },
+    "f00af1fd2b9ba927c033127031e1cbe3c4cd06f3": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1750302288222
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -418,9 +430,28 @@
             "id": "c107986e77a987fe49f2e4b1c0dcc489194dbd3f"
           },
           "messages": []
+        },
+        "__unresolved_6": {
+          "resolved": {
+            "type": "chunk",
+            "id": "4b3173819b2d77b4ef6dac0314c5fba0edce6072"
+          },
+          "messages": []
         }
       },
-      "timestamp": 1750299390744
+      "timestamp": 1750302475797
+    },
+    "4b3173819b2d77b4ef6dac0314c5fba0edce6072": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1750302475816
     }
   },
   "entries": {
@@ -431,6 +462,7 @@
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": "de51ae29bdc33d4721612db5b322a18ddcf7dd5c",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "f84f3b58ec61e2a9c03c5f86bacdfd0d6a2a3647",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "60dfea53e1c17502cf4f0661946a964ad3ff0296",
-    "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "c107986e77a987fe49f2e4b1c0dcc489194dbd3f"
+    "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "c107986e77a987fe49f2e4b1c0dcc489194dbd3f",
+    "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts": "4b3173819b2d77b4ef6dac0314c5fba0edce6072"
   }
 }

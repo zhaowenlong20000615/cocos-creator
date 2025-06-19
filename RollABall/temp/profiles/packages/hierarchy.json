@@ -5,7 +5,23 @@
     "expandLevels": [
       "0",
       "0_2",
-      "0_3"
+      "0_3",
+      "0_4",
+      "0_4_0"
+    ]
+  },
+  "18fbcb84-f5ee-407f-889e-34b2d38e7480": {
+    "assetUuid": "18fbcb84-f5ee-407f-889e-34b2d38e7480",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "44066b77-b969-4c6a-ae49-f302620c776b": {
+    "assetUuid": "44066b77-b969-4c6a-ae49-f302620c776b",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
     ]
   }
 }

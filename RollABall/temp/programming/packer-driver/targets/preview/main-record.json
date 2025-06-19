@@ -682,7 +682,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 8814.988125,
+      "mTimestamp": 3093909.030041,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -768,6 +768,20 @@
               "column": 155
             }
           }
+        },
+        {
+          "value": "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "end": {
+              "line": 10,
+              "column": 87
+            }
+          }
         }
       ],
       "type": "esm",
@@ -811,6 +825,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts"
           },
           "messages": []
         }
@@ -1384,6 +1405,110 @@
       "imports": [],
       "type": "esm",
       "resolutions": []
+    },
+    "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Fo'o'd.ts": {
+      "mTimestamp": {
+        "mtime": 1750302288162.8613,
+        "uuid": "95bb9062-f3b8-4b24-8689-d81632c4d1bc"
+      },
+      "chunkId": "f00af1fd2b9ba927c033127031e1cbe3c4cd06f3",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts": {
+      "mTimestamp": {
+        "mtime": 1750302472991.6003,
+        "uuid": "95bb9062-f3b8-4b24-8689-d81632c4d1bc"
+      },
+      "chunkId": "4b3173819b2d77b4ef6dac0314c5fba0edce6072",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
     }
   }
 }
