@@ -862,3 +862,47 @@ Feature changed: false
 11:31:16.050 debug: Resolve cc from file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts as cce:/internal/x/cc.
 11:31:16.050 debug: Resolve cc from file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts as cce:/internal/x/cc.
 11:31:16.054 debug: Target(preview) ends with cost 23.63012499921024ms.
+11:32:15.604 debug: Dispatch build request for time accumulated 1 asset changes.
+11:32:15.605 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+11:32:15.606 debug: Target(editor) build started.
+11:32:15.608 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:14:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:15:53 GMT+0800 (中国标准时间)
+11:32:15.608 debug: Inspect cce:/internal/x/prerequisite-imports
+11:32:15.614 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 5.60 ms
+11:32:15.614 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+11:32:15.614 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+11:32:15.614 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:32:15.614 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:32:15.614 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+11:32:15.614 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:32:15.614 debug: Resolve file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/FollowTarget.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/FollowTarget.ts.
+11:32:15.614 debug: Resolve file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts.
+11:32:15.614 debug: Resolve file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts.
+11:32:15.614 debug: Detected change: file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts. Last mtime: Thu Jun 19 2025 11:31:13 GMT+0800 (中国标准时间)@0147eee6-1fc7-48da-b86d-72743872225a, Current mtime: Thu Jun 19 2025 11:31:54 GMT+0800 (中国标准时间)@0147eee6-1fc7-48da-b86d-72743872225a
+11:32:15.614 debug: Inspect file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts
+11:32:15.629 debug: transform url: 'file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts' costs: 14.40 ms
+11:32:15.630 debug: Resolve cc from file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts as cce:/internal/x/cc.
+11:32:15.630 debug: Resolve cc from file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts as cce:/internal/x/cc.
+11:32:15.630 debug: Resolve cc from file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts as cce:/internal/x/cc.
+11:32:15.632 debug: Target(editor) ends with cost 26.206624999642372ms.
+11:32:15.632 debug: Target(preview) build started.
+11:32:15.633 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:14:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:15:53 GMT+0800 (中国标准时间)
+11:32:15.633 debug: Inspect cce:/internal/x/prerequisite-imports
+11:32:15.637 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 3.40 ms
+11:32:15.638 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+11:32:15.638 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+11:32:15.638 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+11:32:15.638 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+11:32:15.638 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+11:32:15.638 debug: Resolve file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:32:15.638 debug: Resolve file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/FollowTarget.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/FollowTarget.ts.
+11:32:15.638 debug: Resolve file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts.
+11:32:15.638 debug: Resolve file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts.
+11:32:15.638 debug: Detected change: file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts. Last mtime: Thu Jun 19 2025 11:31:13 GMT+0800 (中国标准时间)@0147eee6-1fc7-48da-b86d-72743872225a, Current mtime: Thu Jun 19 2025 11:31:54 GMT+0800 (中国标准时间)@0147eee6-1fc7-48da-b86d-72743872225a
+11:32:15.638 debug: Inspect file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts
+11:32:15.657 debug: transform url: 'file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts' costs: 18.50 ms
+11:32:15.657 debug: Resolve cc from file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts as cce:/internal/x/cc.
+11:32:15.657 debug: Resolve cc from file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts as cce:/internal/x/cc.
+11:32:15.658 debug: Resolve cc from file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts as cce:/internal/x/cc.
+11:32:15.660 debug: Target(preview) ends with cost 27.878542000427842ms.

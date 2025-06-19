@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4494158.57175,
+      "mTimestamp": 4553774.691166,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1900,7 +1900,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1750303873884.1294,
+        "mtime": 1750303914599.1497,
         "uuid": "0147eee6-1fc7-48da-b86d-72743872225a"
       },
       "chunkId": "110ab9ac047d8f534b482c03e098b3c64edf1da8",
