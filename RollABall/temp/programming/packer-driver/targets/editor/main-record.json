@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3093878.704791,
+      "mTimestamp": 4494158.57175,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1064,7 +1064,7 @@
           }
         },
         {
-          "value": "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts",
+          "value": "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/FollowTarget.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -1073,7 +1073,35 @@
             },
             "end": {
               "line": 5,
-              "column": 1154
+              "column": 1162
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1178
+            },
+            "end": {
+              "line": 5,
+              "column": 1258
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1274
+            },
+            "end": {
+              "line": 5,
+              "column": 1356
             }
           }
         }
@@ -1125,7 +1153,21 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/FollowTarget.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts"
           },
           "messages": []
         }
@@ -1775,6 +1817,110 @@
             "end": {
               "line": 1,
               "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/FollowTarget.ts": {
+      "mTimestamp": {
+        "mtime": 1750302988324.658,
+        "uuid": "26289b63-2358-4e47-9c16-608a7e2bf420"
+      },
+      "chunkId": "c4be4744944d76072cf10dc8123d4ac7f80a69c6",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts": {
+      "mTimestamp": {
+        "mtime": 1750303873884.1294,
+        "uuid": "0147eee6-1fc7-48da-b86d-72743872225a"
+      },
+      "chunkId": "110ab9ac047d8f534b482c03e098b3c64edf1da8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 93
+            },
+            "end": {
+              "line": 1,
+              "column": 97
             }
           }
         }

@@ -387,6 +387,30 @@
       },
       "timestamp": 1750302288222
     },
+    "4b3173819b2d77b4ef6dac0314c5fba0edce6072": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1750302475816
+    },
+    "c4be4744944d76072cf10dc8123d4ac7f80a69c6": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1750302988372
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -434,14 +458,28 @@
         "__unresolved_6": {
           "resolved": {
             "type": "chunk",
+            "id": "c4be4744944d76072cf10dc8123d4ac7f80a69c6"
+          },
+          "messages": []
+        },
+        "__unresolved_7": {
+          "resolved": {
+            "type": "chunk",
             "id": "4b3173819b2d77b4ef6dac0314c5fba0edce6072"
+          },
+          "messages": []
+        },
+        "__unresolved_8": {
+          "resolved": {
+            "type": "chunk",
+            "id": "110ab9ac047d8f534b482c03e098b3c64edf1da8"
           },
           "messages": []
         }
       },
-      "timestamp": 1750302475797
+      "timestamp": 1750303876034
     },
-    "4b3173819b2d77b4ef6dac0314c5fba0edce6072": {
+    "110ab9ac047d8f534b482c03e098b3c64edf1da8": {
       "imports": {
         "cc": {
           "resolved": {
@@ -451,7 +489,7 @@
           "messages": []
         }
       },
-      "timestamp": 1750302475816
+      "timestamp": 1750303876049
     }
   },
   "entries": {
@@ -463,6 +501,8 @@
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "f84f3b58ec61e2a9c03c5f86bacdfd0d6a2a3647",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "60dfea53e1c17502cf4f0661946a964ad3ff0296",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "c107986e77a987fe49f2e4b1c0dcc489194dbd3f",
-    "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts": "4b3173819b2d77b4ef6dac0314c5fba0edce6072"
+    "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/FollowTarget.ts": "c4be4744944d76072cf10dc8123d4ac7f80a69c6",
+    "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts": "4b3173819b2d77b4ef6dac0314c5fba0edce6072",
+    "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts": "110ab9ac047d8f534b482c03e098b3c64edf1da8"
   }
 }
