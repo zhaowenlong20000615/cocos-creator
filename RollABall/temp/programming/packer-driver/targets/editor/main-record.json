@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7595.193083,
+      "mTimestamp": 3242.875584,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4553774.691166,
+      "mTimestamp": 1616940.454084,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1736,7 +1736,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1750299381965,
+      "mTimestamp": 1750385076079,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1848,7 +1848,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/FollowTarget.ts": {
       "mTimestamp": {
-        "mtime": 1750302988324.658,
+        "mtime": 1750385632118.805,
         "uuid": "26289b63-2358-4e47-9c16-608a7e2bf420"
       },
       "chunkId": "c4be4744944d76072cf10dc8123d4ac7f80a69c6",
@@ -1864,11 +1864,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 50
             },
             "end": {
               "line": 1,
-              "column": 48
+              "column": 54
             }
           }
         }
@@ -1900,7 +1900,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1750303914599.1497,
+        "mtime": 1750386691611.088,
         "uuid": "0147eee6-1fc7-48da-b86d-72743872225a"
       },
       "chunkId": "110ab9ac047d8f534b482c03e098b3c64edf1da8",
@@ -1916,11 +1916,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 93
+              "column": 110
             },
             "end": {
               "line": 1,
-              "column": 97
+              "column": 114
             }
           }
         }
