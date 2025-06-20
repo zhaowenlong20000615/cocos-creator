@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Input, input, KeyCode, RigidBody, Vec2, Vec3, _dec, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, Player;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Collider, Component, Input, input, KeyCode, RigidBody, Vec2, Vec3, _dec, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, Player;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -15,6 +15,7 @@ System.register(["cc"], function (_export, _context) {
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
+      Collider = _cc.Collider;
       Component = _cc.Component;
       Input = _cc.Input;
       input = _cc.input;
@@ -28,7 +29,7 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "0147e7mH8dI2rhtcnQ4ciJa", "Player", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'EventKeyboard', 'Input', 'input', 'KeyCode', 'log', 'Node', 'RigidBody', 'Vec2', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Collider', 'Component', 'EventKeyboard', 'EventTouch', 'Input', 'input', 'ITriggerEvent', 'KeyCode', 'log', 'Node', 'RigidBody', 'Vec2', 'Vec3']);
 
       ({
         ccclass,
@@ -45,10 +46,15 @@ System.register(["cc"], function (_export, _context) {
 
           this.moveDir = Vec2.ZERO;
           this.rgb = null;
+          this.collider = null;
         }
 
         start() {
           this.rgb = this.getComponent(RigidBody);
+          this.collider = this.node.getComponent(Collider);
+          this.collider.on('onTriggerEnter', this.onTriggerEnter, this);
+          this.collider.on('onTriggerExit', this.onTriggerExit, this);
+          this.collider.on('onTriggerStay', this.onTriggerStay, this);
         }
 
         onLoad() {
@@ -61,6 +67,20 @@ System.register(["cc"], function (_export, _context) {
           input.off(Input.EventType.KEY_DOWN, this.onKeyDown, this);
           input.off(Input.EventType.KEY_UP, this.onKeyUp, this);
           input.off(Input.EventType.KEY_PRESSING, this.onKeyPressing, this);
+        }
+
+        onTriggerEnter(event) {
+          var otherNode = event.otherCollider.node;
+          otherNode.destroy();
+          console.log("onTriggerEnter", event, otherNode);
+        }
+
+        onTriggerExit(event) {
+          console.log("onTriggerExit");
+        }
+
+        onTriggerStay(event) {
+          console.log("onTriggerStay");
         }
 
         onKeyDown(event) {

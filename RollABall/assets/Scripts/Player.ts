@@ -1,4 +1,4 @@
-import { _decorator, Component, EventKeyboard, Input, input, KeyCode, log, Node, RigidBody, Vec2, Vec3 } from 'cc';
+import { _decorator, Collider, Component, EventKeyboard, EventTouch, Input, input, ITriggerEvent, KeyCode, log, Node, RigidBody, Vec2, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Player')
@@ -11,9 +11,15 @@ export class Player extends Component {
 
     private moveDir: Vec2 = Vec2.ZERO
     private rgb: RigidBody = null
+    private collider: Collider = null
 
     start() {
       this.rgb = this.getComponent(RigidBody)
+      this.collider = this.node.getComponent(Collider)
+      this.collider.on('onTriggerEnter', this.onTriggerEnter, this);
+      this.collider.on('onTriggerExit', this.onTriggerExit, this);
+      this.collider.on('onTriggerStay', this.onTriggerStay, this);
+
     }
 
     protected onLoad(): void {
@@ -26,9 +32,26 @@ export class Player extends Component {
         input.off(Input.EventType.KEY_DOWN, this.onKeyDown, this);
         input.off(Input.EventType.KEY_UP, this.onKeyUp, this);
         input.off(Input.EventType.KEY_PRESSING, this.onKeyPressing, this);
+        this.collider.off('onTriggerEnter', this.onTriggerEnter, this);
+        this.collider.off('onTriggerExit', this.onTriggerExit, this);
+        this.collider.off('onTriggerStay', this.onTriggerStay, this);
     }
 
-    onKeyDown(event: EventKeyboard) {
+    onTriggerEnter(event: ITriggerEvent) {
+      const otherNode = event.otherCollider.node
+      otherNode.destroy()
+    }
+
+    onTriggerExit(event: ITriggerEvent) {
+      console.log("onTriggerExit");
+    }
+
+    onTriggerStay(event: ITriggerEvent) {
+      console.log("onTriggerStay");
+    }
+
+
+      onKeyDown(event: EventKeyboard) {
         switch (event.keyCode) {
           case KeyCode.KEY_W:
             this.moveDir = new Vec2(this.moveDir.x, -1)

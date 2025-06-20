@@ -33,7 +33,7 @@
       "time": 1750299492536.4412
     },
     "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scenes/RollABall.scene": {
-      "time": 1750386693369.1213,
+      "time": 1750387777883.9133,
       "uuid": "bd6f8ad7-5249-4c9f-bc71-79f946570991"
     },
     "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Materials/Ground.mtl.meta": {
@@ -68,7 +68,7 @@
       "time": 1750302130255.184
     },
     "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Prefabs/Food.prefab": {
-      "time": 1750386011411.261,
+      "time": 1750387578888.1194,
       "uuid": "18fbcb84-f5ee-407f-889e-34b2d38e7480"
     },
     "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Food.ts.meta": {
@@ -96,7 +96,7 @@
       "time": 1750303108843.2341
     },
     "/Users/zhao/Desktop/test/cocos-creator/RollABall/assets/Scripts/Player.ts": {
-      "time": 1750386691611.088,
+      "time": 1750387775613.8894,
       "uuid": "0147eee6-1fc7-48da-b86d-72743872225a"
     }
   },
