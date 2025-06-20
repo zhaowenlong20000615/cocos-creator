@@ -67,12 +67,14 @@ System.register(["cc"], function (_export, _context) {
           input.off(Input.EventType.KEY_DOWN, this.onKeyDown, this);
           input.off(Input.EventType.KEY_UP, this.onKeyUp, this);
           input.off(Input.EventType.KEY_PRESSING, this.onKeyPressing, this);
+          this.collider.off('onTriggerEnter', this.onTriggerEnter, this);
+          this.collider.off('onTriggerExit', this.onTriggerExit, this);
+          this.collider.off('onTriggerStay', this.onTriggerStay, this);
         }
 
         onTriggerEnter(event) {
           const otherNode = event.otherCollider.node;
           otherNode.destroy();
-          console.log("onTriggerEnter", event, otherNode);
         }
 
         onTriggerExit(event) {
