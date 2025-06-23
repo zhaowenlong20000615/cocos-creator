@@ -26,7 +26,7 @@
       "time": 1750645180899.3748
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scenes/main.scene": {
-      "time": 1750646845977.9043,
+      "time": 1750647992187.7463,
       "uuid": "20b35577-f54e-49ab-a58a-ce370c78bfaa"
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/GameManager.ts.meta": {
@@ -47,22 +47,29 @@
       "time": 1750646239439.2007
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/Player.ts": {
-      "time": 1750646816881.3547,
+      "time": 1750647990193.7585,
       "uuid": "27e5d0c1-22b8-4c0b-ac9a-567760f940d5"
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations.meta": {
       "time": 1750646883523.1414
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations": {
-      "time": 1750646976729.3777,
+      "time": 1750647342171.7415,
       "uuid": "70714265-5a5d-4381-8ad3-e678f241d846"
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/JumpOneStep.anim.meta": {
       "time": 1750646976731.5288
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/JumpOneStep.anim": {
-      "time": 1750646976728.9197,
+      "time": 1750647901005.7698,
       "uuid": "3c2dc981-2049-4119-a09f-bd50c580edaf"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/JumpTwoStep.anim.meta": {
+      "time": 1750647342172.8247
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/JumpTwoStep.anim": {
+      "time": 1750647864575.4487,
+      "uuid": "0a6de763-3474-4b51-a70e-20f6c1d1af7b"
     }
   },
   "missing": {

@@ -20,7 +20,9 @@
       "depends": [
         "20b35577-f54e-49ab-a58a-ce370c78bfaa",
         "8b77912d-9a24-4be2-ab87-0e3efc803884",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941"
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "3c2dc981-2049-4119-a09f-bd50c580edaf",
+        "0a6de763-3474-4b51-a70e-20f6c1d1af7b"
       ],
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
@@ -57,6 +59,13 @@
   },
   "3c2dc981-2049-4119-a09f-bd50c580edaf": {
     "url": "db://assets/Animations/JumpOneStep.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0a6de763-3474-4b51-a70e-20f6c1d1af7b": {
+    "url": "db://assets/Animations/JumpTwoStep.anim",
     "value": {
       "depends": []
     },

@@ -14,6 +14,8 @@ export class GameManager extends Component {
     @property(Prefab)
     blockPrefab: Prefab = null
 
+    private topBlockType:BlockType = BlockType.NONE
+
     start() {
       this.generateBlock()
     }
@@ -26,9 +28,14 @@ export class GameManager extends Component {
       for (let i = 1; i < this.blockLen; i++) {
          const random = Math.round(Math.random())
          if(random <= 0) continue
-        const prefab = instantiate(this.blockPrefab)
+         const prefab = instantiate(this.blockPrefab)
+         if(this.topBlockType === BlockType.NONE) {
+
+         }
+
         this.node.addChild(prefab)
         prefab.setPosition(i * 40, 0, 0)
+        this.topBlockType = BlockType[random.toString()]
       }
     }
 }

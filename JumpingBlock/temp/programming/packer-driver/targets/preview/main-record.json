@@ -514,7 +514,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 2260295.461875,
+      "mTimestamp": 3434373.333375,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1313,7 +1313,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1750646816881.3547,
+        "mtime": 1750647990193.7585,
         "uuid": "27e5d0c1-22b8-4c0b-ac9a-567760f940d5"
       },
       "chunkId": "927c5285ed866918456abdc54c3be7e06ec7d260",
@@ -1329,11 +1329,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 85
+              "column": 96
             },
             "end": {
               "line": 1,
-              "column": 89
+              "column": 100
             }
           }
         }

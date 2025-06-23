@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Input, input, _dec, _class, _crd, ccclass, property, Player;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Animation, Component, Input, input, _dec, _class, _crd, ccclass, property, Player;
 
   return {
     setters: [function (_cc) {
@@ -9,6 +9,7 @@ System.register(["cc"], function (_export, _context) {
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
+      Animation = _cc.Animation;
       Component = _cc.Component;
       Input = _cc.Input;
       input = _cc.input;
@@ -18,7 +19,7 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "27e5dDBIrhMC6yaVndg+UDV", "Player", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'EventKeyboard', 'EventMouse', 'Input', 'input', 'Node']);
+      __checkObsolete__(['_decorator', 'Animation', 'Component', 'EventKeyboard', 'EventMouse', 'Input', 'input', 'Node']);
 
       ({
         ccclass,
@@ -26,7 +27,13 @@ System.register(["cc"], function (_export, _context) {
       } = _decorator);
 
       _export("Player", Player = (_dec = ccclass('Player'), _dec(_class = class Player extends Component {
+        constructor() {
+          super(...arguments);
+          this.animation = null;
+        }
+
         start() {
+          this.animation = this.node.getComponent(Animation);
           input.on(Input.EventType.MOUSE_DOWN, this.onMouseDown, this);
           input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this);
         }
@@ -37,13 +44,15 @@ System.register(["cc"], function (_export, _context) {
           var mouseCode = event.getButton();
           if (mouseCode === 0) return this.jumpStep(mouseCode + 1);
           if (mouseCode === 2) return this.jumpStep(mouseCode);
-          console.log(event.getButton());
         }
 
         onMouseUp(event) {}
 
         jumpStep(type) {
+          var animateName = type === 1 ? 'JumpOneStep' : 'JumpTwoStep';
           var pos = this.node.getPosition();
+          console.log(pos);
+          this.animation.play(animateName);
           this.node.setPosition(pos.x + type * 40, pos.y, pos.z);
         }
 

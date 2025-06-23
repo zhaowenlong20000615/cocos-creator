@@ -1,9 +1,13 @@
-import { _decorator, Component, EventKeyboard, EventMouse, Input, input, Node } from 'cc';
+import { _decorator, Animation, Component, EventKeyboard, EventMouse, Input, input, Node } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Player')
 export class Player extends Component {
+
+    private animation: Animation = null
+
     start() {
+      this.animation = this.node.getComponent(Animation)
       input.on(Input.EventType.MOUSE_DOWN , this.onMouseDown, this)
       input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this)
     }
@@ -16,9 +20,6 @@ export class Player extends Component {
       const mouseCode = event.getButton()
       if (mouseCode === 0) return this.jumpStep(mouseCode + 1)
       if( mouseCode === 2) return this.jumpStep(mouseCode)
-
-
-      console.log(event.getButton())
     }
 
     onMouseUp(event: EventMouse) {
@@ -26,7 +27,11 @@ export class Player extends Component {
 
 
     jumpStep(type: number) {
+      const animateName = type === 1 ? 'JumpOneStep' : 'JumpTwoStep'
       const pos = this.node.getPosition()
+      console.log(pos);
+
+      this.animation.play(animateName)
       this.node.setPosition(pos.x + type * 40, pos.y, pos.z)
     }
 

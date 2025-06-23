@@ -23,7 +23,7 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 25
+      "__id__": 26
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -54,7 +54,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 26
+      "__id__": 27
     },
     "_id": "20b35577-f54e-49ab-a58a-ce370c78bfaa"
   },
@@ -77,13 +77,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 22
-      },
-      {
         "__id__": 23
       },
       {
         "__id__": 24
+      },
+      {
+        "__id__": 25
       }
     ],
     "_prefab": null,
@@ -341,6 +341,9 @@
       },
       {
         "__id__": 21
+      },
+      {
+        "__id__": 22
       }
     ],
     "_prefab": null,
@@ -608,6 +611,30 @@
     "_id": "edPAq5TChO96Hs4OuNfdDk"
   },
   {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 14
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "playOnLoad": false,
+    "_clips": [
+      {
+        "__uuid__": "3c2dc981-2049-4119-a09f-bd50c580edaf",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "0a6de763-3474-4b51-a70e-20f6c1d1af7b",
+        "__expectedType__": "cc.AnimationClip"
+      }
+    ],
+    "_defaultClip": null,
+    "_id": "31kx0cXWlI1bYH3Vrze2vv"
+  },
+  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -691,28 +718,28 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 27
-    },
-    "shadows": {
       "__id__": 28
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 29
     },
-    "fog": {
+    "_skybox": {
       "__id__": 30
     },
-    "octree": {
+    "fog": {
       "__id__": 31
     },
-    "skin": {
+    "octree": {
       "__id__": 32
     },
-    "lightProbeInfo": {
+    "skin": {
       "__id__": 33
     },
-    "postSettings": {
+    "lightProbeInfo": {
       "__id__": 34
+    },
+    "postSettings": {
+      "__id__": 35
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false
