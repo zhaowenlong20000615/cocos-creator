@@ -319,6 +319,18 @@
       "imports": {},
       "timestamp": 1750644565364
     },
+    "4b3655932785938d0fa709c0945e043c97a585e6": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1750646116852
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -369,11 +381,18 @@
             "id": "4b3655932785938d0fa709c0945e043c97a585e6"
           },
           "messages": []
+        },
+        "__unresolved_7": {
+          "resolved": {
+            "type": "chunk",
+            "id": "927c5285ed866918456abdc54c3be7e06ec7d260"
+          },
+          "messages": []
         }
       },
-      "timestamp": 1750646116836
+      "timestamp": 1750646817637
     },
-    "4b3655932785938d0fa709c0945e043c97a585e6": {
+    "927c5285ed866918456abdc54c3be7e06ec7d260": {
       "imports": {
         "cc": {
           "resolved": {
@@ -383,7 +402,7 @@
           "messages": []
         }
       },
-      "timestamp": 1750646116852
+      "timestamp": 1750646817650
     }
   },
   "entries": {
@@ -395,6 +414,7 @@
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "f84f3b58ec61e2a9c03c5f86bacdfd0d6a2a3647",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "60dfea53e1c17502cf4f0661946a964ad3ff0296",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "c107986e77a987fe49f2e4b1c0dcc489194dbd3f",
-    "file:///Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/GameManager.ts": "4b3655932785938d0fa709c0945e043c97a585e6"
+    "file:///Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/GameManager.ts": "4b3655932785938d0fa709c0945e043c97a585e6",
+    "file:///Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/Player.ts": "927c5285ed866918456abdc54c3be7e06ec7d260"
   }
 }

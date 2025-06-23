@@ -19,14 +19,14 @@
       "time": 1750644769104.673
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts": {
-      "time": 1750645316771.4355,
+      "time": 1750646239438.456,
       "uuid": "b4a7f73f-3c8c-4e23-aa4e-ee04f99dabc3"
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scenes/main.scene.meta": {
       "time": 1750645180899.3748
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scenes/main.scene": {
-      "time": 1750646116988.4014,
+      "time": 1750646845977.9043,
       "uuid": "20b35577-f54e-49ab-a58a-ce370c78bfaa"
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/GameManager.ts.meta": {
@@ -42,6 +42,27 @@
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Prefabs/Box.prefab": {
       "time": 1750645648849.7205,
       "uuid": "8b77912d-9a24-4be2-ab87-0e3efc803884"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/Player.ts.meta": {
+      "time": 1750646239439.2007
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/Player.ts": {
+      "time": 1750646816881.3547,
+      "uuid": "27e5d0c1-22b8-4c0b-ac9a-567760f940d5"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations.meta": {
+      "time": 1750646883523.1414
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations": {
+      "time": 1750646976729.3777,
+      "uuid": "70714265-5a5d-4381-8ad3-e678f241d846"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/JumpOneStep.anim.meta": {
+      "time": 1750646976731.5288
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/JumpOneStep.anim": {
+      "time": 1750646976728.9197,
+      "uuid": "3c2dc981-2049-4119-a09f-bd50c580edaf"
     }
   },
   "missing": {
