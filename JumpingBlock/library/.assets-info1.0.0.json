@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scenes.meta": {
+      "time": 1750644733662.0476
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scenes": {
+      "time": 1750645180896.4175,
+      "uuid": "49869309-f251-4555-bd8a-547ff23eadcd"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Prefabs.meta": {
+      "time": 1750644754395.1072
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Prefabs": {
+      "time": 1750645648848.8982,
+      "uuid": "b45d0da3-26ae-4c9b-a6e5-8eb52aefcc2b"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts.meta": {
+      "time": 1750644769104.673
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts": {
+      "time": 1750645316771.4355,
+      "uuid": "b4a7f73f-3c8c-4e23-aa4e-ee04f99dabc3"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scenes/main.scene.meta": {
+      "time": 1750645180899.3748
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scenes/main.scene": {
+      "time": 1750646116988.4014,
+      "uuid": "20b35577-f54e-49ab-a58a-ce370c78bfaa"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/GameManager.ts.meta": {
+      "time": 1750645316772.2544
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/GameManager.ts": {
+      "time": 1750646114915.9883,
+      "uuid": "b7ecf2fa-f64b-4a42-bd11-5e1c47ed60a4"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Prefabs/Box.prefab.meta": {
+      "time": 1750645648850.7776
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Prefabs/Box.prefab": {
+      "time": 1750645648849.7205,
+      "uuid": "8b77912d-9a24-4be2-ab87-0e3efc803884"
+    }
+  },
+  "missing": {
+    "49869309-f251-4555-bd8a-547ff23eadcd": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Sc",
+      "time": 1750644733661.0132,
+      "removeTime": 1750644743458
+    }
+  }
+}

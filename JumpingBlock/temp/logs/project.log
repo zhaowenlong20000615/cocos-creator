@@ -1,0 +1,16 @@
+6-23-2025 10:09:17 - log: Load engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine
+6-23-2025 10:09:17 - log: Register native engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+6-23-2025 10:09:17 - log: Request namespace: device-list
+6-23-2025 10:09:26 - log: [Scene] meshopt wasm decoder initialized
+6-23-2025 10:09:26 - log: [Scene] [box2d]:box2d wasm lib loaded.
+6-23-2025 10:09:26 - log: [Scene] [bullet]:bullet wasm lib loaded.
+6-23-2025 10:09:26 - log: [Scene] [PHYSICS]: using builtin.
+6-23-2025 10:09:26 - log: [Scene] Cocos Creator v3.8.6
+6-23-2025 10:09:26 - log: [Scene] Using custom pipeline: Builtin
+6-23-2025 10:09:26 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+6-23-2025 10:25:25 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
+    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)

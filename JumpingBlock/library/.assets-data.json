@@ -1,0 +1,47 @@
+{
+  "49869309-f251-4555-bd8a-547ff23eadcd": {
+    "url": "db://assets/Scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "b45d0da3-26ae-4c9b-a6e5-8eb52aefcc2b": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "b4a7f73f-3c8c-4e23-aa4e-ee04f99dabc3": {
+    "url": "db://assets/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "20b35577-f54e-49ab-a58a-ce370c78bfaa": {
+    "url": "db://assets/Scenes/main.scene",
+    "value": {
+      "depends": [
+        "20b35577-f54e-49ab-a58a-ce370c78bfaa",
+        "8b77912d-9a24-4be2-ab87-0e3efc803884",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941"
+      ],
+      "dependScripts": [
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "b7ecf2fa-f64b-4a42-bd11-5e1c47ed60a4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b7ecf2fa-f64b-4a42-bd11-5e1c47ed60a4": {
+    "url": "db://assets/Scripts/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8b77912d-9a24-4be2-ab87-0e3efc803884": {
+    "url": "db://assets/Prefabs/Box.prefab",
+    "value": {
+      "depends": [
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  }
+}
