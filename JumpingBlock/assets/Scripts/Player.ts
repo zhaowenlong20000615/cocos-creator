@@ -1,4 +1,4 @@
-import { _decorator, Animation, Component, EventKeyboard, EventMouse, Input, input, Node } from 'cc';
+import { _decorator, Animation, Component, EventKeyboard, EventMouse, Input, input, Node, tween, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Player')
@@ -12,9 +12,7 @@ export class Player extends Component {
       input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this)
     }
 
-    update(deltaTime: number) {
-
-    }
+  
 
     onMouseDown(event: EventMouse) {
       const mouseCode = event.getButton()
@@ -29,10 +27,20 @@ export class Player extends Component {
     jumpStep(type: number) {
       const animateName = type === 1 ? 'JumpOneStep' : 'JumpTwoStep'
       const pos = this.node.getPosition()
-      console.log(pos);
-
+      // this.node.setPosition(pos.x + type * 40, pos.y, pos.z)
       this.animation.play(animateName)
-      this.node.setPosition(pos.x + type * 40, pos.y, pos.z)
+      // 监听动画每帧更新，调整x的基准位置
+  this.animation.on(Animation.EventType.PLAY, () => {
+    const currentPos = this.node.getPosition()
+    console.log(pos.x + (currentPos.x));
+    
+    // 动画的x值 + 起始位置 = 最终位置
+    this.node.setPosition(pos.x + (currentPos.x), currentPos.y, currentPos.z)
+  })
+    }
+
+    update(deltaTime: number) {
+      
     }
 
     protected onDestroy(): void {

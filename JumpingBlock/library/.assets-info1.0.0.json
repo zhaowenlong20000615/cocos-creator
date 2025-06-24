@@ -26,14 +26,14 @@
       "time": 1750645180899.3748
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scenes/main.scene": {
-      "time": 1750647992187.7463,
+      "time": 1750732740229.2012,
       "uuid": "20b35577-f54e-49ab-a58a-ce370c78bfaa"
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/GameManager.ts.meta": {
       "time": 1750645316772.2544
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/GameManager.ts": {
-      "time": 1750646114915.9883,
+      "time": 1750648364819.3413,
       "uuid": "b7ecf2fa-f64b-4a42-bd11-5e1c47ed60a4"
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Prefabs/Box.prefab.meta": {
@@ -47,28 +47,28 @@
       "time": 1750646239439.2007
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/Player.ts": {
-      "time": 1750647990193.7585,
+      "time": 1750733272316.5918,
       "uuid": "27e5d0c1-22b8-4c0b-ac9a-567760f940d5"
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations.meta": {
       "time": 1750646883523.1414
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations": {
-      "time": 1750647342171.7415,
+      "time": 1750730717460.8354,
       "uuid": "70714265-5a5d-4381-8ad3-e678f241d846"
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/JumpOneStep.anim.meta": {
       "time": 1750646976731.5288
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/JumpOneStep.anim": {
-      "time": 1750647901005.7698,
+      "time": 1750732543625.411,
       "uuid": "3c2dc981-2049-4119-a09f-bd50c580edaf"
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/JumpTwoStep.anim.meta": {
       "time": 1750647342172.8247
     },
     "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/JumpTwoStep.anim": {
-      "time": 1750647864575.4487,
+      "time": 1750733273807.1233,
       "uuid": "0a6de763-3474-4b51-a70e-20f6c1d1af7b"
     }
   },
@@ -77,6 +77,11 @@
       "path": "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Sc",
       "time": 1750644733661.0132,
       "removeTime": 1750644743458
+    },
+    "c33e31c9-ffb1-4a24-ac4c-b9b7dc757b2f": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Animations/test.anim",
+      "time": 1750730681916.811,
+      "removeTime": 1750730717461
     }
   }
 }

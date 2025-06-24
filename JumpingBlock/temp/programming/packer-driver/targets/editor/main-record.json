@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7735.347792,
+      "mTimestamp": 3272.048958,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3434356.720334,
+      "mTimestamp": 4283325.404292,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1715,7 +1715,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1750644557296,
+      "mTimestamp": 1750728990401,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1723,7 +1723,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1750646114915.9883,
+        "mtime": 1750648364819.3413,
         "uuid": "b7ecf2fa-f64b-4a42-bd11-5e1c47ed60a4"
       },
       "chunkId": "4b3655932785938d0fa709c0945e043c97a585e6",
@@ -1775,7 +1775,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/JumpingBlock/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1750647990193.7585,
+        "mtime": 1750733272316.5918,
         "uuid": "27e5d0c1-22b8-4c0b-ac9a-567760f940d5"
       },
       "chunkId": "927c5285ed866918456abdc54c3be7e06ec7d260",
@@ -1791,11 +1791,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 96
+              "column": 109
             },
             "end": {
               "line": 1,
-              "column": 100
+              "column": 113
             }
           }
         }

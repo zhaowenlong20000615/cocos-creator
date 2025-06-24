@@ -19,7 +19,7 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "27e5dDBIrhMC6yaVndg+UDV", "Player", undefined);
 
-      __checkObsolete__(['_decorator', 'Animation', 'Component', 'EventKeyboard', 'EventMouse', 'Input', 'input', 'Node']);
+      __checkObsolete__(['_decorator', 'Animation', 'Component', 'EventKeyboard', 'EventMouse', 'Input', 'input', 'Node', 'tween', 'Vec3']);
 
       ({
         ccclass,
@@ -38,8 +38,6 @@ System.register(["cc"], function (_export, _context) {
           input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this);
         }
 
-        update(deltaTime) {}
-
         onMouseDown(event) {
           const mouseCode = event.getButton();
           if (mouseCode === 0) return this.jumpStep(mouseCode + 1);
@@ -50,11 +48,19 @@ System.register(["cc"], function (_export, _context) {
 
         jumpStep(type) {
           const animateName = type === 1 ? 'JumpOneStep' : 'JumpTwoStep';
-          const pos = this.node.getPosition();
-          console.log(pos);
-          this.animation.play(animateName);
-          this.node.setPosition(pos.x + type * 40, pos.y, pos.z);
+          const pos = this.node.getPosition(); // this.node.setPosition(pos.x + type * 40, pos.y, pos.z)
+
+          this.animation.play(animateName); // 监听动画每帧更新，调整x的基准位置
+
+          this.animation.on(Animation.EventType.PLAY, () => {
+            const currentPos = this.node.getPosition();
+            console.log(pos.x + currentPos.x); // 动画的x值 + 起始位置 = 最终位置
+
+            this.node.setPosition(pos.x + currentPos.x, currentPos.y, currentPos.z);
+          });
         }
+
+        update(deltaTime) {}
 
         onDestroy() {
           input.off(Input.EventType.MOUSE_DOWN, this.onMouseDown, this);

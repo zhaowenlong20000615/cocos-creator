@@ -70,5 +70,10 @@
       "depends": []
     },
     "versionCode": 1
+  },
+  "c33e31c9-ffb1-4a24-ac4c-b9b7dc757b2f": {
+    "url": "db://assets/Animations/test.anim",
+    "value": {},
+    "versionCode": 1
   }
 }

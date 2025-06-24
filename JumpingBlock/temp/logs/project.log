@@ -1,32 +1,126 @@
-6-23-2025 10:09:17 - log: Load engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine
-6-23-2025 10:09:17 - log: Register native engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-6-23-2025 10:09:17 - log: Request namespace: device-list
-6-23-2025 10:09:26 - log: [Scene] meshopt wasm decoder initialized
-6-23-2025 10:09:26 - log: [Scene] [box2d]:box2d wasm lib loaded.
-6-23-2025 10:09:26 - log: [Scene] [bullet]:bullet wasm lib loaded.
-6-23-2025 10:09:26 - log: [Scene] [PHYSICS]: using builtin.
-6-23-2025 10:09:26 - log: [Scene] Cocos Creator v3.8.6
-6-23-2025 10:09:26 - log: [Scene] Using custom pipeline: Builtin
-6-23-2025 10:09:26 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-6-23-2025 10:25:25 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+6-24-2025 09:36:30 - log: Load engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine
+6-24-2025 09:36:30 - log: Register native engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+6-24-2025 09:36:30 - log: Request namespace: device-list
+6-24-2025 09:36:34 - log: [Scene] meshopt wasm decoder initialized
+6-24-2025 09:36:34 - log: [Scene] [bullet]:bullet wasm lib loaded.
+6-24-2025 09:36:34 - log: [Scene] [box2d]:box2d wasm lib loaded.
+6-24-2025 09:36:34 - log: [Scene] [PHYSICS]: using builtin.
+6-24-2025 09:36:34 - log: [Scene] Cocos Creator v3.8.6
+6-24-2025 09:36:34 - log: [Scene] Using custom pipeline: Builtin
+6-24-2025 09:36:34 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+6-24-2025 09:37:12 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
     at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
     at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
     at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
     at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
-6-23-2025 10:37:25 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+6-24-2025 09:54:02 - warn: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑Error: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
-    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
-    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
-    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
-6-23-2025 10:40:48 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+    at AnimationSceneFacade.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:3566)
+    at SceneFacadeManager.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:10632)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 09:54:03 - warn: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑Error: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
-    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
-    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
-    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
-6-23-2025 10:55:42 - warn: [Scene] current edit clip: '0a6de763-3474-4b51-a70e-20f6c1d1af7b' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edafError: [Scene] current edit clip: '0a6de763-3474-4b51-a70e-20f6c1d1af7b' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edaf
+    at AnimationSceneFacade.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:3566)
+    at SceneFacadeManager.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:10632)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 09:54:03 - warn: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑Error: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationSceneFacade.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:3566)
+    at SceneFacadeManager.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:10632)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 09:54:04 - warn: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑Error: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationSceneFacade.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:3566)
+    at SceneFacadeManager.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:10632)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 09:54:04 - warn: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑Error: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationSceneFacade.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:3566)
+    at SceneFacadeManager.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:10632)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 09:54:04 - warn: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑Error: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationSceneFacade.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:3566)
+    at SceneFacadeManager.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:10632)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 09:54:06 - warn: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑Error: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationSceneFacade.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:3566)
+    at SceneFacadeManager.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:10632)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 09:54:06 - warn: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑Error: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationSceneFacade.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:3566)
+    at SceneFacadeManager.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:10632)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 09:54:07 - warn: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑Error: [Scene] 动画编辑模式下不允许移除或替换正在编辑的动画剪辑
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationSceneFacade.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:3566)
+    at SceneFacadeManager.setNodeProperty (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:10632)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 09:54:33 - log: [Scene] meshopt wasm decoder initialized
+6-24-2025 09:54:33 - log: [Scene] [bullet]:bullet wasm lib loaded.
+6-24-2025 09:54:33 - log: [Scene] [box2d]:box2d wasm lib loaded.
+6-24-2025 09:54:33 - log: [Scene] [PHYSICS]: using builtin.
+6-24-2025 09:54:33 - log: [Scene] Cocos Creator v3.8.6
+6-24-2025 09:54:33 - log: [Scene] Using custom pipeline: Builtin
+6-24-2025 09:54:33 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+6-24-2025 10:04:29 - warn: [Scene] current edit clip: '3c2dc981-2049-4119-a09f-bd50c580edaf' but you want to operate: '0a6de763-3474-4b51-a70e-20f6c1d1af7bError: [Scene] current edit clip: '3c2dc981-2049-4119-a09f-bd50c580edaf' but you want to operate: '0a6de763-3474-4b51-a70e-20f6c1d1af7b
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
     at AnimationManager.getPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/animation/index.ccc:1:16714)
     at AnimationSceneFacade.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:2238)
@@ -38,7 +132,7 @@
     at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
     at IpcRenderer.emit (node:events:519:28)
     at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-6-23-2025 10:58:07 - warn: [Scene] current edit clip: '0a6de763-3474-4b51-a70e-20f6c1d1af7b' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edafError: [Scene] current edit clip: '0a6de763-3474-4b51-a70e-20f6c1d1af7b' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edaf
+6-24-2025 10:05:17 - warn: [Scene] current edit clip: 'c33e31c9-ffb1-4a24-ac4c-b9b7dc757b2f' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edafError: [Scene] current edit clip: 'c33e31c9-ffb1-4a24-ac4c-b9b7dc757b2f' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edaf
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
     at AnimationManager.getPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/animation/index.ccc:1:16714)
     at AnimationSceneFacade.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:2238)
@@ -50,9 +144,75 @@
     at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
     at IpcRenderer.emit (node:events:519:28)
     at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-6-23-2025 11:06:51 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+6-24-2025 10:07:44 - warn: [Scene] current edit clip: '0a6de763-3474-4b51-a70e-20f6c1d1af7b' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edafError: [Scene] current edit clip: '0a6de763-3474-4b51-a70e-20f6c1d1af7b' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edaf
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
-    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
-    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
-    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
+    at AnimationManager.getPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/animation/index.ccc:1:16714)
+    at AnimationSceneFacade.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:2238)
+    at SceneFacadeManager.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:22165)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 10:07:57 - error: [Scene] asset can't be load:c33e31c9-ffb1-4a24-ac4c-b9b7dc757b2fError: [Scene] asset can't be load:c33e31c9-ffb1-4a24-ac4c-b9b7dc757b2f
+    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:761
+    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:112943:9)
+    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:194690:9)
+    at sentryWrapped (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/src/helpers.ts:100:17)
+6-24-2025 10:07:58 - error: [Scene] asset can't be load:c33e31c9-ffb1-4a24-ac4c-b9b7dc757b2fError: [Scene] asset can't be load:c33e31c9-ffb1-4a24-ac4c-b9b7dc757b2f
+    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/export/dump/types/asset-dump.ccc:1:761
+    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:112943:9)
+    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:194690:9)
+    at sentryWrapped (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/src/helpers.ts:100:17)
+6-24-2025 10:33:46 - warn: [Scene] current edit clip: '0a6de763-3474-4b51-a70e-20f6c1d1af7b' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edafError: [Scene] current edit clip: '0a6de763-3474-4b51-a70e-20f6c1d1af7b' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edaf
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationManager.getPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/animation/index.ccc:1:16714)
+    at AnimationSceneFacade.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:2238)
+    at SceneFacadeManager.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:22165)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 10:34:47 - warn: [Scene] current edit clip: '3c2dc981-2049-4119-a09f-bd50c580edaf' but you want to operate: '0a6de763-3474-4b51-a70e-20f6c1d1af7bError: [Scene] current edit clip: '3c2dc981-2049-4119-a09f-bd50c580edaf' but you want to operate: '0a6de763-3474-4b51-a70e-20f6c1d1af7b
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationManager.getPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/animation/index.ccc:1:16714)
+    at AnimationSceneFacade.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:2238)
+    at SceneFacadeManager.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:22165)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 10:35:32 - warn: [Scene] current edit clip: '3c2dc981-2049-4119-a09f-bd50c580edaf' but you want to operate: '0a6de763-3474-4b51-a70e-20f6c1d1af7bError: [Scene] current edit clip: '3c2dc981-2049-4119-a09f-bd50c580edaf' but you want to operate: '0a6de763-3474-4b51-a70e-20f6c1d1af7b
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationManager.getPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/animation/index.ccc:1:16714)
+    at AnimationSceneFacade.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:2238)
+    at SceneFacadeManager.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:22165)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+6-24-2025 10:36:27 - warn: [Scene] current edit clip: '0a6de763-3474-4b51-a70e-20f6c1d1af7b' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edafError: [Scene] current edit clip: '0a6de763-3474-4b51-a70e-20f6c1d1af7b' but you want to operate: '3c2dc981-2049-4119-a09f-bd50c580edaf
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at AnimationManager.getPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/animation/index.ccc:1:16714)
+    at AnimationSceneFacade.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:2238)
+    at SceneFacadeManager.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:22165)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)

@@ -44,6 +44,8 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "blockLen", _descriptor, this);
 
           _initializerDefineProperty(this, "blockPrefab", _descriptor2, this);
+
+          this.topBlockType = BlockType.NONE;
         }
 
         start() {
@@ -57,8 +59,12 @@ System.register(["cc"], function (_export, _context) {
             var random = Math.round(Math.random());
             if (random <= 0) continue;
             var prefab = instantiate(this.blockPrefab);
+
+            if (this.topBlockType === BlockType.NONE) {}
+
             this.node.addChild(prefab);
             prefab.setPosition(i * 40, 0, 0);
+            this.topBlockType = BlockType[random.toString()];
           }
         }
 
