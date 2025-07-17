@@ -1,0 +1,923 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes.meta": {
+      "time": 1752718223917.1584
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes": {
+      "time": 1752718322155.713,
+      "uuid": "e6628aec-4021-456e-86f1-65b63710fb3f"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs.meta": {
+      "time": 1752718233559.3381
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs": {
+      "time": 1752718233556.4392,
+      "uuid": "109339e0-9c46-4939-a6cb-31bb5ae6cc7a"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios.meta": {
+      "time": 1752718127389.9797
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios": {
+      "time": 1752718192771.6753,
+      "uuid": "67b61d68-ced1-437d-ac86-f62a7015aa4f"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/achievement.mp3.meta": {
+      "time": 1752718192776.8655
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/achievement.mp3": {
+      "time": 1711202704000,
+      "uuid": "22061781-c05c-4305-bc15-f8d8ef668c1b"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/enemy0_down.mp3.meta": {
+      "time": 1752718192777.119
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/enemy0_down.mp3": {
+      "time": 1711202702000,
+      "uuid": "7d47df60-9e42-4372-98c0-cc1d3d029136"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/button.mp3.meta": {
+      "time": 1752718192777.9695
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/button.mp3": {
+      "time": 1711202704000,
+      "uuid": "716a7f2c-b709-43b0-babf-357132c0c08f"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/big_spaceship_flying.mp3.meta": {
+      "time": 1752718192778.5237
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/big_spaceship_flying.mp3": {
+      "time": 1711202704000,
+      "uuid": "b9e1fb8a-dc4e-42dc-9bad-db10c66b2cb4"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/bullet.mp3.meta": {
+      "time": 1752718192776.9941
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/bullet.mp3": {
+      "time": 1711202704000,
+      "uuid": "0625e2ec-cb4d-448a-bd37-3d5e4a393ded"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/get_bomb.mp3.meta": {
+      "time": 1752718192783.348
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/get_bomb.mp3": {
+      "time": 1711202702000,
+      "uuid": "106927dc-3f0c-4ace-8732-51803bb7519d"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/game_over.mp3.meta": {
+      "time": 1752718192781.8596
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/game_over.mp3": {
+      "time": 1711202702000,
+      "uuid": "0aca2891-23c2-42a0-ab52-b83c2a076384"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/enemy2_down.mp3.meta": {
+      "time": 1752718192782.4065
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/enemy2_down.mp3": {
+      "time": 1711202702000,
+      "uuid": "6d4c57e7-1f56-4401-8094-c963fa541a80"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/enemy1_down.mp3.meta": {
+      "time": 1752718192782.2493
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/enemy1_down.mp3": {
+      "time": 1711202702000,
+      "uuid": "c5f6aa07-0506-4206-8c53-ba47610a03cf"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/game_music.mp3.meta": {
+      "time": 1752718192784.4417
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/game_music.mp3": {
+      "time": 1711202702000,
+      "uuid": "f7070c36-1d82-43df-b358-6bb3337fb241"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/out_porp.mp3.meta": {
+      "time": 1752718192786.512
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/out_porp.mp3": {
+      "time": 1711202700000,
+      "uuid": "818a7501-156b-488c-81f5-c42ab3469344"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/get_double_laser.mp3.meta": {
+      "time": 1752718192786.1777
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/get_double_laser.mp3": {
+      "time": 1711202700000,
+      "uuid": "5580f81c-3138-4779-ac15-47aafb9d80e3"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/use_bomb.mp3.meta": {
+      "time": 1752718192786.0698
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios/use_bomb.mp3": {
+      "time": 1711202700000,
+      "uuid": "0209ee89-482f-453e-8cc7-95265d552324"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images.meta": {
+      "time": 1752718071197.7178
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images": {
+      "time": 1752718116632.0881,
+      "uuid": "a5caa821-5157-41d9-8781-507cae112700"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/bomb.png.meta": {
+      "time": 1752718116647.7163
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/bomb.png": {
+      "time": 1711202726000,
+      "uuid": "1e140951-311c-45bd-83cc-9fffedb2ae0f"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/New Atlas.png.meta": {
+      "time": 1752718116648.1216
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/New Atlas.png": {
+      "time": 1711202710000,
+      "uuid": "9db9f068-891e-42af-8704-9cdf3620c5a4"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/btn_finish.png.meta": {
+      "time": 1752718116648.9082
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/btn_finish.png": {
+      "time": 1711202726000,
+      "uuid": "3d93356a-6a91-444a-b768-11090aa9f9fd"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/background.png.meta": {
+      "time": 1752718116649.6038
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/background.png": {
+      "time": 1711202728000,
+      "uuid": "52dd71e9-e8ad-469f-b2e4-8cad37987fcd"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/bullet1.png.meta": {
+      "time": 1752718116657.3538
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/bullet1.png": {
+      "time": 1711202726000,
+      "uuid": "2d0f5205-4b93-4659-abf2-577fb54ba976"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/bullet.png.meta": {
+      "time": 1752718116656.8352
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/bullet.png": {
+      "time": 1711202726000,
+      "uuid": "2b525125-8d72-4d47-912e-052992a83cb3"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/bullet2.png.meta": {
+      "time": 1752718116657.7317
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/bullet2.png": {
+      "time": 1711202726000,
+      "uuid": "cb655f5b-51dc-4456-a2fb-1b1a24a72629"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/bg.png.meta": {
+      "time": 1752718116653.6465
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/bg.png": {
+      "time": 1711202726000,
+      "uuid": "e25c2539-02a8-4ef1-ac7f-08781531a1c6"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/button_nor.png.meta": {
+      "time": 1752718116660.644
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/button_nor.png": {
+      "time": 1711202726000,
+      "uuid": "7a081a6a-0e61-4eb5-aaf3-40424e9a04af"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy0.png.meta": {
+      "time": 1752718116666.1704
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy0.png": {
+      "time": 1711202724000,
+      "uuid": "19b9e7b0-907d-4135-aa9b-392e1874ebf1"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/button_p.png.meta": {
+      "time": 1752718116663.9316
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/button_p.png": {
+      "time": 1711202726000,
+      "uuid": "48e0a19a-aa9c-4d96-9443-9d3058105077"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy0_down1.png.meta": {
+      "time": 1752718116666.9333
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy0_down1.png": {
+      "time": 1711202724000,
+      "uuid": "c98f06a0-593c-4683-ba49-bd6f9d9f1872"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy0_down2.png.meta": {
+      "time": 1752718116666.7751
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy0_down2.png": {
+      "time": 1711202724000,
+      "uuid": "ad24ecde-af42-4629-967a-eacbfa3d84ad"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy0_down3.png.meta": {
+      "time": 1752718116678.3586
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy0_down3.png": {
+      "time": 1711202726000,
+      "uuid": "44a4688d-7dd3-41cd-af55-cf1e599a0a55"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy0_down4.png.meta": {
+      "time": 1752718116686.4382
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy0_down4.png": {
+      "time": 1711202724000,
+      "uuid": "ee6e99f1-2091-44c0-a80a-11ffee7a5135"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1_down2.png.meta": {
+      "time": 1752718116692.4026
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1_down2.png": {
+      "time": 1711202722000,
+      "uuid": "6d9cfdb5-a394-4d21-a108-1f78203c91ea"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1.png.meta": {
+      "time": 1752718116687.7063
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1.png": {
+      "time": 1711202724000,
+      "uuid": "19284360-f056-407b-b988-565e7ca43ca0"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1_down1.png.meta": {
+      "time": 1752718116691.6072
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1_down1.png": {
+      "time": 1711202722000,
+      "uuid": "53ce8c83-fe2d-4fcd-87e2-2d49e4ea80a8"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1_down3.png.meta": {
+      "time": 1752718116708.675
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1_down3.png": {
+      "time": 1711202722000,
+      "uuid": "efa49c71-8000-4f01-acc3-c52407fb405b"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1_hit.png.meta": {
+      "time": 1752718116713.6248
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1_hit.png": {
+      "time": 1711202720000,
+      "uuid": "d9a9409e-b152-440c-a078-6fc49711b68c"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1_down4.png.meta": {
+      "time": 1752718116712.6553
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy1_down4.png": {
+      "time": 1711202722000,
+      "uuid": "11c5c459-d1b4-41ed-9132-f8c92f51a6d9"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2.png.meta": {
+      "time": 1752718116716.0574
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2.png": {
+      "time": 1711202722000,
+      "uuid": "20075844-6ebf-43ae-b7cf-b263c7261ef4"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down1.png.meta": {
+      "time": 1752718116718.7373
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down1.png": {
+      "time": 1711202722000,
+      "uuid": "316d34d8-62f0-403f-b9e5-9008bb73117e"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down2.png.meta": {
+      "time": 1752718116730.595
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down2.png": {
+      "time": 1711202720000,
+      "uuid": "e659f7c4-a5e4-42a5-b658-c37cf0d1dfd0"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down3.png.meta": {
+      "time": 1752718116740.4678
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down3.png": {
+      "time": 1711202720000,
+      "uuid": "31cadba2-8390-4be2-b101-e19bc3bb3d78"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down4.png.meta": {
+      "time": 1752718116743.4158
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down4.png": {
+      "time": 1711202720000,
+      "uuid": "f4520233-d252-482c-b2eb-78fcd20babda"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down6.png.meta": {
+      "time": 1752718116745.159
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down6.png": {
+      "time": 1711202718000,
+      "uuid": "86031f65-2192-403c-890e-b90baf7124af"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down5.png.meta": {
+      "time": 1752718116746.3042
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_down5.png": {
+      "time": 1711202718000,
+      "uuid": "928dd2b5-18ee-4a0a-9161-c14b34e6e638"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_loading1.png.meta": {
+      "time": 1752718116757.0068
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_loading1.png": {
+      "time": 1711202718000,
+      "uuid": "552f5f8b-83dc-4cc0-be99-8e8504882542"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_hit.png.meta": {
+      "time": 1752718116753.771
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_hit.png": {
+      "time": 1711202718000,
+      "uuid": "de5f3ec5-16e8-42e9-9ba0-7b8ee1d0e14d"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_n2.png.meta": {
+      "time": 1752718116760.0383
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/enemy2_n2.png": {
+      "time": 1711202718000,
+      "uuid": "b833fba2-7ea3-49a2-83b8-73a4251a3f4d"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_loading2.png.meta": {
+      "time": 1752718116758.38
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_loading2.png": {
+      "time": 1711202716000,
+      "uuid": "c707e4c3-f1cf-4292-902e-735848c3e244"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_loading3.png.meta": {
+      "time": 1752718116759.8848
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_loading3.png": {
+      "time": 1711202716000,
+      "uuid": "019e2fa1-6159-4992-9cf8-396eae61a2d6"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_loading4.png.meta": {
+      "time": 1752718116761.538
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_loading4.png": {
+      "time": 1711202716000,
+      "uuid": "ad0c0f03-0768-4b12-9c16-3df4a039357c"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_pause_nor.png.meta": {
+      "time": 1752718116764.8066
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_pause_nor.png": {
+      "time": 1711202716000,
+      "uuid": "55364bda-04de-4c4c-b47e-af92f6a45d30"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_pause_pressed.png.meta": {
+      "time": 1752718116765.4707
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_pause_pressed.png": {
+      "time": 1711202714000,
+      "uuid": "605aefaf-0690-4a25-b992-212941f9c669"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_resume_nor.png.meta": {
+      "time": 1752718116766.0745
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_resume_nor.png": {
+      "time": 1711202714000,
+      "uuid": "5c713c32-edb7-4b24-a501-220cae63897b"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_resume_pressed.png.meta": {
+      "time": 1752718116766.75
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/game_resume_pressed.png": {
+      "time": 1711202714000,
+      "uuid": "5d683082-e111-4095-9639-b63ca3e7e2c5"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero1.png.meta": {
+      "time": 1752718116772.6738
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero1.png": {
+      "time": 1711202714000,
+      "uuid": "f58e17b0-c932-4f82-81cf-ca158135f47c"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero_blowup_n1.png.meta": {
+      "time": 1752718116777.1511
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero_blowup_n1.png": {
+      "time": 1711202714000,
+      "uuid": "a474b62b-4ab7-4fb5-af6c-f6ff844f47c8"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero2.png.meta": {
+      "time": 1752718116776.33
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero2.png": {
+      "time": 1711202714000,
+      "uuid": "20e50495-6751-4295-98ad-707747171310"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero_blowup_n2.png.meta": {
+      "time": 1752718116779.4026
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero_blowup_n2.png": {
+      "time": 1711202712000,
+      "uuid": "dc3d795d-2971-4b6a-bd9d-263730d1390b"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/gameover.png.meta": {
+      "time": 1752718116779.2476
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/gameover.png": {
+      "time": 1711202714000,
+      "uuid": "20c232f8-320d-4cba-82f1-d74965a4c24d"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero_blowup_n3.png.meta": {
+      "time": 1752718116790.5098
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero_blowup_n3.png": {
+      "time": 1711202712000,
+      "uuid": "e5ddb139-1b42-436f-bd2d-ef35233c2696"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero_blowup_n4.png.meta": {
+      "time": 1752718116789.5786
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/hero_blowup_n4.png": {
+      "time": 1711202712000,
+      "uuid": "2bb66a7c-3d06-41b2-b772-2cadb05c9f12"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/name.png.meta": {
+      "time": 1752718116805.041
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/name.png": {
+      "time": 1711202710000,
+      "uuid": "fb2997d6-105a-421f-9b98-64a40f79cd93"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/plane.png.meta": {
+      "time": 1752718116810.1792
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/plane.png": {
+      "time": 1711202710000,
+      "uuid": "3ad0a5c5-1b92-4be1-9a8a-866391e50c17"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/loading.png.meta": {
+      "time": 1752718116819.1475
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/loading.png": {
+      "time": 1711202712000,
+      "uuid": "89ebfb31-5797-4eaf-989c-cb21fb8f1f57"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/progress.png.meta": {
+      "time": 1752718116810.7969
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/progress.png": {
+      "time": 1711202710000,
+      "uuid": "42255f63-4cee-45a5-b551-5f3ea66654c7"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/icon72x72.png.meta": {
+      "time": 1752718116815.1785
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/icon72x72.png": {
+      "time": 1711202712000,
+      "uuid": "78a8d3c3-b748-4ef9-a58d-69b53de6fb40"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/prop_type_0.png.meta": {
+      "time": 1752718116816.2068
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/prop_type_0.png": {
+      "time": 1711202708000,
+      "uuid": "d2b96fb4-207f-4924-8c35-0ca9e495c083"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/quit_sel.png.meta": {
+      "time": 1752718116823.1501
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/quit_sel.png": {
+      "time": 1711202708000,
+      "uuid": "ca2afb96-b14e-420a-a650-40bd89048a7f"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/prop_type_1.png.meta": {
+      "time": 1752718116820.5178
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/prop_type_1.png": {
+      "time": 1711202708000,
+      "uuid": "9e7cd7f1-0eb9-4570-a614-320366a6761e"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/quit_nor.png.meta": {
+      "time": 1752718116819.6084
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/quit_nor.png": {
+      "time": 1711202708000,
+      "uuid": "cb184622-f405-4ec3-b56d-7551cfeb549d"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/restart_nor.png.meta": {
+      "time": 1752718116824.2063
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/restart_nor.png": {
+      "time": 1711202708000,
+      "uuid": "576a1369-b28e-42de-886c-f3b438152469"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/restart_sel.png.meta": {
+      "time": 1752718116826.9272
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/restart_sel.png": {
+      "time": 1711202706000,
+      "uuid": "afafc6eb-2392-43c0-97c3-d57bd4771689"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/resume_nor.png.meta": {
+      "time": 1752718116825.5461
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/resume_nor.png": {
+      "time": 1711202706000,
+      "uuid": "44997e0e-8b64-413a-be4f-00b5cbebaba4"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/resume_sel.png.meta": {
+      "time": 1752718116827.904
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Images/resume_sel.png": {
+      "time": 1711202706000,
+      "uuid": "7682f572-f5d9-4444-810c-40606816da9d"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts.meta": {
+      "time": 1752718256568.1233
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts": {
+      "time": 1752718861743.3257,
+      "uuid": "9c80e3d5-9d36-4291-b306-f836a59185b0"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scene.meta": {
+      "time": 1752718322157.195
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scene": {
+      "time": 1752720786232.768,
+      "uuid": "2fda4d65-a1e9-4078-8250-de49b04cdc34"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/BgBox.ts.meta": {
+      "time": 1752718861744.8303
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/BgBox.ts": {
+      "time": 1752720568801.1067,
+      "uuid": "e7674a95-b425-4e84-b14b-569100f394cb"
+    }
+  },
+  "missing": {
+    "a5caa821-5157-41d9-8781-507cae112700": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image",
+      "time": 1752718116632.0881,
+      "removeTime": 1752718249231
+    },
+    "67b61d68-ced1-437d-ac86-f62a7015aa4f": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio",
+      "time": 1752718192771.6753,
+      "removeTime": 1752718246054
+    },
+    "22061781-c05c-4305-bc15-f8d8ef668c1b": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/achievement.mp3",
+      "time": 1711202704000,
+      "removeTime": 1752718246055
+    },
+    "b9e1fb8a-dc4e-42dc-9bad-db10c66b2cb4": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/big_spaceship_flying.mp3",
+      "time": 1711202704000,
+      "removeTime": 1752718246055
+    },
+    "0625e2ec-cb4d-448a-bd37-3d5e4a393ded": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/bullet.mp3",
+      "time": 1711202704000,
+      "removeTime": 1752718246056
+    },
+    "716a7f2c-b709-43b0-babf-357132c0c08f": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/button.mp3",
+      "time": 1711202704000,
+      "removeTime": 1752718246056
+    },
+    "7d47df60-9e42-4372-98c0-cc1d3d029136": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/enemy0_down.mp3",
+      "time": 1711202702000,
+      "removeTime": 1752718246056
+    },
+    "c5f6aa07-0506-4206-8c53-ba47610a03cf": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/enemy1_down.mp3",
+      "time": 1711202702000,
+      "removeTime": 1752718246056
+    },
+    "6d4c57e7-1f56-4401-8094-c963fa541a80": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/enemy2_down.mp3",
+      "time": 1711202702000,
+      "removeTime": 1752718246057
+    },
+    "f7070c36-1d82-43df-b358-6bb3337fb241": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/game_music.mp3",
+      "time": 1711202702000,
+      "removeTime": 1752718246057
+    },
+    "0aca2891-23c2-42a0-ab52-b83c2a076384": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/game_over.mp3",
+      "time": 1711202702000,
+      "removeTime": 1752718246057
+    },
+    "106927dc-3f0c-4ace-8732-51803bb7519d": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/get_bomb.mp3",
+      "time": 1711202702000,
+      "removeTime": 1752718246057
+    },
+    "5580f81c-3138-4779-ac15-47aafb9d80e3": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/get_double_laser.mp3",
+      "time": 1711202700000,
+      "removeTime": 1752718246057
+    },
+    "818a7501-156b-488c-81f5-c42ab3469344": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/out_porp.mp3",
+      "time": 1711202700000,
+      "removeTime": 1752718246058
+    },
+    "0209ee89-482f-453e-8cc7-95265d552324": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audio/use_bomb.mp3",
+      "time": 1711202700000,
+      "removeTime": 1752718246059
+    },
+    "9db9f068-891e-42af-8704-9cdf3620c5a4": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/New Atlas.png",
+      "time": 1711202710000,
+      "removeTime": 1752718249232
+    },
+    "52dd71e9-e8ad-469f-b2e4-8cad37987fcd": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/background.png",
+      "time": 1711202728000,
+      "removeTime": 1752718249232
+    },
+    "e25c2539-02a8-4ef1-ac7f-08781531a1c6": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/bg.png",
+      "time": 1711202726000,
+      "removeTime": 1752718249233
+    },
+    "1e140951-311c-45bd-83cc-9fffedb2ae0f": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/bomb.png",
+      "time": 1711202726000,
+      "removeTime": 1752718249233
+    },
+    "3d93356a-6a91-444a-b768-11090aa9f9fd": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/btn_finish.png",
+      "time": 1711202726000,
+      "removeTime": 1752718249233
+    },
+    "2b525125-8d72-4d47-912e-052992a83cb3": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/bullet.png",
+      "time": 1711202726000,
+      "removeTime": 1752718249233
+    },
+    "2d0f5205-4b93-4659-abf2-577fb54ba976": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/bullet1.png",
+      "time": 1711202726000,
+      "removeTime": 1752718249233
+    },
+    "cb655f5b-51dc-4456-a2fb-1b1a24a72629": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/bullet2.png",
+      "time": 1711202726000,
+      "removeTime": 1752718249234
+    },
+    "7a081a6a-0e61-4eb5-aaf3-40424e9a04af": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/button_nor.png",
+      "time": 1711202726000,
+      "removeTime": 1752718249234
+    },
+    "48e0a19a-aa9c-4d96-9443-9d3058105077": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/button_p.png",
+      "time": 1711202726000,
+      "removeTime": 1752718249234
+    },
+    "19b9e7b0-907d-4135-aa9b-392e1874ebf1": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy0.png",
+      "time": 1711202724000,
+      "removeTime": 1752718249234
+    },
+    "c98f06a0-593c-4683-ba49-bd6f9d9f1872": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy0_down1.png",
+      "time": 1711202724000,
+      "removeTime": 1752718249234
+    },
+    "ad24ecde-af42-4629-967a-eacbfa3d84ad": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy0_down2.png",
+      "time": 1711202724000,
+      "removeTime": 1752718249234
+    },
+    "44a4688d-7dd3-41cd-af55-cf1e599a0a55": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy0_down3.png",
+      "time": 1711202726000,
+      "removeTime": 1752718249234
+    },
+    "ee6e99f1-2091-44c0-a80a-11ffee7a5135": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy0_down4.png",
+      "time": 1711202724000,
+      "removeTime": 1752718249235
+    },
+    "19284360-f056-407b-b988-565e7ca43ca0": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy1.png",
+      "time": 1711202724000,
+      "removeTime": 1752718249235
+    },
+    "53ce8c83-fe2d-4fcd-87e2-2d49e4ea80a8": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy1_down1.png",
+      "time": 1711202722000,
+      "removeTime": 1752718249235
+    },
+    "6d9cfdb5-a394-4d21-a108-1f78203c91ea": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy1_down2.png",
+      "time": 1711202722000,
+      "removeTime": 1752718249235
+    },
+    "efa49c71-8000-4f01-acc3-c52407fb405b": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy1_down3.png",
+      "time": 1711202722000,
+      "removeTime": 1752718249235
+    },
+    "11c5c459-d1b4-41ed-9132-f8c92f51a6d9": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy1_down4.png",
+      "time": 1711202722000,
+      "removeTime": 1752718249236
+    },
+    "d9a9409e-b152-440c-a078-6fc49711b68c": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy1_hit.png",
+      "time": 1711202720000,
+      "removeTime": 1752718249237
+    },
+    "20075844-6ebf-43ae-b7cf-b263c7261ef4": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy2.png",
+      "time": 1711202722000,
+      "removeTime": 1752718249237
+    },
+    "316d34d8-62f0-403f-b9e5-9008bb73117e": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy2_down1.png",
+      "time": 1711202722000,
+      "removeTime": 1752718249237
+    },
+    "e659f7c4-a5e4-42a5-b658-c37cf0d1dfd0": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy2_down2.png",
+      "time": 1711202720000,
+      "removeTime": 1752718249237
+    },
+    "31cadba2-8390-4be2-b101-e19bc3bb3d78": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy2_down3.png",
+      "time": 1711202720000,
+      "removeTime": 1752718249238
+    },
+    "f4520233-d252-482c-b2eb-78fcd20babda": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy2_down4.png",
+      "time": 1711202720000,
+      "removeTime": 1752718249238
+    },
+    "928dd2b5-18ee-4a0a-9161-c14b34e6e638": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy2_down5.png",
+      "time": 1711202718000,
+      "removeTime": 1752718249238
+    },
+    "86031f65-2192-403c-890e-b90baf7124af": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy2_down6.png",
+      "time": 1711202718000,
+      "removeTime": 1752718249238
+    },
+    "de5f3ec5-16e8-42e9-9ba0-7b8ee1d0e14d": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy2_hit.png",
+      "time": 1711202718000,
+      "removeTime": 1752718249238
+    },
+    "b833fba2-7ea3-49a2-83b8-73a4251a3f4d": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/enemy2_n2.png",
+      "time": 1711202718000,
+      "removeTime": 1752718249239
+    },
+    "552f5f8b-83dc-4cc0-be99-8e8504882542": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/game_loading1.png",
+      "time": 1711202718000,
+      "removeTime": 1752718249239
+    },
+    "c707e4c3-f1cf-4292-902e-735848c3e244": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/game_loading2.png",
+      "time": 1711202716000,
+      "removeTime": 1752718249239
+    },
+    "019e2fa1-6159-4992-9cf8-396eae61a2d6": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/game_loading3.png",
+      "time": 1711202716000,
+      "removeTime": 1752718249239
+    },
+    "ad0c0f03-0768-4b12-9c16-3df4a039357c": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/game_loading4.png",
+      "time": 1711202716000,
+      "removeTime": 1752718249240
+    },
+    "55364bda-04de-4c4c-b47e-af92f6a45d30": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/game_pause_nor.png",
+      "time": 1711202716000,
+      "removeTime": 1752718249240
+    },
+    "605aefaf-0690-4a25-b992-212941f9c669": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/game_pause_pressed.png",
+      "time": 1711202714000,
+      "removeTime": 1752718249240
+    },
+    "5c713c32-edb7-4b24-a501-220cae63897b": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/game_resume_nor.png",
+      "time": 1711202714000,
+      "removeTime": 1752718249240
+    },
+    "5d683082-e111-4095-9639-b63ca3e7e2c5": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/game_resume_pressed.png",
+      "time": 1711202714000,
+      "removeTime": 1752718249240
+    },
+    "20c232f8-320d-4cba-82f1-d74965a4c24d": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/gameover.png",
+      "time": 1711202714000,
+      "removeTime": 1752718249240
+    },
+    "f58e17b0-c932-4f82-81cf-ca158135f47c": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/hero1.png",
+      "time": 1711202714000,
+      "removeTime": 1752718249240
+    },
+    "20e50495-6751-4295-98ad-707747171310": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/hero2.png",
+      "time": 1711202714000,
+      "removeTime": 1752718249241
+    },
+    "a474b62b-4ab7-4fb5-af6c-f6ff844f47c8": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/hero_blowup_n1.png",
+      "time": 1711202714000,
+      "removeTime": 1752718249241
+    },
+    "dc3d795d-2971-4b6a-bd9d-263730d1390b": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/hero_blowup_n2.png",
+      "time": 1711202712000,
+      "removeTime": 1752718249241
+    },
+    "e5ddb139-1b42-436f-bd2d-ef35233c2696": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/hero_blowup_n3.png",
+      "time": 1711202712000,
+      "removeTime": 1752718249241
+    },
+    "2bb66a7c-3d06-41b2-b772-2cadb05c9f12": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/hero_blowup_n4.png",
+      "time": 1711202712000,
+      "removeTime": 1752718249241
+    },
+    "78a8d3c3-b748-4ef9-a58d-69b53de6fb40": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/icon72x72.png",
+      "time": 1711202712000,
+      "removeTime": 1752718249242
+    },
+    "89ebfb31-5797-4eaf-989c-cb21fb8f1f57": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/loading.png",
+      "time": 1711202712000,
+      "removeTime": 1752718249242
+    },
+    "fb2997d6-105a-421f-9b98-64a40f79cd93": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/name.png",
+      "time": 1711202710000,
+      "removeTime": 1752718249242
+    },
+    "3ad0a5c5-1b92-4be1-9a8a-866391e50c17": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/plane.png",
+      "time": 1711202710000,
+      "removeTime": 1752718249243
+    },
+    "42255f63-4cee-45a5-b551-5f3ea66654c7": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/progress.png",
+      "time": 1711202710000,
+      "removeTime": 1752718249243
+    },
+    "d2b96fb4-207f-4924-8c35-0ca9e495c083": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/prop_type_0.png",
+      "time": 1711202708000,
+      "removeTime": 1752718249243
+    },
+    "9e7cd7f1-0eb9-4570-a614-320366a6761e": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/prop_type_1.png",
+      "time": 1711202708000,
+      "removeTime": 1752718249244
+    },
+    "cb184622-f405-4ec3-b56d-7551cfeb549d": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/quit_nor.png",
+      "time": 1711202708000,
+      "removeTime": 1752718249244
+    },
+    "ca2afb96-b14e-420a-a650-40bd89048a7f": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/quit_sel.png",
+      "time": 1711202708000,
+      "removeTime": 1752718249245
+    },
+    "576a1369-b28e-42de-886c-f3b438152469": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/restart_nor.png",
+      "time": 1711202708000,
+      "removeTime": 1752718249245
+    },
+    "afafc6eb-2392-43c0-97c3-d57bd4771689": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/restart_sel.png",
+      "time": 1711202706000,
+      "removeTime": 1752718249245
+    },
+    "44997e0e-8b64-413a-be4f-00b5cbebaba4": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/resume_nor.png",
+      "time": 1711202706000,
+      "removeTime": 1752718249245
+    },
+    "7682f572-f5d9-4444-810c-40606816da9d": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Image/resume_sel.png",
+      "time": 1711202706000,
+      "removeTime": 1752718249245
+    },
+    "6cb6398f-c036-4e12-897f-205260568f60": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/scene.scene",
+      "time": 1752720380475.899,
+      "removeTime": 1752720387749
+    }
+  }
+}
