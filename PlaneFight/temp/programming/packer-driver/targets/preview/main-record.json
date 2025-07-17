@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7751.850292,
+      "mTimestamp": 3208.168334,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -514,7 +514,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 2543611.5175,
+      "mTimestamp": 23451.1955,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -614,6 +614,20 @@
               "column": 89
             }
           }
+        },
+        {
+          "value": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Ememy.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 7
+            },
+            "end": {
+              "line": 11,
+              "column": 89
+            }
+          }
         }
       ],
       "type": "esm",
@@ -664,6 +678,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/BgBox.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Ememy.ts"
           },
           "messages": []
         }
@@ -1232,7 +1253,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1752718026366,
+      "mTimestamp": 1752722965698,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1240,7 +1261,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/BgBox.ts": {
       "mTimestamp": {
-        "mtime": 1752720568801.1067,
+        "mtime": 1752720883238.9092,
         "uuid": "e7674a95-b425-4e84-b14b-569100f394cb"
       },
       "chunkId": "69696d97d660478b251fb8d990d1d20cfa85859e",
@@ -1261,6 +1282,110 @@
             "end": {
               "line": 1,
               "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Ememy.ts": {
+      "mTimestamp": {
+        "mtime": 1752721195136.5645,
+        "uuid": "70755476-15f9-41c6-9470-be63e30c18ad"
+      },
+      "chunkId": "0df352368df4cd5bfdc7f8b733661edc583c5ca8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Ememy.ts": {
+      "mTimestamp": {
+        "mtime": 1752722988371.1182,
+        "uuid": "70755476-15f9-41c6-9470-be63e30c18ad"
+      },
+      "chunkId": "89cc598b7c1ef5cbe0bedb648e745cc66d9d9747",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 77
+            },
+            "end": {
+              "line": 1,
+              "column": 81
             }
           }
         }

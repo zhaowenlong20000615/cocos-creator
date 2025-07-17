@@ -1570,10 +1570,14 @@
     "value": {
       "depends": [
         "2fda4d65-a1e9-4078-8250-de49b04cdc34",
-        "52dd71e9-e8ad-469f-b2e4-8cad37987fcd@f9941"
+        "52dd71e9-e8ad-469f-b2e4-8cad37987fcd@f9941",
+        "74b22468-4570-4af7-b957-72b163a29c91",
+        "1983cab6-6af2-4c36-90da-682e683ae01a",
+        "20075844-6ebf-43ae-b7cf-b263c7261ef4@f9941"
       ],
       "dependScripts": [
-        "e7674a95-b425-4e84-b14b-569100f394cb"
+        "e7674a95-b425-4e84-b14b-569100f394cb",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
       ]
     },
     "versionCode": 1
@@ -1586,6 +1590,41 @@
   "6cb6398f-c036-4e12-897f-205260568f60": {
     "url": "db://assets/scene.scene",
     "value": {},
+    "versionCode": 1
+  },
+  "70755476-15f9-41c6-9470-be63e30c18ad": {
+    "url": "db://assets/Scripts/Ememy.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1983cab6-6af2-4c36-90da-682e683ae01a": {
+    "url": "db://assets/Prefabs/enemy0.prefab",
+    "value": {
+      "depends": [
+        "19b9e7b0-907d-4135-aa9b-392e1874ebf1@f9941",
+        "1983cab6-6af2-4c36-90da-682e683ae01a"
+      ],
+      "dependScripts": [
+        "70755476-15f9-41c6-9470-be63e30c18ad"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2bf98a85-7dcf-4a94-a1b1-a4355492194c": {
+    "url": "db://assets/Prefabs/enemy1.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "74b22468-4570-4af7-b957-72b163a29c91": {
+    "url": "db://assets/Prefabs/enemy1.prefab",
+    "value": {
+      "depends": [
+        "19284360-f056-407b-b988-565e7ca43ca0@f9941"
+      ],
+      "dependScripts": [
+        "70755476-15f9-41c6-9470-be63e30c18ad"
+      ]
+    },
     "versionCode": 1
   }
 }
