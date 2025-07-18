@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, instantiate, math, Node, Prefab, Vec3, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _crd, ccclass, property, Ememy;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Vec3, _dec, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _class3, _crd, ccclass, property, Enemy;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -16,10 +16,6 @@ System.register(["cc"], function (_export, _context) {
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
-      instantiate = _cc.instantiate;
-      math = _cc.math;
-      Node = _cc.Node;
-      Prefab = _cc.Prefab;
       Vec3 = _cc.Vec3;
     }],
     execute: function () {
@@ -27,16 +23,16 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "70755R2FflBxpRwvmPjDBit", "Ememy", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'instantiate', 'math', 'Node', 'Prefab', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Component', 'instantiate', 'log', 'math', 'Node', 'Prefab', 'Vec3']);
 
       ({
         ccclass,
         property
       } = _decorator);
 
-      _export("Ememy", Ememy = (_dec = ccclass('Ememy'), _dec2 = property(Prefab), _dec3 = property(Node), _dec(_class = (_class2 = class Ememy extends Component {
-        constructor(...args) {
-          super(...args);
+      _export("Enemy", Enemy = (_dec = ccclass('Enemy'), _dec(_class = (_class2 = (_class3 = class Enemy extends Component {
+        constructor() {
+          super();
 
           _initializerDefineProperty(this, "speed", _descriptor, this);
 
@@ -45,32 +41,21 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "minX", _descriptor3, this);
 
           _initializerDefineProperty(this, "pos", _descriptor4, this);
-
-          _initializerDefineProperty(this, "createTime", _descriptor5, this);
-
-          _initializerDefineProperty(this, "ememyPrefab", _descriptor6, this);
-
-          _initializerDefineProperty(this, "parentNode", _descriptor7, this);
         }
 
-        onLoad() {
-          this.schedule(this.createEmemy, this.createTime);
-        }
+        static getInstance() {
+          if (!Enemy._instance) {
+            Enemy._instance = new Enemy();
+          }
 
-        onDestroy() {
-          this.unschedule(this.createEmemy);
+          return Enemy._instance;
         }
 
         update(deltaTime) {
           this.node.setPosition(this.node.position.x, this.node.position.y - this.speed * deltaTime, this.node.position.z);
         }
 
-        createEmemy() {
-          const ememy = instantiate(this.ememyPrefab);
-          ememy.setPosition(math.randomRangeInt(this.minX, this.maxX), this.node.position.y, this.node.position.z); // this.parentNode.addChild(ememy);
-        }
-
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "speed", [property], {
+      }, _class3._instance = null, _class3), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "speed", [property], {
         configurable: true,
         enumerable: true,
         writable: true,
@@ -97,27 +82,6 @@ System.register(["cc"], function (_export, _context) {
         writable: true,
         initializer: function () {
           return new Vec3(0, 0, 0);
-        }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "createTime", [property], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return 1;
-        }
-      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "ememyPrefab", [_dec2], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
-        }
-      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "parentNode", [_dec3], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
         }
       })), _class2)) || _class));
 

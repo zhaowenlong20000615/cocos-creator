@@ -1571,13 +1571,15 @@
       "depends": [
         "2fda4d65-a1e9-4078-8250-de49b04cdc34",
         "52dd71e9-e8ad-469f-b2e4-8cad37987fcd@f9941",
-        "74b22468-4570-4af7-b957-72b163a29c91",
         "1983cab6-6af2-4c36-90da-682e683ae01a",
-        "20075844-6ebf-43ae-b7cf-b263c7261ef4@f9941"
+        "20075844-6ebf-43ae-b7cf-b263c7261ef4@f9941",
+        "74b22468-4570-4af7-b957-72b163a29c91"
       ],
       "dependScripts": [
         "e7674a95-b425-4e84-b14b-569100f394cb",
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "92db9fc8-3289-4a05-8403-d965f95f1cfc",
+        "04b8d335-2cbf-453a-9fb4-20b7d50b6131"
       ]
     },
     "versionCode": 1
@@ -1593,7 +1595,7 @@
     "versionCode": 1
   },
   "70755476-15f9-41c6-9470-be63e30c18ad": {
-    "url": "db://assets/Scripts/Ememy.ts",
+    "url": "db://assets/Scripts/Enemy.ts",
     "value": {},
     "versionCode": 1
   },
@@ -1601,8 +1603,7 @@
     "url": "db://assets/Prefabs/enemy0.prefab",
     "value": {
       "depends": [
-        "19b9e7b0-907d-4135-aa9b-392e1874ebf1@f9941",
-        "1983cab6-6af2-4c36-90da-682e683ae01a"
+        "19b9e7b0-907d-4135-aa9b-392e1874ebf1@f9941"
       ],
       "dependScripts": [
         "70755476-15f9-41c6-9470-be63e30c18ad"
@@ -1625,6 +1626,26 @@
         "70755476-15f9-41c6-9470-be63e30c18ad"
       ]
     },
+    "versionCode": 1
+  },
+  "04b8d335-2cbf-453a-9fb4-20b7d50b6131": {
+    "url": "db://assets/Scripts/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b02ba5fd-0ebc-4543-a202-c53544d62788": {
+    "url": "db://assets/Scripts/NewComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "92db9fc8-3289-4a05-8403-d965f95f1cfc": {
+    "url": "db://assets/Scripts/EnemyBox.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "092e5d08-316c-463d-ab60-11b7e69d99f8": {
+    "url": "db://assets/Scripts/EmemyBox.ts",
+    "value": {},
     "versionCode": 1
   }
 }

@@ -157,11 +157,6 @@
       "z": 0
     },
     "createTime": 1,
-    "ememyPrefab": {
-      "__uuid__": "1983cab6-6af2-4c36-90da-682e683ae01a",
-      "__expectedType__": "cc.Prefab"
-    },
-    "parentNode": null,
     "_id": ""
   },
   {

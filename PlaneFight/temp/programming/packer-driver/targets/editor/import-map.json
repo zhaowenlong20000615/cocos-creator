@@ -9,10 +9,14 @@
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "./chunks/60/60dfea53e1c17502cf4f0661946a964ad3ff0296.js",
     "file:///Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/c1/c107986e77a987fe49f2e4b1c0dcc489194dbd3f.js",
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/BgBox.ts": "./chunks/69/69696d97d660478b251fb8d990d1d20cfa85859e.js",
-    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Ememy.ts": "./chunks/89/89cc598b7c1ef5cbe0bedb648e745cc66d9d9747.js"
+    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts": "./chunks/d8/d8586552f56669595686880f8705c28e0d8db40c.js",
+    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts": "./chunks/57/579d7f8db28b8a04383f1e48e987164bb74201c6.js",
+    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/GameManager.ts": "./chunks/47/4775cf1ac62485fadd4b954b9141bfbcf0a45376.js"
   },
   "scopes": {
-    "./chunks/89/89cc598b7c1ef5cbe0bedb648e745cc66d9d9747.js": {
+    "./chunks/47/4775cf1ac62485fadd4b954b9141bfbcf0a45376.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/57/579d7f8db28b8a04383f1e48e987164bb74201c6.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -63,6 +67,12 @@
       "__unresolved_8": "cce:/internal/x/cc-fu/2d",
       "__unresolved_9": "cce:/internal/x/cc-fu/sorting"
     },
+    "./chunks/57/579d7f8db28b8a04383f1e48e987164bb74201c6.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/d8/d8586552f56669595686880f8705c28e0d8db40c.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
     "./chunks/69/69696d97d660478b251fb8d990d1d20cfa85859e.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
@@ -102,7 +112,9 @@
       "__unresolved_4": "./chunks/60/60dfea53e1c17502cf4f0661946a964ad3ff0296.js",
       "__unresolved_5": "./chunks/c1/c107986e77a987fe49f2e4b1c0dcc489194dbd3f.js",
       "__unresolved_6": "./chunks/69/69696d97d660478b251fb8d990d1d20cfa85859e.js",
-      "__unresolved_7": "./chunks/89/89cc598b7c1ef5cbe0bedb648e745cc66d9d9747.js"
+      "__unresolved_7": "./chunks/d8/d8586552f56669595686880f8705c28e0d8db40c.js",
+      "__unresolved_8": "./chunks/57/579d7f8db28b8a04383f1e48e987164bb74201c6.js",
+      "__unresolved_9": "./chunks/47/4775cf1ac62485fadd4b954b9141bfbcf0a45376.js"
     }
   }
 }

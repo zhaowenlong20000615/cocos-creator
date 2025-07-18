@@ -530,14 +530,14 @@
       "time": 1752718256568.1233
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts": {
-      "time": 1752721212449.6636,
+      "time": 1752807662012.4456,
       "uuid": "9c80e3d5-9d36-4291-b306-f836a59185b0"
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scene.meta": {
       "time": 1752718322157.195
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scene": {
-      "time": 1752723236212.5562,
+      "time": 1752809896949.7998,
       "uuid": "2fda4d65-a1e9-4078-8250-de49b04cdc34"
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/BgBox.ts.meta": {
@@ -547,26 +547,40 @@
       "time": 1752720883238.9092,
       "uuid": "e7674a95-b425-4e84-b14b-569100f394cb"
     },
-    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Ememy.ts.meta": {
-      "time": 1752721195138.1191
-    },
-    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Ememy.ts": {
-      "time": 1752722988371.1182,
-      "uuid": "70755476-15f9-41c6-9470-be63e30c18ad"
-    },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/enemy0.prefab.meta": {
       "time": 1752722278220.3484
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/enemy0.prefab": {
-      "time": 1752723001411.1086,
+      "time": 1752809972426.2822,
       "uuid": "1983cab6-6af2-4c36-90da-682e683ae01a"
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/enemy1.prefab.meta": {
       "time": 1752723149305.0889
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/enemy1.prefab": {
-      "time": 1752723161389.4993,
+      "time": 1752809974570.4485,
       "uuid": "74b22468-4570-4af7-b957-72b163a29c91"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/GameManager.ts.meta": {
+      "time": 1752804234940.8796
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/GameManager.ts": {
+      "time": 1752810048769.9976,
+      "uuid": "04b8d335-2cbf-453a-9fb4-20b7d50b6131"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts.meta": {
+      "time": 1752805664421.745
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts": {
+      "time": 1752810381741.515,
+      "uuid": "92db9fc8-3289-4a05-8403-d965f95f1cfc"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts.meta": {
+      "time": 1752721195138.1191
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts": {
+      "time": 1752810404455.6155,
+      "uuid": "70755476-15f9-41c6-9470-be63e30c18ad"
     }
   },
   "missing": {
@@ -941,14 +955,29 @@
       "removeTime": 1752720387749
     },
     "70755476-15f9-41c6-9470-be63e30c18ad": {
-      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Ememy.ts",
-      "time": 1752721195136.5645,
-      "removeTime": 1752721212450
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Ememy.ts",
+      "time": 1752807596145.5444,
+      "removeTime": 1752807647013
     },
     "2bf98a85-7dcf-4a94-a1b1-a4355492194c": {
       "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/enemy1.prefab",
       "time": 1752723054880.1501,
       "removeTime": 1752723062322
+    },
+    "b02ba5fd-0ebc-4543-a202-c53544d62788": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/NewComponent.ts",
+      "time": 1752805632896.5068,
+      "removeTime": 1752805641268
+    },
+    "92db9fc8-3289-4a05-8403-d965f95f1cfc": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EmemyBox.ts",
+      "time": 1752807112453.038,
+      "removeTime": 1752807559894
+    },
+    "092e5d08-316c-463d-ab60-11b7e69d99f8": {
+      "path": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EmemyBox.ts",
+      "time": 1752807610426.567,
+      "removeTime": 1752807662013
     }
   }
 }

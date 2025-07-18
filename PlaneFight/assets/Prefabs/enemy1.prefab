@@ -156,9 +156,7 @@
       "y": 485,
       "z": 0
     },
-    "createTime": 1,
-    "ememyPrefab": null,
-    "parentNode": null,
+    "createTime": 3,
     "_id": ""
   },
   {
@@ -174,7 +172,6 @@
       "__id__": 0
     },
     "fileId": "74ujlAFABBu5o8kCusnc9x",
-    "instance": null,
     "targetOverrides": null
   }
 ]
