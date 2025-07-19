@@ -29,11 +29,18 @@ export class EnemyBox extends Component {
 
   createEnemy() {
     this.createMoreTypeEnemy(this.ememy0Prefab);
+    this.createMoreTypeEnemy(this.ememy1Prefab);
+    this.createMoreTypeEnemy(this.ememy2Prefab);
   }
 
   createMoreTypeEnemy(prefab: Prefab) {
     const ememy = instantiate(prefab);
     const enemyComponent = ememy.getComponent('Enemy') as any;
+    const pos = enemyComponent.pos;
+    const minX = enemyComponent.minX;
+    const maxX = enemyComponent.maxX;
+    const x = math.randomRange(minX, maxX);
+    ememy.setPosition(x, pos.y, pos.z);
     this.node.addChild(ememy);
     this.scheduleOnce(() => this.createMoreTypeEnemy(prefab), enemyComponent.createTime);
   }

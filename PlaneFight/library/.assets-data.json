@@ -1571,12 +1571,15 @@
       "depends": [
         "2fda4d65-a1e9-4078-8250-de49b04cdc34",
         "52dd71e9-e8ad-469f-b2e4-8cad37987fcd@f9941",
+        "f58e17b0-c932-4f82-81cf-ca158135f47c@f9941",
+        "f1583a37-718a-4a94-bedd-4bf16c54d1cd",
         "1983cab6-6af2-4c36-90da-682e683ae01a",
-        "20075844-6ebf-43ae-b7cf-b263c7261ef4@f9941",
+        "f23ab7a8-1e0f-468d-8276-d2272c442545",
         "74b22468-4570-4af7-b957-72b163a29c91"
       ],
       "dependScripts": [
         "e7674a95-b425-4e84-b14b-569100f394cb",
+        "9f566669-9aa2-4ee0-bdb9-35157895a79d",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "92db9fc8-3289-4a05-8403-d965f95f1cfc",
         "04b8d335-2cbf-453a-9fb4-20b7d50b6131"
@@ -1645,6 +1648,38 @@
   },
   "092e5d08-316c-463d-ab60-11b7e69d99f8": {
     "url": "db://assets/Scripts/EmemyBox.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f23ab7a8-1e0f-468d-8276-d2272c442545": {
+    "url": "db://assets/Prefabs/enemy2.prefab",
+    "value": {
+      "depends": [
+        "20075844-6ebf-43ae-b7cf-b263c7261ef4@f9941"
+      ],
+      "dependScripts": [
+        "70755476-15f9-41c6-9470-be63e30c18ad"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2cf7fcbf-7600-4eed-8579-fbe9c89620a6": {
+    "url": "db://assets/Animations",
+    "value": {},
+    "versionCode": 1
+  },
+  "f1583a37-718a-4a94-bedd-4bf16c54d1cd": {
+    "url": "db://assets/Animations/Hero.anim",
+    "value": {
+      "depends": [
+        "f58e17b0-c932-4f82-81cf-ca158135f47c@f9941",
+        "20e50495-6751-4295-98ad-707747171310@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9f566669-9aa2-4ee0-bdb9-35157895a79d": {
+    "url": "db://assets/Scripts/Player.ts",
     "value": {},
     "versionCode": 1
   }

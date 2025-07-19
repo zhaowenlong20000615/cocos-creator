@@ -32,8 +32,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       } = _decorator);
 
       _export("GameManager", GameManager = (_dec = ccclass('GameManager'), _dec(_class = class GameManager extends Component {
-        onLoad() {}
-
         start() {
           this.createEnemy();
         }

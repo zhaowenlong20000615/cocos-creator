@@ -55,6 +55,10 @@ System.register(["cc"], function (_export, _context) {
 
         update(deltaTime) {
           this.node.setPosition(this.node.position.x, this.node.position.y - this.speed * deltaTime, this.node.position.z);
+
+          if (this.node.position.y < -600) {
+            this.node.destroy();
+          }
         }
 
       }, _class3._instance = null, _class3), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "speed", [property], {

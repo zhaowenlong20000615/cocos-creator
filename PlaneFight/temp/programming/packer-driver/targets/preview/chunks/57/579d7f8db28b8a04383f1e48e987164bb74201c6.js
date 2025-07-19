@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, instantiate, Prefab, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _class3, _crd, ccclass, property, EnemyBox;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, instantiate, math, Prefab, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _class3, _crd, ccclass, property, EnemyBox;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,6 +17,7 @@ System.register(["cc"], function (_export, _context) {
       _decorator = _cc._decorator;
       Component = _cc.Component;
       instantiate = _cc.instantiate;
+      math = _cc.math;
       Prefab = _cc.Prefab;
     }],
     execute: function () {
@@ -56,11 +57,18 @@ System.register(["cc"], function (_export, _context) {
 
         createEnemy() {
           this.createMoreTypeEnemy(this.ememy0Prefab);
+          this.createMoreTypeEnemy(this.ememy1Prefab);
+          this.createMoreTypeEnemy(this.ememy2Prefab);
         }
 
         createMoreTypeEnemy(prefab) {
           var ememy = instantiate(prefab);
           var enemyComponent = ememy.getComponent('Enemy');
+          var pos = enemyComponent.pos;
+          var minX = enemyComponent.minX;
+          var maxX = enemyComponent.maxX;
+          var x = math.randomRange(minX, maxX);
+          ememy.setPosition(x, pos.y, pos.z);
           this.node.addChild(ememy);
           this.scheduleOnce(() => this.createMoreTypeEnemy(prefab), enemyComponent.createTime);
         }

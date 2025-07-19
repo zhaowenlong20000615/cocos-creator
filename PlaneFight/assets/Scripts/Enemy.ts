@@ -33,6 +33,10 @@ export class Enemy extends Component {
 
   update(deltaTime: number) {
     this.node.setPosition(this.node.position.x, this.node.position.y - this.speed * deltaTime, this.node.position.z);
+
+    if (this.node.position.y < -600) {
+      this.node.destroy();
+    }
   }
 
 }

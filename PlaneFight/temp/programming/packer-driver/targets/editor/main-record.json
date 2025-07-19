@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 3290.018958,
+      "mTimestamp": 3257.68175,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 7032275.925875,
+      "mTimestamp": 5373363.531,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1118,6 +1118,20 @@
               "column": 1459
             }
           }
+        },
+        {
+          "value": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1475
+            },
+            "end": {
+              "line": 5,
+              "column": 1558
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1189,6 +1203,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts"
           },
           "messages": []
         }
@@ -1757,7 +1778,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1752803398761,
+      "mTimestamp": 1752889514785,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1921,7 +1942,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1752810048769.9976,
+        "mtime": 1752810510361.2444,
         "uuid": "04b8d335-2cbf-453a-9fb4-20b7d50b6131"
       },
       "chunkId": "4775cf1ac62485fadd4b954b9141bfbcf0a45376",
@@ -2062,7 +2083,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts": {
       "mTimestamp": {
-        "mtime": 1752810381741.515,
+        "mtime": 1752890453254.9443,
         "uuid": "92db9fc8-3289-4a05-8403-d965f95f1cfc"
       },
       "chunkId": "579d7f8db28b8a04383f1e48e987164bb74201c6",
@@ -2114,7 +2135,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1752810404455.6155,
+        "mtime": 1752893021025.407,
         "uuid": "70755476-15f9-41c6-9470-be63e30c18ad"
       },
       "chunkId": "d8586552f56669595686880f8705c28e0d8db40c",
@@ -2135,6 +2156,58 @@
             "end": {
               "line": 1,
               "column": 86
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts": {
+      "mTimestamp": {
+        "mtime": 1752894885240.4832,
+        "uuid": "9f566669-9aa2-4ee0-bdb9-35157895a79d"
+      },
+      "chunkId": "20112dc415567f5c86e469832b866b79db5e5166",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 76
+            },
+            "end": {
+              "line": 1,
+              "column": 80
             }
           }
         }
