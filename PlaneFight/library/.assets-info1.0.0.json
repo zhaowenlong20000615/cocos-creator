@@ -12,7 +12,7 @@
       "time": 1752718233559.3381
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs": {
-      "time": 1753152875076.0461,
+      "time": 1753154859988.5605,
       "uuid": "109339e0-9c46-4939-a6cb-31bb5ae6cc7a"
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios.meta": {
@@ -530,14 +530,14 @@
       "time": 1752718256568.1233
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts": {
-      "time": 1753150744876.5183,
+      "time": 1753154720119.8677,
       "uuid": "9c80e3d5-9d36-4291-b306-f836a59185b0"
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scene.meta": {
       "time": 1752718322157.195
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scene": {
-      "time": 1753154303543.9846,
+      "time": 1753154983147.9507,
       "uuid": "2fda4d65-a1e9-4078-8250-de49b04cdc34"
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/BgBox.ts.meta": {
@@ -630,6 +630,20 @@
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/bullet2.prefab": {
       "time": 1753153928746.958,
       "uuid": "f67b8838-cf35-4691-9e93-25392f85bd05"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Reward.ts.meta": {
+      "time": 1753154720121.2654
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Reward.ts": {
+      "time": 1753154933537.3057,
+      "uuid": "b847753f-3533-405a-bb50-07eb17f0090b"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/TwoBullet.prefab.meta": {
+      "time": 1753154859990.7234
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/TwoBullet.prefab": {
+      "time": 1753154978579.9897,
+      "uuid": "079201a9-e808-4062-a800-65b69694b455"
     }
   },
   "missing": {

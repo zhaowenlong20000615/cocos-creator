@@ -587,6 +587,18 @@
       },
       "timestamp": 1753151794416
     },
+    "20112dc415567f5c86e469832b866b79db5e5166": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1753154339627
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -614,6 +626,13 @@
           "resolved": {
             "type": "chunk",
             "id": "20112dc415567f5c86e469832b866b79db5e5166"
+          },
+          "messages": []
+        },
+        "__unresolved_12": {
+          "resolved": {
+            "type": "chunk",
+            "id": "82ed9132fb87fa2f5c2dd8479c4f714c29ff0229"
           },
           "messages": []
         },
@@ -674,9 +693,9 @@
           "messages": []
         }
       },
-      "timestamp": 1753154339609
+      "timestamp": 1753154934570
     },
-    "20112dc415567f5c86e469832b866b79db5e5166": {
+    "82ed9132fb87fa2f5c2dd8479c4f714c29ff0229": {
       "imports": {
         "cc": {
           "resolved": {
@@ -686,7 +705,7 @@
           "messages": []
         }
       },
-      "timestamp": 1753154339627
+      "timestamp": 1753154934582
     }
   },
   "entries": {
@@ -703,6 +722,7 @@
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts": "d8586552f56669595686880f8705c28e0d8db40c",
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts": "579d7f8db28b8a04383f1e48e987164bb74201c6",
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/GameManager.ts": "4775cf1ac62485fadd4b954b9141bfbcf0a45376",
-    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts": "20112dc415567f5c86e469832b866b79db5e5166"
+    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts": "20112dc415567f5c86e469832b866b79db5e5166",
+    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Reward.ts": "82ed9132fb87fa2f5c2dd8479c4f714c29ff0229"
   }
 }

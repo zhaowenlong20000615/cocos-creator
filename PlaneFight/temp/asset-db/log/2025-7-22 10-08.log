@@ -2449,3 +2449,153 @@
 2025-7-22 11:19:43-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
 2025-7-22 11:19:43-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:204.64MB, end 204.76MB, increase: 123.57KB
 2025-7-22 11:19:43-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 15%
+2025-7-22 11:21:03-debug: refresh db internal success
+2025-7-22 11:21:03-debug: refresh db assets success
+2025-7-22 11:21:03-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:21:03-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:21:03-debug: asset-db:refresh-all-database (42ms)
+2025-7-22 11:21:03-debug: asset-db:worker-effect-data-processing (1ms)
+2025-7-22 11:21:03-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-7-22 11:21:05-debug: Query all assets info in project
+2025-7-22 11:21:05-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-7-22 11:21:05-debug: Skip compress image, progress: 0%
+2025-7-22 11:21:05-debug: Init all bundles start..., progress: 0%
+2025-7-22 11:21:05-debug: 查询 Asset Bundle start, progress: 0%
+2025-7-22 11:21:05-debug: // ---- build task 查询 Asset Bundle ----
+2025-7-22 11:21:05-debug: Num of bundles: 2..., progress: 0%
+2025-7-22 11:21:05-debug: Init bundle root assets start..., progress: 0%
+2025-7-22 11:21:05-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
+2025-7-22 11:21:05-debug:   Number of all scripts: 12
+2025-7-22 11:21:05-debug:   Number of other assets: 502
+2025-7-22 11:21:05-debug:   Number of all scenes: 1
+2025-7-22 11:21:05-debug: Init bundle root assets success..., progress: 0%
+2025-7-22 11:21:05-debug: // ---- build task 查询 Asset Bundle ---- (1ms)
+2025-7-22 11:21:05-log: run build task 查询 Asset Bundle success in 1 ms√, progress: 5%
+2025-7-22 11:21:05-debug: // ---- build task 查询 Asset Bundle ----
+2025-7-22 11:21:05-debug: 查询 Asset Bundle start, progress: 5%
+2025-7-22 11:21:05-debug: [Build Memory track]: 查询 Asset Bundle start:205.63MB, end 205.32MB, increase: -316.15KB
+2025-7-22 11:21:05-debug: // ---- build task 查询 Asset Bundle ---- (1ms)
+2025-7-22 11:21:05-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-7-22 11:21:05-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-7-22 11:21:05-log: run build task 查询 Asset Bundle success in 1 ms√, progress: 10%
+2025-7-22 11:21:05-debug: [Build Memory track]: 查询 Asset Bundle start:205.34MB, end 205.45MB, increase: 106.67KB
+2025-7-22 11:21:05-log: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2025-7-22 11:21:05-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-7-22 11:21:05-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-7-22 11:21:05-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:205.47MB, end 205.49MB, increase: 16.53KB
+2025-7-22 11:21:05-log: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-7-22 11:21:05-debug: [Build Memory track]: 填充脚本数据到 settings.json start:205.51MB, end 205.53MB, increase: 15.27KB
+2025-7-22 11:21:05-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-7-22 11:21:05-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-7-22 11:21:05-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 15%
+2025-7-22 11:21:05-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-7-22 11:21:05-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:205.55MB, end 205.68MB, increase: 134.70KB
+2025-7-22 11:22:11-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scenebackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:22:11-debug: asset-db:reimport-asset2fda4d65-a1e9-4078-8250-de49b04cdc34 (5ms)
+2025-7-22 11:22:20-debug: refresh db internal success
+2025-7-22 11:22:20-debug: refresh db assets success
+2025-7-22 11:22:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:22:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:22:20-debug: asset-db:refresh-all-database (33ms)
+2025-7-22 11:22:20-debug: asset-db:worker-effect-data-processing (1ms)
+2025-7-22 11:22:20-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-7-22 11:23:20-debug: refresh db internal success
+2025-7-22 11:23:20-debug: refresh db assets success
+2025-7-22 11:23:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:23:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:23:20-debug: asset-db:refresh-all-database (28ms)
+2025-7-22 11:23:20-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-7-22 11:25:20-debug: start refresh asset from /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Reward.ts...
+2025-7-22 11:25:20-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Reward.tsbackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:25:20-debug: refresh asset /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts success
+2025-7-22 11:25:20-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scriptsbackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:25:34-debug: refresh db internal success
+2025-7-22 11:25:34-debug: refresh db assets success
+2025-7-22 11:25:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:25:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:25:34-debug: asset-db:refresh-all-database (41ms)
+2025-7-22 11:25:34-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-7-22 11:25:36-debug: refresh db internal success
+2025-7-22 11:25:36-debug: refresh db assets success
+2025-7-22 11:25:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:25:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:25:36-debug: asset-db:refresh-all-database (30ms)
+2025-7-22 11:25:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-7-22 11:25:37-debug: refresh db internal success
+2025-7-22 11:25:37-debug: refresh db assets success
+2025-7-22 11:25:37-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:25:37-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:25:37-debug: asset-db:refresh-all-database (27ms)
+2025-7-22 11:25:39-debug: refresh db internal success
+2025-7-22 11:25:39-debug: refresh db assets success
+2025-7-22 11:25:39-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:25:39-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:25:39-debug: asset-db:refresh-all-database (17ms)
+2025-7-22 11:25:41-debug: refresh db internal success
+2025-7-22 11:25:41-debug: refresh db assets success
+2025-7-22 11:25:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:25:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:25:41-debug: asset-db:refresh-all-database (17ms)
+2025-7-22 11:25:42-warn: 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+2025-7-22 11:25:47-debug: refresh db internal success
+2025-7-22 11:25:47-debug: refresh db assets success
+2025-7-22 11:25:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:25:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:25:47-debug: asset-db:refresh-all-database (29ms)
+2025-7-22 11:26:16-debug: refresh db internal success
+2025-7-22 11:26:16-debug: refresh db assets success
+2025-7-22 11:26:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:26:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:26:16-debug: asset-db:refresh-all-database (29ms)
+2025-7-22 11:26:16-debug: asset-db:worker-effect-data-processing (1ms)
+2025-7-22 11:26:16-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-7-22 11:27:11-debug: refresh db internal success
+2025-7-22 11:27:11-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Reward.tsbackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:27:11-debug: refresh db assets success
+2025-7-22 11:27:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:27:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:27:11-debug: asset-db:refresh-all-database (42ms)
+2025-7-22 11:27:11-debug: asset-db:worker-effect-data-processing (1ms)
+2025-7-22 11:27:11-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-7-22 11:27:39-debug: start refresh asset from /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/TwoBullet.prefab...
+2025-7-22 11:27:39-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/TwoBullet.prefabbackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:27:39-debug: refresh asset /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs success
+2025-7-22 11:27:40-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabsbackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:27:51-debug: refresh db internal success
+2025-7-22 11:27:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:27:51-debug: refresh db assets success
+2025-7-22 11:27:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:27:51-debug: asset-db:refresh-all-database (34ms)
+2025-7-22 11:28:38-debug: refresh db internal success
+2025-7-22 11:28:38-debug: refresh db assets success
+2025-7-22 11:28:38-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:28:38-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:28:38-debug: asset-db:refresh-all-database (23ms)
+2025-7-22 11:28:38-debug: asset-db:worker-effect-data-processing (1ms)
+2025-7-22 11:28:38-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-7-22 11:28:54-debug: refresh db internal success
+2025-7-22 11:28:54-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Reward.tsbackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:28:54-debug: refresh db assets success
+2025-7-22 11:28:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:28:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:28:54-debug: asset-db:refresh-all-database (28ms)
+2025-7-22 11:28:54-debug: asset-db:worker-effect-data-processing (1ms)
+2025-7-22 11:28:54-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-7-22 11:29:32-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scenebackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:29:32-debug: asset-db:reimport-asset2fda4d65-a1e9-4078-8250-de49b04cdc34 (7ms)
+2025-7-22 11:29:35-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scenebackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:29:35-debug: asset-db:reimport-asset2fda4d65-a1e9-4078-8250-de49b04cdc34 (4ms)
+2025-7-22 11:29:35-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scenebackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:29:35-debug: asset-db:reimport-asset2fda4d65-a1e9-4078-8250-de49b04cdc34 (3ms)
+2025-7-22 11:29:38-debug: start refresh asset from /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/TwoBullet.prefab...
+2025-7-22 11:29:38-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/TwoBullet.prefabbackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:29:38-debug: refresh asset /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs success
+2025-7-22 11:29:43-debug: %cImport%c: /Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scenebackground: #aaff85; color: #000;color: #000;
+2025-7-22 11:29:43-debug: asset-db:reimport-asset2fda4d65-a1e9-4078-8250-de49b04cdc34 (8ms)
+2025-7-22 11:29:45-debug: refresh db internal success
+2025-7-22 11:29:45-debug: refresh db assets success
+2025-7-22 11:29:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-7-22 11:29:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-7-22 11:29:45-debug: asset-db:refresh-all-database (17ms)
+2025-7-22 11:29:45-debug: asset-db:worker-effect-data-processing (1ms)
+2025-7-22 11:29:45-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
