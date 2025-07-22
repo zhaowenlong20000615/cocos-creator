@@ -1573,6 +1573,8 @@
         "52dd71e9-e8ad-469f-b2e4-8cad37987fcd@f9941",
         "f58e17b0-c932-4f82-81cf-ca158135f47c@f9941",
         "f1583a37-718a-4a94-bedd-4bf16c54d1cd",
+        "13ccfaba-f106-4cc4-82f9-186df7dd0073",
+        "f67b8838-cf35-4691-9e93-25392f85bd05",
         "1983cab6-6af2-4c36-90da-682e683ae01a",
         "f23ab7a8-1e0f-468d-8276-d2272c442545",
         "74b22468-4570-4af7-b957-72b163a29c91"
@@ -1681,6 +1683,35 @@
   "9f566669-9aa2-4ee0-bdb9-35157895a79d": {
     "url": "db://assets/Scripts/Player.ts",
     "value": {},
+    "versionCode": 1
+  },
+  "234de3c2-48fe-404c-a258-2557a51e4152": {
+    "url": "db://assets/Scripts/Bullet.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "13ccfaba-f106-4cc4-82f9-186df7dd0073": {
+    "url": "db://assets/Prefabs/bullet1.prefab",
+    "value": {
+      "depends": [
+        "2d0f5205-4b93-4659-abf2-577fb54ba976@f9941"
+      ],
+      "dependScripts": [
+        "234de3c2-48fe-404c-a258-2557a51e4152"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f67b8838-cf35-4691-9e93-25392f85bd05": {
+    "url": "db://assets/Prefabs/bullet2.prefab",
+    "value": {
+      "depends": [
+        "cb655f5b-51dc-4456-a2fb-1b1a24a72629@f9941"
+      ],
+      "dependScripts": [
+        "234de3c2-48fe-404c-a258-2557a51e4152"
+      ]
+    },
     "versionCode": 1
   }
 }

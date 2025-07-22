@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 3257.68175,
+      "mTimestamp": 3327.320042,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 5373363.531,
+      "mTimestamp": 4240258.21175,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1078,7 +1078,7 @@
           }
         },
         {
-          "value": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts",
+          "value": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Bullet.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -1087,49 +1087,63 @@
             },
             "end": {
               "line": 5,
-              "column": 1254
+              "column": 1255
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1271
+            },
+            "end": {
+              "line": 5,
+              "column": 1353
             }
           }
         },
         {
           "value": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts",
-          "resolved": "__unresolved_8",
+          "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1270
+              "column": 1369
             },
             "end": {
               "line": 5,
-              "column": 1355
+              "column": 1454
             }
           }
         },
         {
           "value": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/GameManager.ts",
-          "resolved": "__unresolved_9",
+          "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1371
+              "column": 1470
             },
             "end": {
               "line": 5,
-              "column": 1459
+              "column": 1558
             }
           }
         },
         {
           "value": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts",
-          "resolved": "__unresolved_10",
+          "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1475
+              "column": 1574
             },
             "end": {
               "line": 5,
-              "column": 1558
+              "column": 1657
             }
           }
         }
@@ -1182,6 +1196,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/BgBox.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Bullet.ts"
           },
           "messages": []
         },
@@ -1778,7 +1799,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1752889514785,
+      "mTimestamp": 1753150100131,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2187,7 +2208,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1752894885240.4832,
+        "mtime": 1753154338692.727,
         "uuid": "9f566669-9aa2-4ee0-bdb9-35157895a79d"
       },
       "chunkId": "20112dc415567f5c86e469832b866b79db5e5166",
@@ -2203,11 +2224,63 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 76
+              "column": 103
             },
             "end": {
               "line": 1,
-              "column": 80
+              "column": 107
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Bullet.ts": {
+      "mTimestamp": {
+        "mtime": 1753151792769.557,
+        "uuid": "234de3c2-48fe-404c-a258-2557a51e4152"
+      },
+      "chunkId": "1a98c701c6f638121a8b8c714f823e2b98507f53",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
             }
           }
         }

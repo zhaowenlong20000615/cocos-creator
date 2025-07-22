@@ -12,7 +12,7 @@
       "time": 1752718233559.3381
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs": {
-      "time": 1752890830222.942,
+      "time": 1753152875076.0461,
       "uuid": "109339e0-9c46-4939-a6cb-31bb5ae6cc7a"
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Audios.meta": {
@@ -530,14 +530,14 @@
       "time": 1752718256568.1233
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts": {
-      "time": 1752893567250.6804,
+      "time": 1753150744876.5183,
       "uuid": "9c80e3d5-9d36-4291-b306-f836a59185b0"
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scene.meta": {
       "time": 1752718322157.195
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scene": {
-      "time": 1752894877428.7197,
+      "time": 1753154303543.9846,
       "uuid": "2fda4d65-a1e9-4078-8250-de49b04cdc34"
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/BgBox.ts.meta": {
@@ -607,8 +607,29 @@
       "time": 1752893567251.7764
     },
     "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts": {
-      "time": 1752894885240.4832,
+      "time": 1753154338692.727,
       "uuid": "9f566669-9aa2-4ee0-bdb9-35157895a79d"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Bullet.ts.meta": {
+      "time": 1753150744877.772
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Bullet.ts": {
+      "time": 1753151792769.557,
+      "uuid": "234de3c2-48fe-404c-a258-2557a51e4152"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/bullet1.prefab.meta": {
+      "time": 1753150938923.8738
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/bullet1.prefab": {
+      "time": 1753153932514.0242,
+      "uuid": "13ccfaba-f106-4cc4-82f9-186df7dd0073"
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/bullet2.prefab.meta": {
+      "time": 1753152875077.7532
+    },
+    "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/bullet2.prefab": {
+      "time": 1753153928746.958,
+      "uuid": "f67b8838-cf35-4691-9e93-25392f85bd05"
     }
   },
   "missing": {
