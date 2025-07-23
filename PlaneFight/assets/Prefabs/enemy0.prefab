@@ -28,10 +28,13 @@
       },
       {
         "__id__": 6
+      },
+      {
+        "__id__": 8
       }
     ],
     "_prefab": {
-      "__id__": 8
+      "__id__": 10
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -157,11 +160,143 @@
       "z": 0
     },
     "createTime": 1,
+    "hp": 1,
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "74p0j3HLBBQYJL7oBMzLCE"
+  },
+  {
+    "__type__": "cc.PolygonCollider2D",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 9
+    },
+    "tag": 1,
+    "_group": 2,
+    "_density": 1,
+    "_sensor": true,
+    "_friction": 0.2,
+    "_restitution": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_points": [
+      {
+        "__type__": "cc.Vec2",
+        "x": -4.5,
+        "y": 19
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -12.5,
+        "y": 18
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -12.5,
+        "y": 12
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -8.5,
+        "y": 10
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -20.5,
+        "y": 10
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -23.5,
+        "y": 7
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -23.5,
+        "y": 3
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -16.5,
+        "y": -4
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -14.5,
+        "y": -4
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -14.5,
+        "y": -7
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -11.5,
+        "y": -7
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -3.5,
+        "y": -16
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 6.5,
+        "y": -15
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 25.5,
+        "y": 4
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 25.5,
+        "y": 7
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 22.5,
+        "y": 10
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 7.5,
+        "y": 10
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 9.5,
+        "y": 12
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 14.5,
+        "y": 13
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 12.5,
+        "y": 19
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "f1FfWf/7BLaoagr9P8dGlG"
   },
   {
     "__type__": "cc.PrefabInfo",

@@ -69,8 +69,10 @@ System.register(["cc"], function (_export, _context) {
           const maxX = enemyComponent.maxX;
           const x = math.randomRange(minX, maxX);
           ememy.setPosition(x, pos.y, pos.z);
-          this.node.addChild(ememy);
-          this.scheduleOnce(() => this.createMoreTypeEnemy(prefab), enemyComponent.createTime);
+          this.scheduleOnce(() => {
+            this.node.addChild(ememy);
+            this.createMoreTypeEnemy(prefab);
+          }, enemyComponent.createTime);
         }
 
       }, _class3._instance = null, _class3), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "ememy0Prefab", [_dec2], {

@@ -63,8 +63,10 @@ System.register(["cc"], function (_export, _context) {
           const createTime = rewardNode.createTime;
           const x = math.randomRange(minX, maxX);
           reward.setPosition(x, y, 0);
-          this.node.addChild(reward);
-          this.scheduleOnce(() => this.createMoreTypeReward(prefab), createTime);
+          this.scheduleOnce(() => {
+            this.node.addChild(reward);
+            this.createMoreTypeReward(prefab);
+          }, createTime);
         }
 
       }, _class3._instance = null, _class3), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "twoBlletPrefab", [_dec2], {

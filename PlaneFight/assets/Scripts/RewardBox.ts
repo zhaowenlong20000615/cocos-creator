@@ -34,8 +34,10 @@ export class RewardBox extends Component {
     const createTime = rewardNode.createTime;
     const x = math.randomRange(minX, maxX);
     reward.setPosition(x, y, 0);
-    this.node.addChild(reward);
-    this.scheduleOnce(() => this.createMoreTypeReward(prefab), createTime);
+    this.scheduleOnce(() => {
+      this.node.addChild(reward);
+      this.createMoreTypeReward(prefab)
+    }, createTime);
   }
 
 }

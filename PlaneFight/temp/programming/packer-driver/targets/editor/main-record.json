@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1279884.427792,
+      "mTimestamp": 4547640.9565,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -2005,7 +2005,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1753237444368.1667,
+        "mtime": 1753237690335.1794,
         "uuid": "04b8d335-2cbf-453a-9fb4-20b7d50b6131"
       },
       "chunkId": "4775cf1ac62485fadd4b954b9141bfbcf0a45376",
@@ -2167,7 +2167,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts": {
       "mTimestamp": {
-        "mtime": 1753155055475.138,
+        "mtime": 1753240445002.3752,
         "uuid": "92db9fc8-3289-4a05-8403-d965f95f1cfc"
       },
       "chunkId": "579d7f8db28b8a04383f1e48e987164bb74201c6",
@@ -2219,7 +2219,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1752893021025.407,
+        "mtime": 1753240712326.5278,
         "uuid": "70755476-15f9-41c6-9470-be63e30c18ad"
       },
       "chunkId": "d8586552f56669595686880f8705c28e0d8db40c",
@@ -2235,11 +2235,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 82
+              "column": 145
             },
             "end": {
               "line": 1,
-              "column": 86
+              "column": 149
             }
           }
         }
@@ -2427,7 +2427,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/RewardBox.ts": {
       "mTimestamp": {
-        "mtime": 1753237424825.6711,
+        "mtime": 1753237737780.4688,
         "uuid": "ec45bbe1-f79b-4c3d-b295-f73946054759"
       },
       "chunkId": "ec6d01e9fd0c9305a655522136a7b4a3ff3e8546",

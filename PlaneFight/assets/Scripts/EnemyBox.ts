@@ -41,7 +41,9 @@ export class EnemyBox extends Component {
     const maxX = enemyComponent.maxX;
     const x = math.randomRange(minX, maxX);
     ememy.setPosition(x, pos.y, pos.z);
-    this.node.addChild(ememy);
-    this.scheduleOnce(() => this.createMoreTypeEnemy(prefab), enemyComponent.createTime);
+    this.scheduleOnce(() => {
+      this.node.addChild(ememy);
+      this.createMoreTypeEnemy(prefab)
+    }, enemyComponent.createTime);
   }
 }
