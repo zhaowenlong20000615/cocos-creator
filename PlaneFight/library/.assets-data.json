@@ -1578,13 +1578,15 @@
         "1983cab6-6af2-4c36-90da-682e683ae01a",
         "f23ab7a8-1e0f-468d-8276-d2272c442545",
         "74b22468-4570-4af7-b957-72b163a29c91",
-        "079201a9-e808-4062-a800-65b69694b455"
+        "079201a9-e808-4062-a800-65b69694b455",
+        "03181f81-4bf2-4f84-9ca2-f56f9a7dfbd0"
       ],
       "dependScripts": [
         "e7674a95-b425-4e84-b14b-569100f394cb",
         "9f566669-9aa2-4ee0-bdb9-35157895a79d",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "92db9fc8-3289-4a05-8403-d965f95f1cfc",
+        "ec45bbe1-f79b-4c3d-b295-f73946054759",
         "04b8d335-2cbf-453a-9fb4-20b7d50b6131"
       ]
     },
@@ -1724,12 +1726,38 @@
     "url": "db://assets/Prefabs/TwoBullet.prefab",
     "value": {
       "depends": [
-        "d2b96fb4-207f-4924-8c35-0ca9e495c083@f9941"
+        "d2b96fb4-207f-4924-8c35-0ca9e495c083@f9941",
+        "5cad9e11-654f-4df3-86ea-25657fd7aca0"
       ],
       "dependScripts": [
         "b847753f-3533-405a-bb50-07eb17f0090b"
       ]
     },
+    "versionCode": 1
+  },
+  "5cad9e11-654f-4df3-86ea-25657fd7aca0": {
+    "url": "db://assets/Animations/Reward.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "03181f81-4bf2-4f84-9ca2-f56f9a7dfbd0": {
+    "url": "db://assets/Prefabs/Blow.prefab",
+    "value": {
+      "depends": [
+        "9e7cd7f1-0eb9-4570-a614-320366a6761e@f9941",
+        "5cad9e11-654f-4df3-86ea-25657fd7aca0"
+      ],
+      "dependScripts": [
+        "b847753f-3533-405a-bb50-07eb17f0090b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ec45bbe1-f79b-4c3d-b295-f73946054759": {
+    "url": "db://assets/Scripts/RewardBox.ts",
+    "value": {},
     "versionCode": 1
   }
 }

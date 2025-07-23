@@ -1,1109 +1,148 @@
-7-22-2025 10:08:19 - error: Cannot read properties of null (reading 'result')TypeError: Cannot read properties of null (reading 'result')
-    at Object.queryAllInformation (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/information/dist/browser/index.ccc:1:1840)
-    at async initInformationCache (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/information/dist/browser/index.ccc:1:516)
-    at async Package.load (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/information/dist/browser/index.ccc:1:195)
-    at async Package.execLifeFunc (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:1200)
-    at async Package.enable (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:3478)
-    at async PackageManager.enable (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/index.js:1:1755)
-7-22-2025 10:08:19 - error: Init information cache failed!
-7-22-2025 10:08:19 - log: Load engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine
-7-22-2025 10:08:20 - log: Register native engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-7-22-2025 10:08:20 - log: Request namespace: device-list
-7-22-2025 10:08:23 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:08:24 - log: [Scene] meshopt wasm decoder initialized
-7-22-2025 10:08:24 - log: [Scene] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:08:24 - log: [Scene] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:08:24 - log: [Scene] [PHYSICS]: using builtin.
-7-22-2025 10:08:24 - log: [Scene] Cocos Creator v3.8.6
-7-22-2025 10:08:24 - log: [Scene] Using custom pipeline: Builtin
-7-22-2025 10:08:24 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:09:45 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:09:45 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:09:45 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:09:45 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:09:45 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:09:45 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:09:45 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:09:50 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:18:14 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+7-23-2025 10:02:45 - log: Load engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine
+7-23-2025 10:02:45 - log: Register native engine in /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+7-23-2025 10:02:45 - log: Request namespace: device-list
+7-23-2025 10:02:48 - info: [PreviewInEditor] 预览环境初始化完毕
+7-23-2025 10:02:49 - log: [Scene] meshopt wasm decoder initialized
+7-23-2025 10:02:49 - log: [Scene] [box2d]:box2d wasm lib loaded.
+7-23-2025 10:02:49 - log: [Scene] [bullet]:bullet wasm lib loaded.
+7-23-2025 10:02:49 - log: [Scene] [PHYSICS]: using builtin.
+7-23-2025 10:02:49 - log: [Scene] Cocos Creator v3.8.6
+7-23-2025 10:02:49 - log: [Scene] Using custom pipeline: Builtin
+7-23-2025 10:02:49 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-23-2025 10:03:05 - log: [PreviewInEditor] meshopt wasm decoder initialized
+7-23-2025 10:03:05 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+7-23-2025 10:03:05 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+7-23-2025 10:03:05 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+7-23-2025 10:03:05 - log: [PreviewInEditor] Cocos Creator v3.8.6
+7-23-2025 10:03:06 - log: [PreviewInEditor] Using custom pipeline: Builtin
+7-23-2025 10:03:06 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-23-2025 10:03:29 - info: [PreviewInEditor] 预览环境初始化完毕
+7-23-2025 10:03:58 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
     at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
     at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
     at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
     at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
-7-22-2025 10:20:13 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+7-23-2025 10:08:27 - log: [PreviewInEditor] meshopt wasm decoder initialized
+7-23-2025 10:08:27 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+7-23-2025 10:08:27 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+7-23-2025 10:08:27 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+7-23-2025 10:08:27 - log: [PreviewInEditor] Cocos Creator v3.8.6
+7-23-2025 10:08:27 - log: [PreviewInEditor] Using custom pipeline: Builtin
+7-23-2025 10:08:27 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-23-2025 10:08:30 - info: [PreviewInEditor] 预览环境初始化完毕
+7-23-2025 10:09:04 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+7-23-2025 10:09:04 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+7-23-2025 10:09:04 - log: [PreviewInEditor] meshopt wasm decoder initialized
+7-23-2025 10:09:04 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+7-23-2025 10:09:04 - log: [PreviewInEditor] Cocos Creator v3.8.6
+7-23-2025 10:09:04 - log: [PreviewInEditor] Using custom pipeline: Builtin
+7-23-2025 10:09:04 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-23-2025 10:09:08 - info: [PreviewInEditor] 预览环境初始化完毕
+7-23-2025 10:09:08 - log: [PreviewInEditor] meshopt wasm decoder initialized
+7-23-2025 10:09:08 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+7-23-2025 10:09:08 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+7-23-2025 10:09:08 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+7-23-2025 10:09:08 - log: [PreviewInEditor] Cocos Creator v3.8.6
+7-23-2025 10:09:08 - log: [PreviewInEditor] Using custom pipeline: Builtin
+7-23-2025 10:09:08 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-23-2025 10:09:12 - info: [PreviewInEditor] 预览环境初始化完毕
+7-23-2025 10:09:27 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+7-23-2025 10:09:27 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+7-23-2025 10:09:27 - log: [PreviewInEditor] meshopt wasm decoder initialized
+7-23-2025 10:09:27 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+7-23-2025 10:09:27 - log: [PreviewInEditor] Cocos Creator v3.8.6
+7-23-2025 10:09:27 - log: [PreviewInEditor] Using custom pipeline: Builtin
+7-23-2025 10:09:27 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-23-2025 10:09:36 - info: [PreviewInEditor] 预览环境初始化完毕
+7-23-2025 10:11:55 - log: [PreviewInEditor] meshopt wasm decoder initialized
+7-23-2025 10:11:55 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+7-23-2025 10:11:55 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+7-23-2025 10:11:55 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+7-23-2025 10:11:55 - log: [PreviewInEditor] Cocos Creator v3.8.6
+7-23-2025 10:11:55 - log: [PreviewInEditor] Using custom pipeline: Builtin
+7-23-2025 10:11:55 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-23-2025 10:12:05 - info: [PreviewInEditor] 预览环境初始化完毕
+7-23-2025 10:12:12 - warn: [Scene] generatePrefabUUIDMap 3fph5JLW9F3ajklOf+wchB already existError: [Scene] generatePrefabUUIDMap 3fph5JLW9F3ajklOf+wchB already exist
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
-    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
-    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
-    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
-7-22-2025 10:22:08 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
-    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
-    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
-    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
-7-22-2025 10:27:59 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:27:59 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:27:59 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:27:59 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:27:59 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:27:59 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:27:59 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:27:59 - error: [PreviewInEditor] The thing you want to instantiate is nilTypeError: The thing you want to instantiate is nil
-    at instantiate (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:46472:17)
-    at Player.createBullet (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/file:/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts:32:24)
-    at Player.start (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/file:/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts:19:14)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:52985:16)
-    at OneOffInvoker.eval [as _invoke] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:52814:9)
-    at OneOffInvoker.invoke (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:52928:16)
-    at ComponentScheduler.startPhase (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:53159:29)
-    at Director.tick (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:8000:35)
-    at Game._updateCallback (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:9182:22)
-    at updateCallback (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:88560:20)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/scene-proxy.ccc:1:1429
+    at Array.forEach (<anonymous>)
+    at GeneralSceneProxy.generatePrefabUUIDMap (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/scene-proxy.ccc:1:1356)
+    at GeneralSceneProxy.generatePrefabUUIDMap (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/scene-proxy.ccc:1:1574)
+    at GeneralSceneProxy.generatePrefabUUIDMap (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/scene-proxy.ccc:1:1574)
+    at GeneralSceneProxy.storePrefabUUID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/scene-proxy.ccc:1:1698)
+    at GeneralSceneProxy.softReload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/general-scene-proxy.ccc:1:3044)
+    at GeneralSceneFacade.softReloadScene (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:5474)
+    at SceneFacadeManager.softReloadScene (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:8838)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:2534
     at sentryWrapped (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/src/helpers.ts:100:17)
-7-22-2025 10:28:11 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:28:26 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:28:26 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:28:26 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:28:26 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:28:26 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:28:26 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:28:26 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:28:33 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
+7-23-2025 10:14:49 - log: [PreviewInEditor] meshopt wasm decoder initialized
+7-23-2025 10:14:49 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+7-23-2025 10:14:49 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+7-23-2025 10:14:49 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+7-23-2025 10:14:49 - log: [PreviewInEditor] Cocos Creator v3.8.6
+7-23-2025 10:14:49 - log: [PreviewInEditor] Using custom pipeline: Builtin
+7-23-2025 10:14:49 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-23-2025 10:14:59 - warn: [Scene] generatePrefabUUIDMap 3fph5JLW9F3ajklOf+wchB already existError: [Scene] generatePrefabUUIDMap 3fph5JLW9F3ajklOf+wchB already exist
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/scene-proxy.ccc:1:1429
+    at Array.forEach (<anonymous>)
+    at GeneralSceneProxy.generatePrefabUUIDMap (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/scene-proxy.ccc:1:1356)
+    at GeneralSceneProxy.generatePrefabUUIDMap (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/scene-proxy.ccc:1:1574)
+    at GeneralSceneProxy.generatePrefabUUIDMap (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/scene-proxy.ccc:1:1574)
+    at GeneralSceneProxy.storePrefabUUID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/scene-proxy.ccc:1:1698)
+    at GeneralSceneProxy.softReload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/general-scene-proxy.ccc:1:3044)
+    at GeneralSceneFacade.softReloadScene (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:5474)
+    at SceneFacadeManager.softReloadScene (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:8838)
+    at step (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338
+    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1004)
     at IpcRenderer.emit (node:events:519:28)
     at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 10:28:33 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:28:34 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:28:34 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:28:34 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:28:34 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:28:34 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:28:34 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:28:34 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:29:15 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:29:15 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:29:15 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:29:15 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:29:15 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:29:15 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:29:15 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:29:15 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:29:17 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:29:22 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:29:22 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:29:22 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:29:22 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:29:23 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:29:23 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:29:23 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:29:26 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 10:29:26 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:33:53 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:33:53 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:33:53 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:33:53 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:33:53 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:33:53 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:33:53 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:34:03 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:34:03 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:34:03 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:34:03 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:34:03 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:34:03 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:34:03 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:34:03 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:34:24 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:34:26 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:34:26 - log: [Scene] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:34:26 - log: [Scene] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:34:26 - log: [Scene] meshopt wasm decoder initialized
-7-22-2025 10:34:26 - log: [Scene] [PHYSICS]: using builtin.
-7-22-2025 10:34:26 - log: [Scene] Cocos Creator v3.8.6
-7-22-2025 10:34:26 - log: [Scene] Using custom pipeline: Builtin
-7-22-2025 10:34:26 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:34:30 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:34:30 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:34:30 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:34:30 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:34:30 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:34:30 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:34:30 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:34:42 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 10:34:42 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:34:51 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:34:51 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:34:51 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:34:51 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:34:51 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:34:51 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:34:51 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:35:52 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+7-23-2025 10:15:00 - info: [PreviewInEditor] 预览环境初始化完毕
+7-23-2025 10:15:56 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
     at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
     at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
     at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
     at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
-7-22-2025 10:36:40 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:37:54 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:37:54 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:37:55 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:37:55 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:37:55 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:37:55 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:37:55 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:38:18 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:38:19 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:38:19 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:38:19 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:38:19 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:38:19 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:38:19 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:38:19 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:39:03 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:39:38 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:39:38 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:39:38 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:39:38 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:39:38 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:39:38 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:39:38 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:40:55 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:41:07 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:41:07 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:41:07 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:41:07 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:41:07 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:41:07 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:41:07 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:41:43 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:44:11 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:44:11 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:44:11 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:44:11 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:44:11 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:44:11 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:44:11 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:45:09 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:45:09 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:45:09 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:45:09 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:45:09 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:45:09 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:45:09 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:45:09 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:45:16 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:45:18 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:45:18 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:45:18 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:45:18 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:45:18 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:45:19 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:45:19 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:45:25 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:45:41 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:45:41 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:45:41 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:45:41 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:45:41 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:45:41 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:45:41 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:45:41 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:42 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:42 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:42 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:42 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:43 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:43 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:43 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:43 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:43 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:44 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:44 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:44 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:44 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:44 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:45 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:45 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:45 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:45 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:45 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:46 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:46 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:46 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:46 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:45:46 - log: [PreviewInEditor] Vec3 { x: -10, y: 3, z: 0 }
-7-22-2025 10:45:47 - log: [PreviewInEditor] Vec3 { x: -50, y: 12, z: 0 }
-7-22-2025 10:45:47 - log: [PreviewInEditor] Vec3 { x: -100, y: 17, z: 0 }
-7-22-2025 10:45:47 - log: [PreviewInEditor] Vec3 { x: -107, y: 18, z: 0 }
-7-22-2025 10:45:47 - log: [PreviewInEditor] Vec3 { x: -113, y: 19, z: 0 }
-7-22-2025 10:45:47 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:48 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:48 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:48 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:48 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:48 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:49 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:49 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:49 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:49 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:49 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:50 - log: [PreviewInEditor] Vec3 { x: -114, y: 20, z: 0 }
-7-22-2025 10:45:50 - log: [PreviewInEditor] Vec3 { x: -106, y: 22, z: 0 }
-7-22-2025 10:45:50 - log: [PreviewInEditor] Vec3 { x: -75, y: 23, z: 0 }
-7-22-2025 10:45:50 - log: [PreviewInEditor] Vec3 { x: -27, y: 23, z: 0 }
-7-22-2025 10:45:50 - log: [PreviewInEditor] Vec3 { x: 6, y: 20, z: 0 }
-7-22-2025 10:45:51 - log: [PreviewInEditor] Vec3 { x: 44, y: 15, z: 0 }
-7-22-2025 10:45:51 - log: [PreviewInEditor] Vec3 { x: 56, y: 14, z: 0 }
-7-22-2025 10:45:51 - log: [PreviewInEditor] Vec3 { x: 63, y: 12, z: 0 }
-7-22-2025 10:45:51 - log: [PreviewInEditor] Vec3 { x: 57, y: 13, z: 0 }
-7-22-2025 10:45:51 - log: [PreviewInEditor] Vec3 { x: 40, y: 10, z: 0 }
-7-22-2025 10:45:52 - log: [PreviewInEditor] Vec3 { x: 1, y: 8, z: 0 }
-7-22-2025 10:45:52 - log: [PreviewInEditor] Vec3 { x: -22, y: 8, z: 0 }
-7-22-2025 10:45:52 - log: [PreviewInEditor] Vec3 { x: -31, y: 8, z: 0 }
-7-22-2025 10:45:52 - log: [PreviewInEditor] Vec3 { x: -34, y: 7, z: 0 }
-7-22-2025 10:45:53 - log: [PreviewInEditor] Vec3 { x: -28, y: 9, z: 0 }
-7-22-2025 10:45:53 - log: [PreviewInEditor] Vec3 { x: -18, y: 10, z: 0 }
-7-22-2025 10:45:53 - log: [PreviewInEditor] Vec3 { x: -10, y: 10, z: 0 }
-7-22-2025 10:45:53 - log: [PreviewInEditor] Vec3 { x: 12, y: 10, z: 0 }
-7-22-2025 10:45:53 - log: [PreviewInEditor] Vec3 { x: 61, y: 10, z: 0 }
-7-22-2025 10:45:54 - log: [PreviewInEditor] Vec3 { x: 81, y: 10, z: 0 }
-7-22-2025 10:45:54 - log: [PreviewInEditor] Vec3 { x: 85, y: 9, z: 0 }
-7-22-2025 10:45:54 - log: [PreviewInEditor] Vec3 { x: 39, y: 2, z: 0 }
-7-22-2025 10:45:54 - log: [PreviewInEditor] Vec3 { x: 0, y: 3, z: 0 }
-7-22-2025 10:45:54 - log: [PreviewInEditor] Vec3 { x: -5, y: 78, z: 0 }
-7-22-2025 10:45:55 - log: [PreviewInEditor] Vec3 { x: -4, y: 118, z: 0 }
-7-22-2025 10:45:55 - log: [PreviewInEditor] Vec3 { x: -4, y: 138, z: 0 }
-7-22-2025 10:45:55 - log: [PreviewInEditor] Vec3 { x: -2, y: 154, z: 0 }
-7-22-2025 10:45:55 - log: [PreviewInEditor] Vec3 { x: 0, y: 164, z: 0 }
-7-22-2025 10:45:55 - log: [PreviewInEditor] Vec3 { x: 3, y: 184, z: 0 }
-7-22-2025 10:45:56 - log: [PreviewInEditor] Vec3 { x: 5, y: 198, z: 0 }
-7-22-2025 10:45:56 - log: [PreviewInEditor] Vec3 { x: 7, y: 220, z: 0 }
-7-22-2025 10:45:56 - log: [PreviewInEditor] Vec3 { x: 7, y: 246, z: 0 }
-7-22-2025 10:45:56 - log: [PreviewInEditor] Vec3 { x: 7, y: 265, z: 0 }
-7-22-2025 10:45:56 - log: [PreviewInEditor] Vec3 { x: 6, y: 287, z: 0 }
-7-22-2025 10:45:57 - log: [PreviewInEditor] Vec3 { x: 6, y: 286, z: 0 }
-7-22-2025 10:45:57 - log: [PreviewInEditor] Vec3 { x: 6, y: 285, z: 0 }
-7-22-2025 10:45:57 - log: [PreviewInEditor] Vec3 { x: -15, y: 278, z: 0 }
-7-22-2025 10:45:57 - log: [PreviewInEditor] Vec3 { x: -64, y: 282, z: 0 }
-7-22-2025 10:45:57 - log: [PreviewInEditor] Vec3 { x: -94, y: 308, z: 0 }
-7-22-2025 10:45:58 - log: [PreviewInEditor] Vec3 { x: -99, y: 334, z: 0 }
-7-22-2025 10:45:58 - log: [PreviewInEditor] Vec3 { x: -85, y: 350, z: 0 }
-7-22-2025 10:45:58 - log: [PreviewInEditor] Vec3 { x: -31, y: 370, z: 0 }
-7-22-2025 10:45:58 - log: [PreviewInEditor] Vec3 { x: 19, y: 350, z: 0 }
-7-22-2025 10:45:58 - log: [PreviewInEditor] Vec3 { x: 36, y: 271, z: 0 }
-7-22-2025 10:45:59 - log: [PreviewInEditor] Vec3 { x: 34, y: 179, z: 0 }
-7-22-2025 10:45:59 - log: [PreviewInEditor] Vec3 { x: 12, y: 53, z: 0 }
-7-22-2025 10:45:59 - log: [PreviewInEditor] Vec3 { x: -6, y: 13, z: 0 }
-7-22-2025 10:45:59 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:45:59 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:00 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:00 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:00 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:00 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:00 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:01 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:01 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:01 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:01 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:01 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:02 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:02 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:02 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:02 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:02 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:03 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:03 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:03 - log: [PreviewInEditor] Vec3 { x: -19, y: -8, z: 0 }
-7-22-2025 10:46:03 - error: (node:5153) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 render-view-deleted listeners added to [WebContents]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-(Use `CocosCreator --trace-warnings ...` to show where the warning was created)
-7-22-2025 10:46:03 - error: (node:5153) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 new-window listeners added to [WebContents]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-7-22-2025 10:46:03 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 10:46:04 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:46:24 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:46:24 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:46:24 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:46:24 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:46:24 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:46:24 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:46:24 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:46:24 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:46:24 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:46:24 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:46:25 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:46:25 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:46:25 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:46:25 - log: [PreviewInEditor] Vec3 { x: 0, y: 0, z: 0 }
-7-22-2025 10:46:25 - log: [PreviewInEditor] Vec3 { x: -32, y: 3, z: 0 }
-7-22-2025 10:46:26 - log: [PreviewInEditor] Vec3 { x: -61, y: 7, z: 0 }
-7-22-2025 10:46:26 - log: [PreviewInEditor] Vec3 { x: -64, y: 185, z: 0 }
-7-22-2025 10:46:26 - log: [PreviewInEditor] Vec3 { x: -64, y: 188, z: 0 }
-7-22-2025 10:46:26 - log: [PreviewInEditor] Vec3 { x: -69, y: 203, z: 0 }
-7-22-2025 10:46:26 - log: [PreviewInEditor] Vec3 { x: -90, y: 189, z: 0 }
-7-22-2025 10:46:27 - log: [PreviewInEditor] Vec3 { x: -119, y: 156, z: 0 }
-7-22-2025 10:46:27 - log: [PreviewInEditor] Vec3 { x: -12, y: 150, z: 0 }
-7-22-2025 10:46:27 - log: [PreviewInEditor] Vec3 { x: 75, y: 153, z: 0 }
-7-22-2025 10:46:27 - log: [PreviewInEditor] Vec3 { x: 81, y: 154, z: 0 }
-7-22-2025 10:46:27 - log: [PreviewInEditor] Vec3 { x: 78, y: 149, z: 0 }
-7-22-2025 10:46:28 - log: [PreviewInEditor] Vec3 { x: 18, y: 94, z: 0 }
-7-22-2025 10:46:28 - log: [PreviewInEditor] Vec3 { x: -50, y: 79, z: 0 }
-7-22-2025 10:46:28 - log: [PreviewInEditor] Vec3 { x: -83, y: 119, z: 0 }
-7-22-2025 10:46:28 - log: [PreviewInEditor] Vec3 { x: -88, y: 191, z: 0 }
-7-22-2025 10:46:28 - log: [PreviewInEditor] Vec3 { x: -85, y: 220, z: 0 }
-7-22-2025 10:46:29 - log: [PreviewInEditor] Vec3 { x: -85, y: 223, z: 0 }
-7-22-2025 10:46:29 - log: [PreviewInEditor] Vec3 { x: -83, y: 224, z: 0 }
-7-22-2025 10:46:29 - log: [PreviewInEditor] Vec3 { x: 8, y: 229, z: 0 }
-7-22-2025 10:46:29 - log: [PreviewInEditor] Vec3 { x: 57, y: 239, z: 0 }
-7-22-2025 10:46:29 - log: [PreviewInEditor] Vec3 { x: 71, y: 276, z: 0 }
-7-22-2025 10:46:30 - log: [PreviewInEditor] Vec3 { x: 77, y: 310, z: 0 }
-7-22-2025 10:46:30 - log: [PreviewInEditor] Vec3 { x: 78, y: 339, z: 0 }
-7-22-2025 10:46:30 - log: [PreviewInEditor] Vec3 { x: 84, y: 378, z: 0 }
-7-22-2025 10:46:30 - log: [PreviewInEditor] Vec3 { x: 89, y: 410, z: 0 }
-7-22-2025 10:46:30 - log: [PreviewInEditor] Vec3 { x: 91, y: 420, z: 0 }
-7-22-2025 10:46:31 - log: [PreviewInEditor] Vec3 { x: 93, y: 436, z: 0 }
-7-22-2025 10:46:31 - log: [PreviewInEditor] Vec3 { x: 95, y: 452, z: 0 }
-7-22-2025 10:46:31 - log: [PreviewInEditor] Vec3 { x: -40, y: 421, z: 0 }
-7-22-2025 10:46:31 - log: [PreviewInEditor] Vec3 { x: -129, y: 359, z: 0 }
-7-22-2025 10:46:31 - log: [PreviewInEditor] Vec3 { x: -153, y: 236, z: 0 }
-7-22-2025 10:46:32 - log: [PreviewInEditor] Vec3 { x: -66, y: 92, z: 0 }
-7-22-2025 10:46:32 - log: [PreviewInEditor] Vec3 { x: -21, y: 71, z: 0 }
-7-22-2025 10:46:32 - log: [PreviewInEditor] Vec3 { x: 14, y: 62, z: 0 }
-7-22-2025 10:46:32 - log: [PreviewInEditor] Vec3 { x: 47, y: 55, z: 0 }
-7-22-2025 10:46:32 - log: [PreviewInEditor] Vec3 { x: 96, y: 53, z: 0 }
-7-22-2025 10:46:33 - log: [PreviewInEditor] Vec3 { x: 97, y: 48, z: 0 }
-7-22-2025 10:46:33 - log: [PreviewInEditor] Vec3 { x: -9, y: 30, z: 0 }
-7-22-2025 10:46:33 - log: [PreviewInEditor] Vec3 { x: -47, y: 25, z: 0 }
-7-22-2025 10:46:33 - log: [PreviewInEditor] Vec3 { x: -55, y: 24, z: 0 }
-7-22-2025 10:46:33 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:34 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:34 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:34 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:34 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:35 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:35 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:35 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:35 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:35 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:36 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:36 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:36 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:36 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:36 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:37 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:37 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:37 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:37 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:37 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:38 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:38 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:38 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:38 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:38 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:39 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:39 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:39 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:39 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:39 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:40 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:40 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:40 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:40 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:40 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:41 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:41 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:41 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:41 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:41 - log: [PreviewInEditor] Vec3 { x: -49, y: 14, z: 0 }
-7-22-2025 10:46:42 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 10:46:42 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:46:43 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:46:43 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:46:43 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:46:43 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:46:43 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:46:43 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:46:43 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:46:56 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:47:07 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:47:07 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:47:07 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:47:07 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:47:07 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:47:07 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:47:07 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:47:15 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:47:25 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:47:25 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:47:25 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:47:25 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:47:25 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:47:25 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:47:25 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:47:28 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:47:30 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:47:30 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:47:30 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:47:30 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:47:30 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:47:30 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:47:30 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:48:05 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:48:14 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:48:14 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:48:14 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:48:14 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:48:14 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:48:14 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:48:14 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:48:36 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 10:48:36 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:48:40 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:48:40 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:48:40 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:48:40 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:48:40 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:48:40 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:48:40 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:48:49 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 10:48:49 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:51:27 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-7-22-2025 10:53:48 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-7-22-2025 10:55:37 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-7-22-2025 10:56:40 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-7-22-2025 10:57:52 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-7-22-2025 10:58:23 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-7-22-2025 10:58:28 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:58:28 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:58:28 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 10:58:28 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 10:58:28 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 10:58:28 - error: [PreviewInEditor] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [PreviewInEditor] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-    at ScriptManager.init (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3794)
-7-22-2025 10:58:28 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 10:58:28 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 10:58:28 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 10:58:41 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:59:32 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-7-22-2025 10:59:36 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 10:59:36 - log: [Scene] meshopt wasm decoder initialized
-7-22-2025 10:59:36 - log: [Scene] [box2d]:box2d wasm lib loaded.
-7-22-2025 10:59:36 - log: [Scene] [bullet]:bullet wasm lib loaded.
-7-22-2025 10:59:36 - log: [Scene] [PHYSICS]: using builtin.
-7-22-2025 10:59:36 - log: [Scene] Cocos Creator v3.8.6
-7-22-2025 10:59:36 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-    at ScriptManager.init (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3794)
-7-22-2025 10:59:36 - log: [Scene] Using custom pipeline: Builtin
-7-22-2025 10:59:36 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:00:48 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-7-22-2025 11:00:53 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:00:53 - log: [Scene] meshopt wasm decoder initialized
-7-22-2025 11:00:53 - log: [Scene] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:00:53 - log: [Scene] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:00:53 - log: [Scene] [PHYSICS]: using builtin.
-7-22-2025 11:00:53 - log: [Scene] Cocos Creator v3.8.6
-7-22-2025 11:00:53 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-    at ScriptManager.init (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3794)
-7-22-2025 11:00:53 - log: [Scene] Using custom pipeline: Builtin
-7-22-2025 11:00:53 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:01:33 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-7-22-2025 11:01:35 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:01:36 - log: [Scene] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:01:36 - log: [Scene] meshopt wasm decoder initialized
-7-22-2025 11:01:36 - log: [Scene] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:01:36 - log: [Scene] [PHYSICS]: using builtin.
-7-22-2025 11:01:36 - log: [Scene] Cocos Creator v3.8.6
-7-22-2025 11:01:36 - error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].Error: [Scene] Please define 'type' parameter of Player.bulletType as the constructor of [object Object].
-    at console.error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at error (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178314:12)
-    at errorID (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:178492:5)
-    at parseAttributes (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167544:11)
-    at defineProp (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167264:5)
-    at declareProperties (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167428:11)
-    at CCClass (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:167453:5)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277605:21)
-    at eval (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:277679:18)
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/20/20112dc415567f5c86e469832b866b79db5e5166.js:46:11)
-    at doExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1787
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2184)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1955)
-    at ScriptManager.init (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3794)
-7-22-2025 11:01:36 - log: [Scene] Using custom pipeline: Builtin
-7-22-2025 11:01:36 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:04:24 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:04:24 - log: [Scene] meshopt wasm decoder initialized
-7-22-2025 11:04:24 - log: [Scene] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:04:24 - log: [Scene] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:04:24 - log: [Scene] [PHYSICS]: using builtin.
-7-22-2025 11:04:24 - log: [Scene] Cocos Creator v3.8.6
-7-22-2025 11:04:24 - log: [Scene] Using custom pipeline: Builtin
-7-22-2025 11:04:24 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:04:29 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:04:29 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:04:29 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:04:29 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:04:29 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:04:29 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:04:29 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:04:30 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:04:33 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:04:35 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:04:35 - log: [Scene] meshopt wasm decoder initialized
-7-22-2025 11:04:35 - log: [Scene] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:04:35 - log: [Scene] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:04:35 - log: [Scene] [PHYSICS]: using builtin.
-7-22-2025 11:04:36 - log: [Scene] Cocos Creator v3.8.6
-7-22-2025 11:04:36 - log: [Scene] Using custom pipeline: Builtin
-7-22-2025 11:04:36 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:04:39 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:04:39 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:04:39 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:04:39 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:04:39 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:04:40 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:04:40 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:04:40 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:04:48 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 11:04:48 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:05:23 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:05:23 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:05:23 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:05:23 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:05:23 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:05:23 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:05:23 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:05:24 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:05:27 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:06:49 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:06:49 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:06:49 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:06:49 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:06:49 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:06:49 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:06:49 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:06:50 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:07:40 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:07:44 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:07:44 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:07:44 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:07:44 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:07:44 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:07:44 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:07:44 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:07:45 - log: [PreviewInEditor] 2
-7-22-2025 11:07:45 - log: [PreviewInEditor] 2
-7-22-2025 11:07:45 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:07:50 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:07:50 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:07:50 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:07:50 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:07:50 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:07:50 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:07:50 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:07:50 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:07:50 - log: [PreviewInEditor] 2
-7-22-2025 11:07:50 - log: [PreviewInEditor] 2
-7-22-2025 11:07:50 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:07:52 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 11:07:52 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:07:52 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:07:53 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:07:53 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:07:53 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:07:53 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:07:53 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:07:53 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:07:53 - log: [PreviewInEditor] 2
-7-22-2025 11:07:53 - log: [PreviewInEditor] 2
-7-22-2025 11:07:53 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:07:55 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:07:55 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:07:55 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:07:55 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:07:55 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:07:55 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:07:55 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:07:55 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:07:55 - log: [PreviewInEditor] 2
-7-22-2025 11:07:56 - log: [PreviewInEditor] 2
-7-22-2025 11:07:56 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:07:57 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:08:00 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:08:00 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:08:00 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:08:00 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:08:00 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:08:00 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:08:00 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:08:01 - log: [PreviewInEditor] 2
-7-22-2025 11:08:01 - log: [PreviewInEditor] 2
-7-22-2025 11:08:01 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:08:26 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 11:08:26 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 11:08:26 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:08:27 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:08:27 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:08:27 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:08:27 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:08:27 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:08:27 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:08:27 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:08:28 - log: [PreviewInEditor] 2
-7-22-2025 11:08:28 - log: [PreviewInEditor] 2
-7-22-2025 11:08:28 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:08:29 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:08:29 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:08:29 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:08:29 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:08:29 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:08:30 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:08:30 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:08:30 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:08:30 - log: [PreviewInEditor] 2
-7-22-2025 11:08:30 - log: [PreviewInEditor] 2
-7-22-2025 11:08:30 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:08:32 - error: (node:5153) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 render-view-deleted listeners added to [WebContents]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-7-22-2025 11:08:32 - error: (node:5153) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 new-window listeners added to [WebContents]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-7-22-2025 11:08:32 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:08:32 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:08:32 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:08:32 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:08:32 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:08:32 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:08:32 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:08:32 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:08:33 - log: [PreviewInEditor] 2
-7-22-2025 11:08:33 - log: [PreviewInEditor] 2
-7-22-2025 11:08:33 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:09:32 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:09:35 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:09:35 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:09:35 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:09:35 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:09:35 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:09:35 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:09:35 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:09:36 - log: [PreviewInEditor] 2
-7-22-2025 11:09:36 - log: [PreviewInEditor] 2
-7-22-2025 11:09:36 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:09:47 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:11:46 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:11:46 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:11:46 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:11:46 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:11:46 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:11:46 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:11:46 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:11:46 - log: [PreviewInEditor] 2
-7-22-2025 11:11:46 - log: [PreviewInEditor] 2
-7-22-2025 11:11:46 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:12:01 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:12:14 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:12:14 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:12:14 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:12:14 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:12:14 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:12:14 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:12:14 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:12:15 - log: [PreviewInEditor] 2
-7-22-2025 11:12:15 - log: [PreviewInEditor] 2
-7-22-2025 11:12:15 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:12:19 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 11:12:19 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:12:19 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:12:19 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:12:19 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:12:19 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:12:19 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:12:19 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:12:19 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:12:19 - log: [PreviewInEditor] 2
-7-22-2025 11:12:19 - log: [PreviewInEditor] 2
-7-22-2025 11:12:19 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:13:46 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 11:13:46 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:13:46 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:13:46 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:13:46 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:13:46 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:13:46 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:13:47 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:13:47 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:13:47 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:13:59 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 11:13:59 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:13:59 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:13:59 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:13:59 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:13:59 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:13:59 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:13:59 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:13:59 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:14:00 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:14:05 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 11:14:05 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:17:25 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:17:25 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:17:25 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:17:25 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:17:25 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:17:25 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:17:25 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:17:41 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:17:44 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:17:44 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:17:44 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:17:44 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:17:44 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:17:44 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:17:44 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:18:23 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:18:24 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:18:24 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:18:24 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:18:24 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:18:24 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:18:24 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:18:24 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:18:37 - log: [PreviewInEditor] scheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f 0 0
-7-22-2025 11:19:00 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-7-22-2025 11:19:00 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:19:01 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:19:01 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:19:01 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:19:01 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:19:01 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:19:01 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:19:01 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:19:42 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:19:43 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:19:43 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:19:43 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:19:43 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:19:43 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:19:43 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:19:43 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:20:03 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:21:05 - log: [PreviewInEditor] meshopt wasm decoder initialized
-7-22-2025 11:21:05 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-7-22-2025 11:21:05 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-7-22-2025 11:21:05 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-7-22-2025 11:21:05 - log: [PreviewInEditor] Cocos Creator v3.8.6
-7-22-2025 11:21:05 - log: [PreviewInEditor] Using custom pipeline: Builtin
-7-22-2025 11:21:05 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-7-22-2025 11:21:23 - info: [PreviewInEditor] 预览环境初始化完毕
-7-22-2025 11:25:42 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+7-23-2025 10:16:32 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
     at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
     at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
     at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
     at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
     at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
+7-23-2025 10:17:49 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
+    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
+7-23-2025 10:21:38 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
+    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
+7-23-2025 10:22:22 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
+    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
+7-23-2025 10:23:48 - warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序Warn: [Assets] 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
+    at console.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at NewConsole.warn (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)
+    at findVsCode (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3546)
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3282)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.6/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:530)
+7-23-2025 10:24:06 - log: [PreviewInEditor] meshopt wasm decoder initialized
+7-23-2025 10:24:06 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+7-23-2025 10:24:06 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+7-23-2025 10:24:06 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+7-23-2025 10:24:06 - log: [PreviewInEditor] Cocos Creator v3.8.6
+7-23-2025 10:24:06 - log: [PreviewInEditor] Using custom pipeline: Builtin
+7-23-2025 10:24:06 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+7-23-2025 10:24:49 - info: [PreviewInEditor] 预览环境初始化完毕

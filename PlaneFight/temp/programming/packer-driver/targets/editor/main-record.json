@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 3327.320042,
+      "mTimestamp": 3292.187417,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4835220.252125,
+      "mTimestamp": 1279884.427792,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1160,6 +1160,20 @@
               "column": 1756
             }
           }
+        },
+        {
+          "value": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/RewardBox.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1772
+            },
+            "end": {
+              "line": 5,
+              "column": 1858
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1252,6 +1266,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Reward.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/RewardBox.ts"
           },
           "messages": []
         }
@@ -1820,7 +1841,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1753150100131,
+      "mTimestamp": 1753236165456,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1984,7 +2005,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1752810510361.2444,
+        "mtime": 1753237444368.1667,
         "uuid": "04b8d335-2cbf-453a-9fb4-20b7d50b6131"
       },
       "chunkId": "4775cf1ac62485fadd4b954b9141bfbcf0a45376",
@@ -2025,6 +2046,20 @@
               "column": 37
             }
           }
+        },
+        {
+          "value": "./RewardBox",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
         }
       ],
       "type": "esm",
@@ -2061,6 +2096,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/RewardBox.ts"
           },
           "messages": []
         }
@@ -2125,7 +2167,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts": {
       "mTimestamp": {
-        "mtime": 1752890453254.9443,
+        "mtime": 1753155055475.138,
         "uuid": "92db9fc8-3289-4a05-8403-d965f95f1cfc"
       },
       "chunkId": "579d7f8db28b8a04383f1e48e987164bb74201c6",
@@ -2333,7 +2375,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Reward.ts": {
       "mTimestamp": {
-        "mtime": 1753154933537.3057,
+        "mtime": 1753237072493.5625,
         "uuid": "b847753f-3533-405a-bb50-07eb17f0090b"
       },
       "chunkId": "82ed9132fb87fa2f5c2dd8479c4f714c29ff0229",
@@ -2354,6 +2396,58 @@
             "end": {
               "line": 1,
               "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/RewardBox.ts": {
+      "mTimestamp": {
+        "mtime": 1753237424825.6711,
+        "uuid": "ec45bbe1-f79b-4c3d-b295-f73946054759"
+      },
+      "chunkId": "ec6d01e9fd0c9305a655522136a7b4a3ff3e8546",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
             }
           }
         }

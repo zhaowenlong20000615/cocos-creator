@@ -6,6 +6,7 @@
       "0",
       "0_0",
       "0_0_2_0",
+      "0_0_3",
       "0_0_4",
       "0_0_5"
     ]
@@ -133,6 +134,20 @@
   },
   "f67b8838-cf35-4691-9e93-25392f85bd05": {
     "assetUuid": "f67b8838-cf35-4691-9e93-25392f85bd05",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "76d2c50d-33ea-401e-92eb-c8d6d41da317": {
+    "assetUuid": "76d2c50d-33ea-401e-92eb-c8d6d41da317",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "079201a9-e808-4062-a800-65b69694b455": {
+    "assetUuid": "079201a9-e808-4062-a800-65b69694b455",
     "animationUuid": "",
     "expandLevels": [
       "0"

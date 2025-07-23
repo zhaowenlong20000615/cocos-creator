@@ -16,6 +16,9 @@ export class Reward extends Component {
     @property
     private y: number = 35;
 
+    @property
+    private createTime: number = 5;
+
 
 
     update(deltaTime: number) {
