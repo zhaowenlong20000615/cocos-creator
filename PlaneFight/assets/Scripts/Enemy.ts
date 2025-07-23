@@ -36,10 +36,14 @@ export class Enemy extends Component {
       collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
     }
 
-    console.log(1111111, this);
+    setTimeout(() => {
+      console.log(1111111, this);
     console.log(2222222, this.node);
     console.log(3333333, this.node.getComponent(Collider2D));
     console.log(4444444, PhysicsSystem2D.instance);
+    }, 1000);
+
+
 
   }
 

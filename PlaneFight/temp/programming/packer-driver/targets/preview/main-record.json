@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4566593.102958,
+      "mTimestamp": 167760.132584,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -514,7 +514,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4547661.086208,
+      "mTimestamp": 296558.024834,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1379,7 +1379,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1753236165456,
+      "mTimestamp": 1753240950208,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1705,7 +1705,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts": {
       "mTimestamp": {
-        "mtime": 1753240445002.3752,
+        "mtime": 1753241209617.2542,
         "uuid": "92db9fc8-3289-4a05-8403-d965f95f1cfc"
       },
       "chunkId": "579d7f8db28b8a04383f1e48e987164bb74201c6",
@@ -1757,7 +1757,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1753240712326.5278,
+        "mtime": 1753241188083.0928,
         "uuid": "70755476-15f9-41c6-9470-be63e30c18ad"
       },
       "chunkId": "d8586552f56669595686880f8705c28e0d8db40c",
