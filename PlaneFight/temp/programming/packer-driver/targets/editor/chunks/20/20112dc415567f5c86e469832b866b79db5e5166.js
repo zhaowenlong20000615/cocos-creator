@@ -61,7 +61,6 @@ System.register(["cc"], function (_export, _context) {
 
         start() {
           input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
-          debugger;
           this.createBullet();
         }
 

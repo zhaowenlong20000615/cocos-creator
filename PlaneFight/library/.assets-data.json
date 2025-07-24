@@ -1611,7 +1611,8 @@
     "url": "db://assets/Prefabs/enemy0.prefab",
     "value": {
       "depends": [
-        "19b9e7b0-907d-4135-aa9b-392e1874ebf1@f9941"
+        "19b9e7b0-907d-4135-aa9b-392e1874ebf1@f9941",
+        "02d8df83-d7f4-410d-becf-d673033a2c1a"
       ],
       "dependScripts": [
         "70755476-15f9-41c6-9470-be63e30c18ad"
@@ -1628,7 +1629,9 @@
     "url": "db://assets/Prefabs/enemy1.prefab",
     "value": {
       "depends": [
-        "19284360-f056-407b-b988-565e7ca43ca0@f9941"
+        "19284360-f056-407b-b988-565e7ca43ca0@f9941",
+        "4d1f49da-1e46-4e00-a6bb-e8c2e508e93f",
+        "f4464c5b-8c75-42c9-bf38-b1883a68da47"
       ],
       "dependScripts": [
         "70755476-15f9-41c6-9470-be63e30c18ad"
@@ -1660,7 +1663,8 @@
     "url": "db://assets/Prefabs/enemy2.prefab",
     "value": {
       "depends": [
-        "20075844-6ebf-43ae-b7cf-b263c7261ef4@f9941"
+        "20075844-6ebf-43ae-b7cf-b263c7261ef4@f9941",
+        "980819e9-d0aa-43b9-82cb-9c410cd74d7a"
       ],
       "dependScripts": [
         "70755476-15f9-41c6-9470-be63e30c18ad"
@@ -1758,6 +1762,59 @@
   "ec45bbe1-f79b-4c3d-b295-f73946054759": {
     "url": "db://assets/Scripts/RewardBox.ts",
     "value": {},
+    "versionCode": 1
+  },
+  "ff9208e8-f74f-4f46-abf2-bf77e9604ae5": {
+    "url": "db://assets/Animations/EnemyDown.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "02d8df83-d7f4-410d-becf-d673033a2c1a": {
+    "url": "db://assets/Animations/Enemy0Down.anim",
+    "value": {
+      "depends": [
+        "c98f06a0-593c-4683-ba49-bd6f9d9f1872@f9941",
+        "ad24ecde-af42-4629-967a-eacbfa3d84ad@f9941",
+        "44a4688d-7dd3-41cd-af55-cf1e599a0a55@f9941",
+        "ee6e99f1-2091-44c0-a80a-11ffee7a5135@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4d1f49da-1e46-4e00-a6bb-e8c2e508e93f": {
+    "url": "db://assets/Animations/Enemy1Down.anim",
+    "value": {
+      "depends": [
+        "53ce8c83-fe2d-4fcd-87e2-2d49e4ea80a8@f9941",
+        "6d9cfdb5-a394-4d21-a108-1f78203c91ea@f9941",
+        "efa49c71-8000-4f01-acc3-c52407fb405b@f9941",
+        "11c5c459-d1b4-41ed-9132-f8c92f51a6d9@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f4464c5b-8c75-42c9-bf38-b1883a68da47": {
+    "url": "db://assets/Animations/Enemy1Hit.anim",
+    "value": {
+      "depends": [
+        "19284360-f056-407b-b988-565e7ca43ca0@f9941",
+        "d9a9409e-b152-440c-a078-6fc49711b68c@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "980819e9-d0aa-43b9-82cb-9c410cd74d7a": {
+    "url": "db://assets/Animations/Enemy2Down.anim",
+    "value": {
+      "depends": [
+        "316d34d8-62f0-403f-b9e5-9008bb73117e@f9941",
+        "e659f7c4-a5e4-42a5-b658-c37cf0d1dfd0@f9941",
+        "31cadba2-8390-4be2-b101-e19bc3bb3d78@f9941",
+        "f4520233-d252-482c-b2eb-78fcd20babda@f9941",
+        "928dd2b5-18ee-4a0a-9161-c14b34e6e638@f9941",
+        "86031f65-2192-403c-890e-b90baf7124af@f9941"
+      ]
+    },
     "versionCode": 1
   }
 }

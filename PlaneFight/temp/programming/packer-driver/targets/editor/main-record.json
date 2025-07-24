@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 3192.151042,
+      "mTimestamp": 3754.515875,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 296528.558042,
+      "mTimestamp": 6361645.441,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1841,7 +1841,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1753240950208,
+      "mTimestamp": 1753321715395,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2167,7 +2167,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/EnemyBox.ts": {
       "mTimestamp": {
-        "mtime": 1753241209617.2542,
+        "mtime": 1753323120448.3672,
         "uuid": "92db9fc8-3289-4a05-8403-d965f95f1cfc"
       },
       "chunkId": "579d7f8db28b8a04383f1e48e987164bb74201c6",
@@ -2219,7 +2219,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1753241188083.0928,
+        "mtime": 1753328076316.6516,
         "uuid": "70755476-15f9-41c6-9470-be63e30c18ad"
       },
       "chunkId": "d8586552f56669595686880f8705c28e0d8db40c",
@@ -2235,11 +2235,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 145
+              "column": 156
             },
             "end": {
               "line": 1,
-              "column": 149
+              "column": 160
             }
           }
         }
@@ -2271,7 +2271,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1753154338692.727,
+        "mtime": 1753323223458.0293,
         "uuid": "9f566669-9aa2-4ee0-bdb9-35157895a79d"
       },
       "chunkId": "20112dc415567f5c86e469832b866b79db5e5166",

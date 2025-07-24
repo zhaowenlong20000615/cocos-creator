@@ -27,7 +27,6 @@ export class Player extends Component {
 
     start() {
         input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
-        debugger;
         this.createBullet();
     }
 

@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Collider2D, Component, Contact2DType, log, PhysicsSystem2D, Vec3, _dec, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, Enemy;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Animation, Collider2D, Component, Contact2DType, Vec3, _dec, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _crd, ccclass, property, Enemy;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -15,11 +15,10 @@ System.register(["cc"], function (_export, _context) {
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
+      Animation = _cc.Animation;
       Collider2D = _cc.Collider2D;
       Component = _cc.Component;
       Contact2DType = _cc.Contact2DType;
-      log = _cc.log;
-      PhysicsSystem2D = _cc.PhysicsSystem2D;
       Vec3 = _cc.Vec3;
     }],
     execute: function () {
@@ -27,7 +26,7 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "70755R2FflBxpRwvmPjDBit", "Enemy", undefined);
 
-      __checkObsolete__(['_decorator', 'Collider2D', 'Component', 'Contact2DType', 'instantiate', 'IPhysics2DContact', 'log', 'math', 'Node', 'PhysicsSystem2D', 'Prefab', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Animation', 'Collider2D', 'Component', 'Contact2DType', 'instantiate', 'IPhysics2DContact', 'log', 'math', 'Node', 'PhysicsSystem2D', 'Prefab', 'Vec3']);
 
       ({
         ccclass,
@@ -48,36 +47,50 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(this, "createTime", _descriptor5, this);
 
-          _initializerDefineProperty(this, "hp", _descriptor6, this);
+          _initializerDefineProperty(this, "downAnimation", _descriptor6, this);
+
+          _initializerDefineProperty(this, "hitAnimation", _descriptor7, this);
+
+          _initializerDefineProperty(this, "hp", _descriptor8, this);
+
+          this.collider = null;
+          this.targetToDestroy = null;
+          this.isDown = false;
         }
 
         onLoad() {
-          // 碰撞检测
-          this.node.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
-        }
+          this.collider = this.node.getComponent(Collider2D);
 
-        start() {
-          PhysicsSystem2D.instance.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
-          var collider = this.node.getComponent(Collider2D);
-
-          if (collider) {
-            collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+          if (this.collider) {
+            this.collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
           }
-
-          setTimeout(() => {
-            console.log(1111111, this);
-            console.log(2222222, this.node);
-            console.log(3333333, this.node.getComponent(Collider2D));
-            console.log(4444444, PhysicsSystem2D.instance);
-          }, 1000);
         }
 
         onDestroy() {
-          this.node.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+          var collider = this.node.getComponent(Collider2D);
+
+          if (collider) {
+            collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+          }
         }
 
         update(deltaTime) {
+          if (this.targetToDestroy) {
+            this.targetToDestroy.destroy();
+            this.targetToDestroy = null;
+          }
+
           this.node.setPosition(this.node.position.x, this.node.position.y - this.speed * deltaTime, this.node.position.z);
+          var anim = this.node.getComponent(Animation);
+
+          if (this.hp <= 0 && !this.isDown) {
+            this.isDown = true;
+            anim.once(Animation.EventType.FINISHED, this.onAnimationFinished, this);
+            anim.play(this.downAnimation);
+          } // if (this.hp > 0 && !this.hitAnimation) {
+          //   anim.play(this.hitAnimation);
+          // }
+
 
           if (this.node.position.y < -600) {
             this.node.destroy();
@@ -85,8 +98,12 @@ System.register(["cc"], function (_export, _context) {
         }
 
         onBeginContact(selfCollider, otherCollider, contact) {
-          console.log(66666666);
-          log('onBeginContact', selfCollider, otherCollider, contact);
+          this.hp--;
+          this.targetToDestroy = otherCollider.node;
+        }
+
+        onAnimationFinished() {
+          this.node.destroy();
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "speed", [property], {
@@ -124,7 +141,21 @@ System.register(["cc"], function (_export, _context) {
         initializer: function initializer() {
           return 1;
         }
-      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "hp", [property], {
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "downAnimation", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return '';
+        }
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "hitAnimation", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return '';
+        }
+      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "hp", [property], {
         configurable: true,
         enumerable: true,
         writable: true,
