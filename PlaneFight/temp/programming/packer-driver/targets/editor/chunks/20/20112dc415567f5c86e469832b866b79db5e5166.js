@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Enum, input, Input, instantiate, Node, Prefab, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, BulletType, Player;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Collider2D, Component, Contact2DType, Enum, input, Input, instantiate, log, Node, Prefab, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, BulletType, Player;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -15,11 +15,14 @@ System.register(["cc"], function (_export, _context) {
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
+      Collider2D = _cc.Collider2D;
       Component = _cc.Component;
+      Contact2DType = _cc.Contact2DType;
       Enum = _cc.Enum;
       input = _cc.input;
       Input = _cc.Input;
       instantiate = _cc.instantiate;
+      log = _cc.log;
       Node = _cc.Node;
       Prefab = _cc.Prefab;
     }],
@@ -28,7 +31,7 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "9f566ZpmqJO4L25NRV4laed", "Player", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Enum', 'EventTouch', 'input', 'Input', 'instantiate', 'Node', 'Prefab', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Collider2D', 'Component', 'Contact2DType', 'Enum', 'EventTouch', 'input', 'Input', 'instantiate', 'IPhysics2DContact', 'log', 'Node', 'Prefab']);
 
       ({
         ccclass,
@@ -57,11 +60,27 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "bullet2Prefab", _descriptor3, this);
 
           _initializerDefineProperty(this, "bulletType", _descriptor4, this);
+
+          this.collider = null;
         }
 
-        start() {
+        onLoad() {
+          this.collider = this.node.getComponent(Collider2D);
+
+          if (this.collider) {
+            this.collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+          }
+
           input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
           this.createBullet();
+        }
+
+        onDestroy() {
+          if (this.collider) {
+            this.collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+          }
+
+          input.off(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
         }
 
         update(deltaTime) {}
@@ -90,7 +109,7 @@ System.register(["cc"], function (_export, _context) {
           const bullet = instantiate(this.bullet1Prefab);
           const bulletComponent = bullet.getComponent('Bullet');
           bullet.setParent(this.bulletParent);
-          bullet.setPosition(this.node.position.x, this.node.position.y + 80, this.node.position.z);
+          bullet.setPosition(this.node.position.x, 80, this.node.position.z);
           await new Promise(resolve => setTimeout(resolve, bulletComponent.createTime * 1000));
           this.createBullet();
         }
@@ -101,10 +120,14 @@ System.register(["cc"], function (_export, _context) {
           const bullet1Component = bullet1.getComponent('Bullet');
           bullet1.setParent(this.bulletParent);
           bullet2.setParent(this.bulletParent);
-          bullet1.setPosition(this.node.position.x - 41, this.node.position.y + 35, this.node.position.z);
-          bullet2.setPosition(this.node.position.x + 25, this.node.position.y + 35, this.node.position.z);
+          bullet1.setPosition(this.node.position.x - 35, 35, this.node.position.z);
+          bullet2.setPosition(this.node.position.x + 30, 35, this.node.position.z);
           await new Promise(resolve => setTimeout(resolve, bullet1Component.createTime * 1000));
           this.createBullet();
+        }
+
+        onBeginContact(selfCollider, otherCollider, contact) {
+          log;
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "bulletParent", [_dec2], {

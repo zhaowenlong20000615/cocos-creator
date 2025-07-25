@@ -1,17 +1,17 @@
 [
   {
     "__type__": "cc.AnimationClip",
-    "_name": "Enemy2Down",
+    "_name": "Enemy1Hit",
     "_objFlags": 0,
     "__editorExtras__": {
       "embeddedPlayerGroups": []
     },
     "_native": "",
     "sample": 60,
-    "speed": 1,
+    "speed": 2,
     "wrapMode": 1,
     "enableTrsBlending": false,
-    "_duration": 0.6833333333333333,
+    "_duration": 0.35,
     "_hash": 500763545,
     "_tracks": [
       {
@@ -63,29 +63,19 @@
     "_times": [
       0,
       0.16666666666666666,
-      0.35,
-      0.4166666666666667,
-      0.6666666666666666
+      0.3333333333333333
     ],
     "_values": [
       {
-        "__uuid__": "316d34d8-62f0-403f-b9e5-9008bb73117e@f9941",
+        "__uuid__": "19284360-f056-407b-b988-565e7ca43ca0@f9941",
         "__expectedType__": "cc.SpriteFrame"
       },
       {
-        "__uuid__": "e659f7c4-a5e4-42a5-b658-c37cf0d1dfd0@f9941",
+        "__uuid__": "d9a9409e-b152-440c-a078-6fc49711b68c@f9941",
         "__expectedType__": "cc.SpriteFrame"
       },
       {
-        "__uuid__": "f4520233-d252-482c-b2eb-78fcd20babda@f9941",
-        "__expectedType__": "cc.SpriteFrame"
-      },
-      {
-        "__uuid__": "31cadba2-8390-4be2-b101-e19bc3bb3d78@f9941",
-        "__expectedType__": "cc.SpriteFrame"
-      },
-      {
-        "__uuid__": "86031f65-2192-403c-890e-b90baf7124af@f9941",
+        "__uuid__": "19284360-f056-407b-b988-565e7ca43ca0@f9941",
         "__expectedType__": "cc.SpriteFrame"
       }
     ]

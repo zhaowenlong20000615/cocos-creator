@@ -166,8 +166,8 @@
       "z": 0
     },
     "createTime": 10,
-    "downAnimation": "",
-    "hitAnimation": "",
+    "downAnimation": "Enemy2Down",
+    "hitAnimation": "Enemy2Hit",
     "hp": 10,
     "_id": ""
   },
@@ -911,6 +911,10 @@
     "_clips": [
       {
         "__uuid__": "980819e9-d0aa-43b9-82cb-9c410cd74d7a",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "638d7da6-1e77-46c1-a42c-209ee006ed0e",
         "__expectedType__": "cc.AnimationClip"
       }
     ],

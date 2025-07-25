@@ -26,7 +26,7 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "70755R2FflBxpRwvmPjDBit", "Enemy", undefined);
 
-      __checkObsolete__(['_decorator', 'Animation', 'Collider2D', 'Component', 'Contact2DType', 'instantiate', 'IPhysics2DContact', 'log', 'math', 'Node', 'PhysicsSystem2D', 'Prefab', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Animation', 'Collider2D', 'Component', 'Contact2DType', 'IPhysics2DContact', 'Node', 'Vec3']);
 
       ({
         ccclass,
@@ -55,7 +55,9 @@ System.register(["cc"], function (_export, _context) {
 
           this.collider = null;
           this.targetToDestroy = null;
-          this.isDown = false;
+          this.isExecuteAnimation = false;
+          this.isHit = false;
+          this.isHitAnimation = false;
         }
 
         onLoad() {
@@ -83,14 +85,20 @@ System.register(["cc"], function (_export, _context) {
           this.node.setPosition(this.node.position.x, this.node.position.y - this.speed * deltaTime, this.node.position.z);
           var anim = this.node.getComponent(Animation);
 
-          if (this.hp <= 0 && !this.isDown) {
-            this.isDown = true;
+          if (this.hp <= 0 && !this.isExecuteAnimation) {
+            this.isExecuteAnimation = true;
             anim.once(Animation.EventType.FINISHED, this.onAnimationFinished, this);
             anim.play(this.downAnimation);
-          } // if (this.hp > 0 && !this.hitAnimation) {
-          //   anim.play(this.hitAnimation);
-          // }
+          }
 
+          if (this.hp > 0 && this.hitAnimation !== '' && this.isHit && !this.isHitAnimation) {
+            this.isHitAnimation = true;
+            anim.once(Animation.EventType.FINISHED, () => {
+              this.isHit = false;
+              this.isHitAnimation = false;
+            }, this);
+            anim.play(this.hitAnimation);
+          }
 
           if (this.node.position.y < -600) {
             this.node.destroy();
@@ -100,6 +108,7 @@ System.register(["cc"], function (_export, _context) {
         onBeginContact(selfCollider, otherCollider, contact) {
           this.hp--;
           this.targetToDestroy = otherCollider.node;
+          this.isHit = true;
         }
 
         onAnimationFinished() {

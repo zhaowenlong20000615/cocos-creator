@@ -8,7 +8,7 @@
     },
     "_native": "",
     "sample": 60,
-    "speed": 2,
+    "speed": 7,
     "wrapMode": 1,
     "enableTrsBlending": false,
     "_duration": 0.35,
@@ -75,7 +75,7 @@
         "__expectedType__": "cc.SpriteFrame"
       },
       {
-        "__uuid__": "19284360-f056-407b-b988-565e7ca43ca0@f9941",
+        "__uuid__": "d9a9409e-b152-440c-a078-6fc49711b68c@f9941",
         "__expectedType__": "cc.SpriteFrame"
       }
     ]

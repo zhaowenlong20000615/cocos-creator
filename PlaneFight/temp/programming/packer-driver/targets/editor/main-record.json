@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 3754.515875,
+      "mTimestamp": 3335.253292,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 6361645.441,
+      "mTimestamp": 6866634.794375,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1841,7 +1841,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1753321715395,
+      "mTimestamp": 1753407774039,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2219,7 +2219,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1753328076316.6516,
+        "mtime": 1753412940561.1646,
         "uuid": "70755476-15f9-41c6-9470-be63e30c18ad"
       },
       "chunkId": "d8586552f56669595686880f8705c28e0d8db40c",
@@ -2235,11 +2235,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 156
+              "column": 107
             },
             "end": {
               "line": 1,
-              "column": 160
+              "column": 111
             }
           }
         }
@@ -2271,7 +2271,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1753323223458.0293,
+        "mtime": 1753414639922.8235,
         "uuid": "9f566669-9aa2-4ee0-bdb9-35157895a79d"
       },
       "chunkId": "20112dc415567f5c86e469832b866b79db5e5166",
@@ -2287,11 +2287,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 103
+              "column": 148
             },
             "end": {
               "line": 1,
-              "column": 107
+              "column": 152
             }
           }
         }

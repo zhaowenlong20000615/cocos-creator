@@ -1664,7 +1664,8 @@
     "value": {
       "depends": [
         "20075844-6ebf-43ae-b7cf-b263c7261ef4@f9941",
-        "980819e9-d0aa-43b9-82cb-9c410cd74d7a"
+        "980819e9-d0aa-43b9-82cb-9c410cd74d7a",
+        "638d7da6-1e77-46c1-a42c-209ee006ed0e"
       ],
       "dependScripts": [
         "70755476-15f9-41c6-9470-be63e30c18ad"
@@ -1813,6 +1814,16 @@
         "f4520233-d252-482c-b2eb-78fcd20babda@f9941",
         "928dd2b5-18ee-4a0a-9161-c14b34e6e638@f9941",
         "86031f65-2192-403c-890e-b90baf7124af@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "638d7da6-1e77-46c1-a42c-209ee006ed0e": {
+    "url": "db://assets/Animations/Enemy2Hit.anim",
+    "value": {
+      "depends": [
+        "de5f3ec5-16e8-42e9-9ba0-7b8ee1d0e14d@f9941",
+        "b833fba2-7ea3-49a2-83b8-73a4251a3f4d@f9941"
       ]
     },
     "versionCode": 1
