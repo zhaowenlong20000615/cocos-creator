@@ -1,4 +1,4 @@
-import { _decorator, Animation, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, Vec3 } from 'cc';
+import { _decorator, Animation, Collider2D, Component, Contact2DType, IPhysics2DContact, log, Node, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Enemy')
@@ -79,6 +79,7 @@ export class Enemy extends Component {
   }
 
   onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+    if (otherCollider.node.name.includes('Player')) return;
     this.hp--;
 
     this.targetToDestroy = otherCollider.node;

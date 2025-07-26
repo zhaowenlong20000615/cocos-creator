@@ -1573,6 +1573,7 @@
         "52dd71e9-e8ad-469f-b2e4-8cad37987fcd@f9941",
         "f58e17b0-c932-4f82-81cf-ca158135f47c@f9941",
         "f1583a37-718a-4a94-bedd-4bf16c54d1cd",
+        "37a5050d-80ba-4203-b625-975da4f03074",
         "13ccfaba-f106-4cc4-82f9-186df7dd0073",
         "f67b8838-cf35-4691-9e93-25392f85bd05",
         "1983cab6-6af2-4c36-90da-682e683ae01a",
@@ -1824,6 +1825,18 @@
       "depends": [
         "de5f3ec5-16e8-42e9-9ba0-7b8ee1d0e14d@f9941",
         "b833fba2-7ea3-49a2-83b8-73a4251a3f4d@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "37a5050d-80ba-4203-b625-975da4f03074": {
+    "url": "db://assets/Animations/PlayerDown.anim",
+    "value": {
+      "depends": [
+        "a474b62b-4ab7-4fb5-af6c-f6ff844f47c8@f9941",
+        "dc3d795d-2971-4b6a-bd9d-263730d1390b@f9941",
+        "e5ddb139-1b42-436f-bd2d-ef35233c2696@f9941",
+        "2bb66a7c-3d06-41b2-b772-2cadb05c9f12@f9941"
       ]
     },
     "versionCode": 1

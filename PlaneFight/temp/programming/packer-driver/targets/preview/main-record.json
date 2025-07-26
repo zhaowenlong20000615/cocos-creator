@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 3355.362209,
+      "mTimestamp": 3461.63925,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -514,7 +514,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 6866656.962709,
+      "mTimestamp": 5437914.639042,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1379,7 +1379,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1753407774039,
+      "mTimestamp": 1753494890721,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1757,7 +1757,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1753412940561.1646,
+        "mtime": 1753498874577.0198,
         "uuid": "70755476-15f9-41c6-9470-be63e30c18ad"
       },
       "chunkId": "d8586552f56669595686880f8705c28e0d8db40c",
@@ -1773,11 +1773,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 107
+              "column": 112
             },
             "end": {
               "line": 1,
-              "column": 111
+              "column": 116
             }
           }
         }
@@ -1809,7 +1809,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1753414639922.8235,
+        "mtime": 1753500329269.7847,
         "uuid": "9f566669-9aa2-4ee0-bdb9-35157895a79d"
       },
       "chunkId": "20112dc415567f5c86e469832b866b79db5e5166",
@@ -1825,11 +1825,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 148
+              "column": 169
             },
             "end": {
               "line": 1,
-              "column": 152
+              "column": 173
             }
           }
         }
@@ -1913,7 +1913,7 @@
     },
     "file:///Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scripts/Reward.ts": {
       "mTimestamp": {
-        "mtime": 1753237072493.5625,
+        "mtime": 1753495540926.8362,
         "uuid": "b847753f-3533-405a-bb50-07eb17f0090b"
       },
       "chunkId": "82ed9132fb87fa2f5c2dd8479c4f714c29ff0229",

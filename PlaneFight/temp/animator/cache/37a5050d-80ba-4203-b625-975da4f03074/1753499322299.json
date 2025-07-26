@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.AnimationClip",
-    "_name": "Enemy2Hit",
+    "_name": "PlayerDown",
     "_objFlags": 0,
     "__editorExtras__": {
       "embeddedPlayerGroups": []
@@ -11,7 +11,7 @@
     "speed": 1,
     "wrapMode": 1,
     "enableTrsBlending": false,
-    "_duration": 0.1,
+    "_duration": 0.4,
     "_hash": 500763545,
     "_tracks": [
       {
@@ -62,15 +62,25 @@
     "__type__": "cc.ObjectCurve",
     "_times": [
       0,
-      0.08333333333333333
+      0.16666666666666666,
+      0.3333333333333333,
+      0.38333333333333336
     ],
     "_values": [
       {
-        "__uuid__": "de5f3ec5-16e8-42e9-9ba0-7b8ee1d0e14d@f9941",
+        "__uuid__": "a474b62b-4ab7-4fb5-af6c-f6ff844f47c8@f9941",
         "__expectedType__": "cc.SpriteFrame"
       },
       {
-        "__uuid__": "b833fba2-7ea3-49a2-83b8-73a4251a3f4d@f9941",
+        "__uuid__": "dc3d795d-2971-4b6a-bd9d-263730d1390b@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "e5ddb139-1b42-436f-bd2d-ef35233c2696@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "2bb66a7c-3d06-41b2-b772-2cadb05c9f12@f9941",
         "__expectedType__": "cc.SpriteFrame"
       }
     ]

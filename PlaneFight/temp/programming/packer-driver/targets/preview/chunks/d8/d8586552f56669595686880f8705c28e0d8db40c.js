@@ -26,7 +26,7 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "70755R2FflBxpRwvmPjDBit", "Enemy", undefined);
 
-      __checkObsolete__(['_decorator', 'Animation', 'Collider2D', 'Component', 'Contact2DType', 'IPhysics2DContact', 'Node', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Animation', 'Collider2D', 'Component', 'Contact2DType', 'IPhysics2DContact', 'log', 'Node', 'Vec3']);
 
       ({
         ccclass,
@@ -106,6 +106,7 @@ System.register(["cc"], function (_export, _context) {
         }
 
         onBeginContact(selfCollider, otherCollider, contact) {
+          if (otherCollider.node.name.includes('Player')) return;
           this.hp--;
           this.targetToDestroy = otherCollider.node;
           this.isHit = true;

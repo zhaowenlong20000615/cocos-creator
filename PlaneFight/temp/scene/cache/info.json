@@ -7,7 +7,8 @@
     "sceneListMap": {
         "2fda4d65-a1e9-4078-8250-de49b04cdc34": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Scenes/Start.scene",
         "13ccfaba-f106-4cc4-82f9-186df7dd0073": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/bullet1.prefab",
-        "f23ab7a8-1e0f-468d-8276-d2272c442545": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/enemy2.prefab"
+        "f23ab7a8-1e0f-468d-8276-d2272c442545": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/enemy2.prefab",
+        "03181f81-4bf2-4f84-9ca2-f56f9a7dfbd0": "/Users/zhao/Desktop/test/cocos-creator/PlaneFight/assets/Prefabs/Blow.prefab"
     },
     "deviceMd5": "fa8c75ce7cc3a9c33397ba3990c65ad8"
 }

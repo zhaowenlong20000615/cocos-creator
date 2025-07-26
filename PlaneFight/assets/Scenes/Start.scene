@@ -596,7 +596,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "hero1",
+    "_name": "hero",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -721,12 +721,13 @@
       {
         "__uuid__": "f1583a37-718a-4a94-bedd-4bf16c54d1cd",
         "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "37a5050d-80ba-4203-b625-975da4f03074",
+        "__expectedType__": "cc.AnimationClip"
       }
     ],
-    "_defaultClip": {
-      "__uuid__": "f1583a37-718a-4a94-bedd-4bf16c54d1cd",
-      "__expectedType__": "cc.AnimationClip"
-    },
+    "_defaultClip": null,
     "_id": "5dTIKnFRdOx5e5/AYjMX5+"
   },
   {
@@ -773,6 +774,8 @@
       "__expectedType__": "cc.Prefab"
     },
     "bulletType": 1,
+    "blowNum": 0,
+    "hp": 1,
     "_id": "13oN5K//hJup7mQO82R6wO"
   },
   {

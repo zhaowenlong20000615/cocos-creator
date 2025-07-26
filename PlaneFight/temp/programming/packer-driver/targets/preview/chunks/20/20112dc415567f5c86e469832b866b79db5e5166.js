@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Collider2D, Component, Contact2DType, Enum, input, Input, instantiate, log, Node, Prefab, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, BulletType, Player;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Collider2D, Component, Contact2DType, Enum, input, Input, instantiate, Node, Prefab, Animation, director, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, BulletType, Player;
 
   function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -26,16 +26,17 @@ System.register(["cc"], function (_export, _context) {
       input = _cc.input;
       Input = _cc.Input;
       instantiate = _cc.instantiate;
-      log = _cc.log;
       Node = _cc.Node;
       Prefab = _cc.Prefab;
+      Animation = _cc.Animation;
+      director = _cc.director;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "9f566ZpmqJO4L25NRV4laed", "Player", undefined);
 
-      __checkObsolete__(['_decorator', 'Collider2D', 'Component', 'Contact2DType', 'Enum', 'EventTouch', 'input', 'Input', 'instantiate', 'IPhysics2DContact', 'log', 'Node', 'Prefab']);
+      __checkObsolete__(['_decorator', 'Collider2D', 'Component', 'Contact2DType', 'Enum', 'EventTouch', 'input', 'Input', 'instantiate', 'IPhysics2DContact', 'log', 'Node', 'Prefab', 'Animation', 'director']);
 
       ({
         ccclass,
@@ -65,7 +66,13 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(this, "bulletType", _descriptor4, this);
 
+          _initializerDefineProperty(this, "blowNum", _descriptor5, this);
+
+          _initializerDefineProperty(this, "hp", _descriptor6, this);
+
           this.collider = null;
+          this.continuousTime = 0;
+          this.isExecutedAnimation = false;
         }
 
         onLoad() {
@@ -87,7 +94,18 @@ System.register(["cc"], function (_export, _context) {
           input.off(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
         }
 
-        update(deltaTime) {}
+        update(deltaTime) {
+          if (this.hp <= 0 && !this.isExecutedAnimation) {
+            this.isExecutedAnimation = true;
+            var animation = this.node.getChildByName('hero').getComponent(Animation);
+            animation.on(Animation.EventType.FINISHED, this.onAnimationFinished, this);
+            animation.play('PlayerDown');
+          }
+        }
+
+        onAnimationFinished() {
+          director.pause(); // this.node.destroy();
+        }
 
         onTouchMove(event) {
           var delta = event.getDelta();
@@ -141,7 +159,39 @@ System.register(["cc"], function (_export, _context) {
         }
 
         onBeginContact(selfCollider, otherCollider, contact) {
-          log;
+          if (otherCollider.node.name.includes('enemy')) {
+            this.hp--;
+            return;
+          }
+
+          switch (otherCollider.tag) {
+            case 0:
+              this.getTwoBullet(otherCollider);
+              break;
+
+            case 1:
+              this.getBlow(otherCollider);
+              break;
+          }
+        }
+
+        getTwoBullet(otherCollider) {
+          var colliderComponent = otherCollider.getComponent('Reward');
+          this.continuousTime = colliderComponent.continuousTime;
+          otherCollider.node.destroy();
+          this.bulletType = BulletType.TwoBullet;
+          this.schedule(() => {
+            this.continuousTime--;
+
+            if (this.continuousTime <= 0) {
+              this.bulletType = BulletType.OneBullet;
+            }
+          }, 1, this.continuousTime);
+        }
+
+        getBlow(otherCollider) {
+          otherCollider.node.destroy();
+          this.blowNum++;
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "bulletParent", [_dec2], {
@@ -171,6 +221,20 @@ System.register(["cc"], function (_export, _context) {
         writable: true,
         initializer: function initializer() {
           return BulletType.OneBullet;
+        }
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "blowNum", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 0;
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "hp", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 3;
         }
       })), _class2)) || _class));
 

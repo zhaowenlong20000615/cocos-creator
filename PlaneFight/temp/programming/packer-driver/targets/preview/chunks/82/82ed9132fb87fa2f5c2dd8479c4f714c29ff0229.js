@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, _dec, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, Reward;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, _dec, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, Reward;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -42,6 +42,8 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "y", _descriptor4, this);
 
           _initializerDefineProperty(this, "createTime", _descriptor5, this);
+
+          _initializerDefineProperty(this, "continuousTime", _descriptor6, this);
         }
 
         update(deltaTime) {
@@ -86,6 +88,13 @@ System.register(["cc"], function (_export, _context) {
         writable: true,
         initializer: function initializer() {
           return 5;
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "continuousTime", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 10;
         }
       })), _class2)) || _class));
 
